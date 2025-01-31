@@ -3,21 +3,27 @@ import numpy as np
 from sklearn.impute import KNNImputer
 from sklearn.preprocessing import LabelEncoder
 
+# Imputazione dei valori mancanti della colonna "Medical_History" con KNN Imputation
 def main(df):
-    # Codifichiamo "Medical_History" per poter usare l'imputazione KNN
+    # Conserviamo i tipi originali delle colonne numeriche per ripristinarli dopo l'imputazione, che li trasforma in float
+    numeric_cols = df.select_dtypes(include=[np.number]).columns
+    original_dtypes = df[numeric_cols].dtypes
+
+    # Eseguiamo l'encoding della feature "Medical_History" per poterla usare con l'imputazione KNN
     label_enc = LabelEncoder()
     df["Medical_History"] = label_enc.fit_transform(df["Medical_History"].astype(str))
-
-    # Selezioniamo le colonne numeriche da utilizzare per l'imputazione
-    numeric_cols = df.select_dtypes(include=[np.number]).columns
 
     # Applichiamo l'imputazione KNN
     imputer = KNNImputer(n_neighbors=5)
     df_imputed = imputer.fit_transform(df[numeric_cols])
     df[numeric_cols] = df_imputed
 
-    # Decodifichiamo i valori di "Medical_History" dopo l'imputazione
+    # Ripristiniamo i tipi originali (per gli interi arrotondiamo)
+    for col in numeric_cols:
+        if original_dtypes[col] == 'int64' or original_dtypes[col] == 'int32':
+            df[col] = df[col].round().astype(int)
+
+    # Decode dei valori di "Medical_History" dopo l'imputazione
     df["Medical_History"] = label_enc.inverse_transform(df["Medical_History"].round().astype(int))
 
-    # Salviamo un nuovo dataset con i valori imputati
-    df.to_csv("../0_data/dataset_imputed.csv", index=False)
+    return df

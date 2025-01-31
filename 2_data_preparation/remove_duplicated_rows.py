@@ -14,8 +14,4 @@ def main(df):
     df = df.reset_index(drop=True)
     df['ID'] = df.index + 1
 
-    # Salviamo il nuovo dataset solo se ci sono state modifiche
-    if new_count == old_count:
-        print("Nessuna riga duplicata trovata.")
-    else:
-        df.to_csv("../0_data/dataset_cleaned_duplicated.csv", index=False)
+    return df
