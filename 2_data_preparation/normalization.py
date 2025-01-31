@@ -8,8 +8,10 @@ def main(df):
     df[numeric_cols] = ((df[numeric_cols] - df[numeric_cols].min()) / (df[numeric_cols].max() - df[numeric_cols].min())).round(3)
 
     # Trasformazione feature che hanno "Yes"/"No" come valori in booleane
-    for col in df.columns:
-        if df[col].dropna().isin(["Yes", "No"]).all():
-            df[col] = df[col].map({"Yes": True, "No": False})
+    colonne_da_convertire = ['Sweating', 'Shortness_of_Breath', 'Chest_Pain', 'Dizziness', 'Trembling', 'Medication', 'Smoking', 'Therapy']
+    for col in colonne_da_convertire:
+        df[col] = df[col].replace({'Yes': True, 'No': False})
+    
 
+    
     return df
