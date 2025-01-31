@@ -1,0 +1,995 @@
+ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Trigger,Heart_Rate,Sweating,Shortness_of_Breath,Dizziness,Chest_Pain,Trembling,Medical_History,Medication,Caffeine_Intake,Exercise_Frequency,Sleep_Hours,Alcohol_Consumption,Smoking,Therapy,Panic_Score
+1,56,Female,1.0,0.0,Caffeine,0.684,True,False,True,True,False,Anxiety,False,0.4,0.5,0.48,0.556,True,True,0.444
+2,46,Male,0.889,0.103,Stress,0.747,True,True,False,False,False,PTSD,True,0.4,0.833,0.2,0.333,False,True,0.667
+3,32,Female,0.667,0.667,PTSD,0.772,False,True,True,False,False,Depression,False,0.8,0.0,0.86,0.889,False,True,0.667
+4,60,Male,0.556,0.385,Caffeine,0.367,True,True,False,False,True,Depression,False,0.6,0.5,0.26,0.889,False,False,0.0
+5,25,Non-binary,0.667,0.128,Caffeine,0.266,True,False,True,True,True,Depression,False,0.6,1.0,0.64,0.222,False,False,0.444
+6,38,Male,0.0,1.0,Social Anxiety,0.937,True,True,True,False,False,Depression,True,0.2,0.667,0.16,0.667,False,False,0.778
+7,56,Male,0.0,0.308,PTSD,0.354,True,True,True,False,False,Anxiety,False,0.0,1.0,0.4,0.444,True,True,0.667
+8,36,Male,0.778,0.872,PTSD,0.506,True,False,False,True,True,PTSD,False,0.0,0.667,0.9,0.889,False,True,0.111
+9,28,Female,1.0,0.282,Caffeine,0.81,False,False,True,False,True,Anxiety,False,0.8,1.0,0.66,0.222,False,True,0.111
+10,28,Female,0.889,0.385,PTSD,0.38,False,True,False,False,False,PTSD,False,0.6,0.667,0.2,1.0,False,False,1.0
+11,41,Male,0.667,0.231,Caffeine,0.367,True,True,False,False,False,Anxiety,False,1.0,1.0,0.42,0.444,False,True,0.0
+12,41,Female,0.0,0.769,Social Anxiety,0.468,True,False,False,True,False,Depression,False,0.0,0.833,0.6,0.667,True,True,0.556
+13,20,Male,0.111,0.077,Caffeine,0.165,True,True,True,True,True,PTSD,False,1.0,0.5,0.64,0.778,False,False,0.222
+14,39,Male,0.556,0.564,PTSD,0.987,True,True,True,False,True,Depression,False,1.0,0.833,0.28,0.778,False,True,0.667
+15,19,Male,0.556,0.026,PTSD,0.696,True,False,False,False,True,Depression,True,0.0,0.167,0.4,0.0,True,False,0.778
+16,41,Female,0.111,0.538,Caffeine,0.266,True,True,False,True,False,PTSD,True,0.2,0.5,0.04,0.0,False,False,0.222
+17,61,Female,0.0,0.923,Caffeine,0.835,True,True,True,False,True,Anxiety,True,0.2,0.5,0.76,0.222,True,True,0.889
+18,47,Male,1.0,0.179,Caffeine,0.696,False,False,True,False,True,Anxiety,True,0.8,1.0,0.84,0.0,True,True,0.0
+19,55,Female,0.444,0.154,Phobia,0.228,True,False,False,False,False,Depression,False,1.0,0.333,0.2,0.0,False,False,0.222
+20,19,Female,0.444,0.333,PTSD,0.709,False,False,False,False,False,Anxiety,True,1.0,0.5,0.2,1.0,True,False,0.222
+21,50,Male,0.556,0.385,PTSD,0.43,True,True,False,True,False,PTSD,True,1.0,0.667,0.98,0.0,True,True,0.444
+22,29,Male,0.889,0.462,Phobia,0.0,True,False,True,False,True,Anxiety,True,1.0,0.667,0.8,0.889,False,True,0.333
+23,39,Female,0.111,0.436,Caffeine,0.646,True,True,True,False,False,Anxiety,False,0.6,0.833,0.36,0.111,True,True,0.111
+24,61,Male,1.0,0.385,Social Anxiety,0.873,False,True,False,False,False,Anxiety,True,0.4,1.0,0.48,0.889,False,True,0.667
+25,42,Male,0.111,0.179,Caffeine,0.456,False,False,True,False,True,Anxiety,False,1.0,0.333,0.3,0.667,False,True,0.222
+26,44,Female,0.222,0.821,Caffeine,0.81,True,True,True,False,True,Anxiety,True,0.6,0.667,0.6,0.889,False,True,0.667
+27,59,Non-binary,0.667,0.282,Phobia,0.633,True,False,False,True,True,Depression,False,0.2,0.0,0.72,0.222,True,True,1.0
+28,45,Male,0.556,0.256,PTSD,0.0,False,True,False,True,True,PTSD,False,1.0,0.333,0.44,0.0,False,True,0.667
+29,33,Male,0.778,0.103,Caffeine,0.253,True,True,True,False,False,PTSD,False,0.2,0.167,0.88,0.0,True,False,0.111
+30,32,Female,0.778,0.667,PTSD,0.658,False,True,False,True,False,Anxiety,True,0.8,0.667,0.52,1.0,False,False,0.667
+31,64,Male,0.556,0.282,Stress,0.19,False,False,False,True,False,Anxiety,False,0.4,0.5,0.14,0.556,False,False,0.556
+32,20,Male,0.222,0.128,PTSD,0.671,True,True,False,False,True,PTSD,False,0.4,1.0,0.46,0.889,False,False,0.333
+33,54,Female,0.222,0.821,Social Anxiety,0.494,True,False,True,True,False,PTSD,False,1.0,1.0,0.94,0.556,True,True,0.444
+34,38,Male,0.667,0.692,Social Anxiety,1.0,True,False,False,False,False,Depression,False,0.4,0.667,0.4,0.111,False,True,0.444
+35,26,Male,0.444,0.333,Caffeine,0.81,False,True,False,False,True,Depression,True,0.4,0.833,0.66,0.111,False,True,0.222
+36,35,Female,1.0,0.821,PTSD,0.797,False,False,True,False,True,Depression,False,0.2,0.5,0.38,0.0,True,False,0.556
+37,42,Male,0.333,0.538,Caffeine,0.203,False,True,True,True,True,Depression,True,0.4,0.167,0.3,1.0,False,True,0.667
+38,31,Female,0.556,0.103,Phobia,0.734,False,True,True,False,False,Depression,True,0.0,0.667,0.28,0.667,False,True,0.778
+39,26,Male,0.778,0.026,Social Anxiety,0.278,True,False,True,False,False,Anxiety,False,0.4,0.5,0.86,0.667,True,True,0.333
+40,43,Female,0.778,0.744,Caffeine,0.076,True,True,False,False,True,Anxiety,False,0.2,0.667,0.0,0.444,True,False,0.778
+41,19,Male,0.444,0.974,Phobia,0.544,True,False,True,False,False,Anxiety,False,0.0,0.667,0.2,0.222,False,False,0.0
+42,64,Female,0.889,0.308,Caffeine,0.987,False,False,False,True,False,Anxiety,False,0.0,1.0,0.98,0.667,False,False,0.222
+43,24,Female,0.778,0.487,PTSD,0.418,True,True,True,True,True,Anxiety,False,0.4,0.833,0.46,0.111,True,True,0.889
+44,25,Male,1.0,0.359,PTSD,0.848,True,True,False,True,False,nan,False,0.2,0.833,0.16,0.222,False,False,0.0
+45,64,Female,0.0,0.564,PTSD,0.975,True,True,True,True,False,Anxiety,False,0.2,0.667,0.28,0.333,False,False,0.667
+46,52,Male,0.111,0.333,PTSD,0.975,True,False,True,False,False,Anxiety,True,0.4,0.833,0.62,0.889,True,True,1.0
+47,31,Male,0.889,0.564,Stress,0.19,True,False,False,False,False,Depression,True,0.0,1.0,0.54,1.0,False,True,0.222
+48,34,Female,0.778,0.462,Phobia,0.886,False,False,True,False,True,PTSD,True,0.6,0.833,0.78,0.0,False,True,1.0
+49,53,Male,0.222,0.718,Phobia,0.228,True,True,True,True,False,Depression,False,0.8,0.333,0.26,0.667,False,True,1.0
+50,19,Male,1.0,0.59,PTSD,0.62,True,False,True,False,True,PTSD,True,0.0,1.0,0.58,0.0,False,True,0.778
+51,23,Male,0.333,0.436,Stress,0.139,True,False,False,True,False,PTSD,False,0.2,0.5,0.6,0.222,False,False,0.333
+52,59,Female,0.222,0.231,PTSD,0.873,True,False,True,False,False,Depression,True,0.0,0.0,0.12,0.444,False,False,0.889
+53,21,Male,0.556,0.179,Stress,0.266,False,True,True,False,True,PTSD,False,0.2,0.333,0.54,0.111,True,True,0.778
+54,46,Female,0.667,0.641,PTSD,0.392,True,True,True,False,True,PTSD,False,0.4,0.667,0.02,0.667,False,False,1.0
+55,35,Female,0.333,0.718,Social Anxiety,0.0,False,True,False,True,False,Depression,True,0.0,1.0,0.5,1.0,False,False,1.0
+56,43,Male,0.667,0.231,Social Anxiety,0.671,False,True,False,False,False,Depression,False,0.4,0.0,0.7,1.0,False,True,0.556
+57,61,Male,0.889,0.41,Caffeine,0.722,True,True,True,False,True,Depression,True,0.0,0.0,0.08,0.667,False,True,0.667
+58,51,Male,0.111,0.026,PTSD,0.873,True,False,False,False,False,PTSD,False,0.2,0.0,0.94,1.0,False,False,0.778
+59,53,Male,0.444,0.103,Phobia,0.063,False,True,True,True,True,nan,True,0.8,0.5,0.94,1.0,True,False,0.444
+60,31,Female,0.222,0.692,Caffeine,0.557,False,True,True,False,True,Anxiety,True,0.6,0.333,0.1,0.556,True,False,0.667
+61,32,Female,1.0,0.436,Social Anxiety,0.278,False,True,True,True,False,PTSD,False,1.0,0.833,0.1,0.333,False,True,0.444
+62,25,Male,0.778,0.641,PTSD,0.316,True,False,False,True,False,Anxiety,False,0.4,0.0,0.46,0.333,True,True,0.222
+63,31,Male,0.778,0.487,Caffeine,0.962,False,False,True,False,False,Depression,False,0.0,0.833,0.94,0.778,True,True,0.556
+64,40,Non-binary,0.889,0.667,PTSD,0.076,False,True,False,False,True,Anxiety,True,0.6,0.667,0.24,0.111,True,True,0.444
+65,57,Female,0.333,0.282,Social Anxiety,0.987,True,False,True,True,True,Anxiety,True,0.2,0.333,0.04,0.0,False,True,0.778
+66,38,Male,0.444,0.154,Caffeine,0.544,True,True,True,False,True,Anxiety,False,0.8,0.833,0.8,0.667,False,True,0.889
+67,33,Female,0.444,0.051,Social Anxiety,0.329,True,True,True,True,True,Anxiety,True,0.0,0.333,0.6,0.556,True,True,0.889
+68,62,Female,0.778,0.231,Stress,0.316,True,False,False,False,False,Anxiety,False,1.0,0.167,0.52,0.444,False,True,0.556
+69,35,Female,0.667,0.846,Social Anxiety,0.987,False,False,True,True,False,nan,True,0.8,0.5,0.04,0.778,False,True,0.333
+70,64,Female,0.889,0.615,PTSD,0.443,True,True,False,True,True,nan,True,0.0,0.167,0.66,0.111,True,True,0.333
+71,41,Male,0.778,0.872,Phobia,0.684,True,True,True,False,True,Anxiety,False,0.6,0.833,0.18,0.111,False,True,0.889
+72,43,Male,0.111,0.385,Social Anxiety,0.797,True,True,True,True,False,PTSD,False,0.6,0.167,0.94,0.889,False,False,0.333
+73,62,Female,0.333,0.59,Phobia,0.861,True,True,True,True,False,Anxiety,True,1.0,0.5,0.7,0.556,True,True,0.889
+74,58,Female,0.556,0.231,Stress,0.759,True,True,True,False,False,Anxiety,True,0.0,0.833,0.24,0.222,False,True,0.444
+75,46,Male,0.111,0.949,Caffeine,0.013,True,True,True,True,False,nan,False,1.0,0.667,0.88,0.444,False,False,0.556
+76,32,Male,0.667,0.538,Caffeine,0.684,False,False,False,False,False,nan,False,0.2,0.667,0.54,0.778,True,False,0.222
+77,62,Female,0.222,0.641,Phobia,1.0,False,True,True,False,True,Anxiety,False,1.0,0.5,0.86,0.667,False,False,0.444
+78,18,Non-binary,0.222,0.974,Caffeine,0.468,True,True,False,True,True,Anxiety,True,0.6,0.5,0.28,0.333,False,True,0.444
+79,42,Female,0.111,0.667,Social Anxiety,1.0,True,True,True,False,True,Anxiety,False,0.4,0.833,0.76,0.778,False,False,0.111
+80,24,Male,0.778,0.718,Phobia,0.975,True,False,False,True,False,Depression,False,0.6,0.333,0.58,1.0,True,False,1.0
+81,26,Male,0.556,0.949,PTSD,0.354,True,True,False,False,False,Depression,False,0.8,1.0,0.04,0.111,False,False,0.556
+82,41,Male,0.0,0.487,Social Anxiety,0.316,True,True,True,True,False,Anxiety,False,0.6,0.833,0.4,0.667,False,True,0.889
+83,18,Non-binary,0.0,0.667,Social Anxiety,0.43,False,True,True,False,True,PTSD,False,0.0,0.333,0.18,0.444,False,False,0.667
+84,61,Male,0.667,0.487,Social Anxiety,0.987,True,False,False,False,True,Anxiety,False,0.4,0.333,0.36,0.556,False,False,0.778
+85,25,Female,0.778,0.462,PTSD,0.835,False,True,False,False,True,nan,False,0.0,0.333,0.38,0.222,False,False,0.111
+86,41,Male,0.444,0.487,Stress,0.354,True,False,True,False,True,Depression,False,0.2,0.833,0.48,1.0,False,True,0.889
+87,34,Female,0.333,0.026,Caffeine,0.506,False,False,False,False,False,PTSD,False,0.6,0.0,0.58,0.667,False,True,1.0
+88,25,Female,0.556,0.744,Phobia,0.506,True,False,True,False,False,PTSD,False,0.4,0.667,0.04,0.111,False,True,0.444
+89,52,Male,0.556,0.846,Stress,0.278,True,True,False,False,False,Anxiety,True,1.0,0.0,0.76,0.0,True,False,0.667
+90,52,Male,0.222,0.538,Phobia,0.886,True,True,True,True,False,Anxiety,True,0.4,0.0,0.94,1.0,False,True,0.333
+91,50,Male,0.889,0.051,Caffeine,0.025,True,False,True,False,False,nan,True,0.4,0.333,0.34,0.111,True,False,0.667
+92,22,Non-binary,0.667,0.128,PTSD,0.722,True,True,False,False,True,Anxiety,True,0.4,0.333,0.18,0.778,False,False,0.778
+93,59,Female,0.0,0.359,Social Anxiety,0.392,True,True,False,False,False,Anxiety,True,0.6,0.5,0.54,1.0,False,True,1.0
+94,56,Female,0.667,0.667,Social Anxiety,0.38,False,False,True,False,False,Depression,True,0.0,0.333,0.7,0.222,False,False,1.0
+95,58,Female,0.444,0.231,PTSD,0.532,True,True,True,True,False,PTSD,True,0.6,0.833,0.68,0.333,True,False,0.333
+96,45,Female,0.444,0.205,Stress,0.076,False,True,False,False,True,PTSD,False,1.0,0.5,0.62,0.778,False,True,0.444
+97,24,Male,0.111,0.821,Stress,0.0,True,True,False,True,True,nan,True,0.0,1.0,0.14,0.222,False,False,0.222
+98,26,Non-binary,0.333,0.795,Phobia,0.759,False,True,True,True,True,Depression,True,1.0,0.5,0.84,0.556,True,True,0.444
+99,25,Male,0.556,0.128,PTSD,0.165,True,False,False,True,False,Anxiety,False,0.8,0.0,0.42,0.111,False,True,0.778
+100,29,Male,1.0,0.897,Stress,0.646,False,True,False,False,True,Depression,False,0.8,0.333,0.22,0.222,False,True,0.222
+101,51,Female,0.667,0.026,PTSD,0.063,True,True,False,True,False,PTSD,False,0.0,0.0,0.08,0.0,False,True,0.444
+102,50,Male,0.444,0.718,Caffeine,0.114,True,True,False,True,False,Anxiety,False,0.6,0.333,0.42,0.889,False,True,1.0
+103,40,Male,0.889,0.077,Social Anxiety,0.886,True,False,True,False,True,Anxiety,False,1.0,0.0,0.62,0.333,False,False,0.0
+104,41,Female,0.222,0.0,Social Anxiety,0.367,True,False,False,True,False,Anxiety,False,1.0,1.0,0.66,0.556,False,False,0.111
+105,54,Male,0.0,0.462,Social Anxiety,0.253,True,True,False,True,False,Depression,False,0.2,0.0,0.96,0.667,True,False,0.222
+106,52,Female,0.333,0.641,PTSD,0.747,True,False,True,True,True,PTSD,False,1.0,0.0,0.16,0.111,True,True,0.0
+107,61,Male,0.889,0.615,PTSD,0.924,True,True,True,True,False,Depression,False,0.6,0.833,0.98,0.778,False,False,0.889
+108,57,Male,0.333,0.231,Phobia,0.785,False,False,True,False,True,nan,False,0.2,1.0,0.66,0.889,False,True,0.889
+109,39,Male,0.111,0.359,Social Anxiety,0.519,True,True,False,True,True,Anxiety,False,0.6,0.667,0.46,1.0,True,True,0.444
+110,44,Male,1.0,0.538,Phobia,0.633,True,False,True,False,False,nan,True,0.4,1.0,0.88,0.111,True,True,0.333
+111,52,Female,0.444,0.513,Social Anxiety,0.797,False,True,False,False,False,PTSD,False,1.0,0.0,0.7,0.444,False,True,0.444
+112,18,Male,0.222,0.538,Phobia,0.949,True,True,False,True,False,Anxiety,False,0.4,0.167,0.34,0.111,False,True,0.333
+113,52,Female,0.889,0.897,Phobia,0.696,True,True,False,True,False,nan,False,0.8,0.167,0.88,0.444,True,False,0.444
+114,54,Female,0.333,0.846,Caffeine,1.0,True,False,False,False,False,Anxiety,False,0.8,0.167,0.66,0.667,False,False,0.667
+115,64,Female,0.556,0.744,Phobia,0.506,False,True,False,False,False,PTSD,False,0.0,0.833,0.7,0.556,True,True,0.778
+116,31,Non-binary,0.111,0.615,PTSD,0.392,False,False,True,True,False,PTSD,False,1.0,0.5,0.9,0.333,False,True,0.111
+117,20,Female,0.556,0.692,Phobia,0.177,False,True,False,True,False,PTSD,False,0.2,0.0,0.44,0.111,False,True,0.333
+118,18,Male,0.222,0.0,Social Anxiety,0.772,True,True,True,False,True,Depression,True,0.4,1.0,0.66,0.667,False,False,0.778
+119,22,Male,0.889,0.077,Phobia,0.329,False,True,False,True,False,Anxiety,False,0.6,0.167,0.74,1.0,False,False,0.667
+120,43,Male,0.111,0.154,Stress,0.342,True,False,True,True,True,Depression,True,1.0,0.833,0.46,0.889,False,False,0.889
+121,56,Male,0.444,0.897,Social Anxiety,0.734,True,False,False,False,True,PTSD,False,0.6,0.167,0.78,0.222,True,True,0.556
+122,44,Female,0.778,0.462,Stress,0.722,True,False,False,True,False,PTSD,True,0.4,0.333,0.04,0.667,False,False,0.778
+123,26,Female,0.111,0.0,Social Anxiety,0.013,True,False,True,False,True,nan,False,1.0,0.667,0.72,0.889,False,True,0.444
+124,32,Male,0.556,0.231,PTSD,0.443,True,True,True,True,True,Anxiety,True,0.4,0.0,0.92,0.444,False,True,0.889
+125,59,Male,0.444,0.795,PTSD,0.177,False,True,False,False,False,PTSD,True,0.4,0.333,0.24,0.667,True,False,0.222
+126,49,Female,1.0,0.128,PTSD,0.266,False,True,False,False,True,Anxiety,False,0.6,0.333,0.94,0.444,False,False,0.778
+127,56,Female,0.0,0.949,Stress,0.785,True,True,True,False,True,Anxiety,False,0.0,0.5,0.52,0.111,False,True,1.0
+128,49,Male,0.444,0.41,Caffeine,0.937,False,True,False,False,False,Depression,False,0.4,0.167,0.12,0.778,False,True,0.667
+129,21,Male,0.222,0.231,Social Anxiety,0.924,True,True,False,True,True,Depression,False,0.8,1.0,0.62,0.0,False,False,0.0
+130,47,Female,0.333,0.667,PTSD,0.304,True,True,True,False,False,nan,False,0.0,0.0,0.74,0.111,False,False,0.333
+131,54,Female,0.111,0.872,Social Anxiety,0.595,True,True,True,False,True,Anxiety,False,0.8,0.333,0.4,0.222,False,False,0.111
+132,40,Female,0.889,0.513,Stress,0.532,True,False,True,False,True,Anxiety,True,0.6,0.833,0.72,0.667,False,False,0.111
+133,56,Male,0.222,0.615,Caffeine,0.468,False,True,False,True,True,Depression,False,0.4,0.0,0.32,0.556,False,False,0.667
+134,62,Female,0.111,0.692,Stress,0.506,True,True,False,False,True,PTSD,False,0.0,1.0,0.78,0.667,False,False,0.222
+135,60,Male,0.889,0.077,Social Anxiety,0.494,False,True,False,False,False,PTSD,False,1.0,0.0,0.26,0.333,False,True,0.556
+136,46,Non-binary,0.667,0.718,Caffeine,0.203,True,False,True,False,False,Depression,False,0.4,0.333,0.88,0.667,False,True,0.556
+137,30,Non-binary,0.0,0.667,Caffeine,0.013,True,False,True,True,True,PTSD,False,0.4,0.167,0.28,1.0,False,True,0.0
+138,24,Male,0.222,0.462,Stress,0.101,True,False,False,True,False,Anxiety,True,0.2,0.333,0.7,0.111,False,False,0.667
+139,39,Female,0.0,0.692,PTSD,0.848,True,True,False,False,True,Anxiety,False,0.2,0.333,0.22,0.778,False,False,0.889
+140,45,Female,0.333,0.41,Social Anxiety,0.203,False,True,True,False,False,Anxiety,False,0.0,0.0,0.62,0.556,True,True,0.333
+141,19,Female,0.111,0.487,Phobia,0.62,True,False,False,False,True,PTSD,True,0.0,0.167,0.88,0.222,False,True,1.0
+142,59,Female,0.111,1.0,Phobia,0.494,True,True,False,False,True,Anxiety,True,1.0,0.667,0.7,0.222,False,False,0.556
+143,62,Female,0.222,0.974,Stress,0.722,True,False,True,True,True,Anxiety,True,1.0,0.333,0.24,0.444,False,True,0.222
+144,23,Female,0.778,0.564,Social Anxiety,0.937,False,False,True,True,True,Anxiety,False,0.4,0.833,0.64,0.222,False,True,0.333
+145,45,Female,0.778,0.795,Social Anxiety,0.253,False,True,True,True,False,Depression,False,0.8,0.333,0.62,0.556,False,True,0.889
+146,45,Male,0.667,0.821,Stress,0.215,True,True,False,True,True,Anxiety,False,0.0,0.667,0.82,0.111,True,True,0.0
+147,61,Female,0.556,0.103,Social Anxiety,0.684,False,True,False,False,False,Depression,True,0.4,0.0,0.18,0.778,False,True,0.444
+148,61,Male,0.889,0.846,PTSD,0.354,True,False,False,True,True,Anxiety,True,0.8,1.0,0.7,0.889,True,False,0.667
+149,37,Non-binary,0.333,1.0,Stress,0.291,True,False,True,True,False,Anxiety,True,0.2,0.167,0.02,0.667,True,True,0.222
+150,47,Non-binary,0.0,0.256,PTSD,0.924,True,True,True,True,True,Depression,True,1.0,0.0,0.7,0.222,False,False,0.111
+151,28,Male,0.778,0.051,Social Anxiety,0.203,True,True,False,False,False,Anxiety,False,0.0,1.0,0.96,1.0,False,True,0.111
+152,45,Female,0.667,0.821,Stress,0.215,True,True,False,False,False,Anxiety,False,0.4,0.5,0.18,0.333,False,False,0.0
+153,42,Non-binary,0.667,0.256,Social Anxiety,0.519,False,False,False,False,False,Anxiety,True,0.2,0.333,0.32,1.0,False,False,0.444
+154,56,Male,0.222,0.385,Stress,0.557,True,True,False,False,True,PTSD,True,0.6,1.0,0.58,0.111,False,True,0.222
+155,50,Female,0.333,0.436,Social Anxiety,0.203,False,True,True,False,False,Depression,True,0.2,0.833,0.74,0.889,False,True,0.667
+156,18,Non-binary,1.0,0.744,PTSD,0.911,True,False,False,True,True,Anxiety,False,0.4,1.0,0.34,0.444,False,True,0.0
+157,44,Male,0.889,0.231,PTSD,0.165,True,True,False,False,True,Anxiety,True,1.0,0.5,0.66,0.111,True,False,0.889
+158,30,Female,0.556,0.436,Social Anxiety,0.608,True,True,True,False,True,nan,True,0.8,0.333,0.9,1.0,True,False,0.111
+159,58,Male,0.444,0.949,Stress,0.354,True,False,False,False,True,Depression,True,0.6,0.5,0.72,0.556,False,False,0.778
+160,20,Non-binary,0.222,0.462,Phobia,0.038,True,False,True,False,False,Depression,False,0.6,0.667,0.72,0.667,True,True,1.0
+161,56,Non-binary,0.889,0.897,PTSD,0.241,True,True,True,True,True,PTSD,False,1.0,0.333,0.38,0.111,False,True,0.333
+162,23,Non-binary,0.444,0.308,PTSD,0.582,True,True,True,False,False,PTSD,False,0.6,0.833,0.92,0.0,False,True,0.556
+163,44,Female,0.333,0.231,Phobia,0.962,False,True,True,False,False,Depression,False,0.4,0.5,0.2,0.0,False,False,0.667
+164,26,Female,0.333,0.949,Social Anxiety,0.987,True,False,True,True,False,Depression,False,0.6,0.167,0.36,0.222,True,True,0.778
+165,54,Male,0.0,0.0,Stress,0.329,True,True,False,True,True,Anxiety,True,0.2,0.5,0.66,0.333,False,False,0.667
+166,59,Male,0.889,0.179,Social Anxiety,0.228,False,False,True,False,True,Depression,False,0.4,0.333,0.14,0.667,False,False,0.889
+167,61,Female,0.222,0.41,Caffeine,0.646,False,True,True,True,False,Anxiety,True,1.0,1.0,0.82,0.444,True,True,0.0
+168,41,Male,0.111,0.205,PTSD,0.316,True,True,False,False,False,nan,False,0.2,0.167,0.82,0.0,False,False,0.111
+169,32,Male,0.222,0.128,Caffeine,0.316,True,True,True,False,False,nan,False,0.0,0.0,0.58,0.778,True,False,0.222
+170,49,Male,0.0,0.615,PTSD,0.316,True,False,True,True,True,nan,False,0.6,0.167,0.76,1.0,False,False,0.222
+171,49,Female,0.556,0.974,PTSD,0.57,False,False,False,False,True,PTSD,True,0.2,0.0,0.18,0.667,False,False,1.0
+172,41,Male,0.667,0.692,Caffeine,0.608,True,True,False,False,True,nan,False,0.4,0.833,0.16,0.333,False,False,0.333
+173,58,Female,0.111,0.821,Caffeine,0.658,True,False,False,False,True,Anxiety,False,0.2,0.333,0.86,0.111,False,False,0.444
+174,29,Male,0.778,0.923,Social Anxiety,0.025,True,True,True,True,True,PTSD,True,0.0,1.0,0.5,0.667,False,True,0.556
+175,20,Female,0.444,0.513,Caffeine,0.228,True,True,True,False,False,Anxiety,True,0.4,0.5,0.9,0.0,False,False,0.556
+176,54,Male,0.778,0.026,Social Anxiety,0.203,True,False,True,False,False,nan,False,0.6,0.167,0.64,0.667,True,False,1.0
+177,19,Female,0.222,1.0,Social Anxiety,0.949,False,True,False,False,True,PTSD,True,1.0,0.667,0.48,0.333,False,False,0.444
+178,19,Female,0.333,0.897,Social Anxiety,0.608,False,True,True,False,True,Anxiety,True,0.6,0.0,0.76,0.333,False,False,0.667
+179,45,Male,0.0,0.923,PTSD,0.696,True,True,False,True,True,Anxiety,False,0.2,0.167,0.06,1.0,False,True,0.333
+180,49,Male,0.778,0.436,PTSD,0.608,True,True,False,True,True,Depression,False,0.0,0.0,0.6,0.889,False,True,0.333
+181,50,Female,1.0,0.846,Caffeine,0.684,True,True,False,False,False,Depression,True,0.4,0.0,0.34,1.0,False,True,0.556
+182,18,Female,0.556,0.538,PTSD,0.316,True,False,False,True,False,Anxiety,False,0.2,1.0,0.3,0.333,False,True,0.778
+183,61,Non-binary,0.889,0.077,Caffeine,0.076,False,False,True,False,True,Anxiety,False,0.4,1.0,0.28,0.889,False,True,0.889
+184,43,Male,0.222,0.538,PTSD,0.57,True,False,False,False,False,PTSD,False,0.4,0.667,0.54,0.0,True,False,0.333
+185,49,Female,0.222,0.154,Stress,0.57,True,False,True,False,True,Depression,True,0.4,0.5,0.56,0.667,False,False,0.333
+186,23,Male,0.222,0.59,Stress,0.19,True,False,True,True,True,Anxiety,False,0.4,0.833,0.5,0.333,False,False,0.667
+187,49,Female,1.0,0.077,Caffeine,0.291,True,True,False,False,True,Depression,True,0.8,1.0,0.4,0.667,False,True,1.0
+188,21,Female,0.222,0.692,PTSD,0.759,True,False,False,True,True,Anxiety,False,0.4,0.167,0.26,1.0,True,False,1.0
+189,28,Female,0.889,0.359,PTSD,0.671,True,True,False,True,False,Anxiety,True,0.0,0.833,0.4,0.556,False,True,0.556
+190,34,Non-binary,0.333,0.0,Social Anxiety,0.772,True,False,True,True,True,Anxiety,True,0.2,1.0,0.14,0.333,False,False,0.333
+191,41,Male,0.889,0.333,Phobia,0.608,False,False,False,True,True,nan,True,0.6,0.167,0.3,0.778,False,True,0.222
+192,22,Male,0.667,0.949,Caffeine,0.304,True,False,False,True,False,PTSD,False,1.0,0.167,1.0,0.667,True,False,0.667
+193,51,Female,0.889,0.0,Phobia,0.114,True,False,False,True,False,Anxiety,False,0.8,0.0,0.32,0.333,False,True,0.556
+194,23,Male,0.222,0.949,Phobia,1.0,True,True,True,True,False,Anxiety,False,0.8,0.667,0.94,0.556,False,False,0.222
+195,39,Male,0.333,0.949,Caffeine,0.19,True,True,True,False,True,Depression,False,0.6,0.0,0.4,0.556,False,True,0.0
+196,28,Male,0.778,0.513,PTSD,0.722,False,False,False,False,True,PTSD,False,0.0,1.0,0.44,0.0,False,False,1.0
+197,33,Male,0.556,0.718,Caffeine,0.899,True,False,False,True,True,nan,True,0.0,0.0,0.8,0.111,True,True,0.444
+198,50,Male,0.444,0.103,Phobia,0.354,True,True,True,False,False,Anxiety,True,0.6,0.833,0.1,0.333,False,True,1.0
+199,46,Non-binary,0.889,0.154,PTSD,1.0,True,False,True,False,False,PTSD,True,0.2,0.833,0.04,0.778,False,True,0.333
+200,20,Male,0.0,0.051,Stress,0.886,True,True,True,True,True,Depression,True,0.0,0.167,0.04,0.111,False,True,0.556
+201,37,Male,0.778,0.487,Caffeine,0.975,True,True,False,False,False,nan,True,0.0,0.5,0.9,0.444,False,False,0.0
+202,36,Male,0.889,0.872,Caffeine,0.316,False,True,True,False,False,nan,True,0.6,0.833,0.46,0.444,False,True,0.556
+203,20,Female,0.222,0.103,PTSD,0.886,False,True,True,True,True,PTSD,False,0.0,0.167,0.84,1.0,False,True,0.333
+204,36,Male,0.889,0.0,Stress,0.405,True,False,True,False,False,Anxiety,False,0.0,1.0,0.32,0.778,False,True,0.333
+205,37,Male,0.889,0.077,Stress,0.316,False,False,True,False,True,Anxiety,True,0.8,0.167,0.42,1.0,False,True,1.0
+206,24,Non-binary,0.333,0.667,PTSD,0.785,False,True,False,True,False,Depression,True,0.2,0.333,0.36,0.889,False,False,1.0
+207,58,Female,0.778,0.564,Social Anxiety,0.835,False,False,True,False,False,PTSD,True,0.4,0.833,0.62,0.0,False,True,0.667
+208,50,Female,0.111,0.615,Caffeine,0.646,True,True,False,False,True,Anxiety,True,1.0,0.833,0.88,0.556,False,False,0.667
+209,57,Male,0.889,0.513,Caffeine,0.848,False,True,False,False,True,Anxiety,False,0.0,0.167,0.8,0.556,False,True,0.0
+210,56,Non-binary,0.556,0.59,Phobia,0.316,False,True,True,False,False,PTSD,False,0.8,0.833,0.38,0.111,False,False,0.444
+211,35,Male,0.889,0.615,PTSD,0.937,False,True,True,False,True,Anxiety,False,0.0,0.667,0.28,0.778,False,False,0.222
+212,57,Non-binary,0.778,0.795,Phobia,0.013,True,False,True,True,False,Anxiety,False,0.6,0.667,0.28,0.556,False,False,0.222
+213,28,Female,0.0,0.103,Phobia,0.367,False,False,False,True,True,Depression,False,1.0,0.333,0.5,0.889,False,False,0.333
+214,45,Female,0.222,0.897,Stress,0.608,True,True,False,True,True,Anxiety,True,0.2,0.5,0.42,1.0,True,False,0.778
+215,42,Male,0.111,0.974,Caffeine,0.139,False,True,True,True,True,PTSD,False,0.0,0.667,0.14,0.444,False,False,0.333
+216,40,Male,0.444,0.385,Phobia,0.544,True,False,True,False,True,Depression,False,1.0,1.0,0.16,0.667,False,False,0.778
+217,48,Male,0.444,0.821,Stress,0.405,True,False,True,False,False,nan,False,0.4,0.833,0.34,0.556,False,False,0.333
+218,47,Male,0.444,0.513,PTSD,0.152,True,True,False,True,False,Depression,True,0.2,0.333,0.56,0.444,True,True,0.222
+219,59,Female,0.333,0.205,Phobia,0.975,True,True,True,True,True,Anxiety,False,0.0,1.0,0.6,0.556,True,False,0.444
+220,43,Female,0.444,0.538,Caffeine,0.595,True,False,False,True,False,Anxiety,True,0.2,0.333,0.42,0.0,False,True,0.0
+221,19,Non-binary,0.889,0.103,Phobia,0.494,True,True,True,False,False,Anxiety,False,0.2,0.167,0.12,0.556,False,True,0.778
+222,18,Non-binary,0.889,0.564,PTSD,0.823,True,False,True,False,True,Depression,False,0.8,1.0,0.54,0.889,True,True,0.778
+223,29,Male,0.333,0.41,Phobia,0.911,True,True,False,True,True,Anxiety,True,0.4,0.667,0.38,0.778,False,True,0.778
+224,22,Male,0.222,0.282,Caffeine,0.987,False,True,True,False,True,Anxiety,False,0.4,0.167,0.14,0.111,False,False,1.0
+225,54,Female,0.0,0.564,Stress,0.962,True,True,False,True,False,PTSD,False,1.0,0.333,0.98,0.889,False,True,0.333
+226,49,Female,0.111,0.385,Caffeine,0.278,False,False,True,False,True,nan,False,0.0,0.667,0.36,0.778,False,True,0.889
+227,58,Female,0.0,0.744,Stress,0.013,True,True,True,True,True,Anxiety,True,0.2,0.5,0.5,0.333,True,True,0.222
+228,36,Male,0.667,0.205,Social Anxiety,0.734,True,True,False,True,True,Anxiety,False,0.8,0.5,0.06,0.111,False,True,0.556
+229,33,Female,0.778,0.718,Caffeine,0.57,True,False,False,True,True,nan,False,0.8,0.0,0.62,0.0,False,True,0.889
+230,20,Female,0.556,0.923,Caffeine,0.025,True,True,False,True,True,Anxiety,False,0.4,0.833,0.24,0.889,False,False,0.333
+231,37,Female,0.889,0.564,PTSD,0.684,True,True,False,False,True,PTSD,False,1.0,0.333,0.24,1.0,False,False,0.333
+232,41,Male,0.222,0.308,Phobia,0.139,False,False,True,True,True,Anxiety,False,0.2,0.833,0.96,0.778,True,True,0.556
+233,50,Female,1.0,0.795,Stress,0.494,True,False,False,True,False,nan,True,0.0,0.833,0.46,0.667,False,False,0.778
+234,41,Male,0.333,0.564,Stress,0.823,True,False,False,True,True,Anxiety,True,0.6,0.167,0.02,0.778,False,False,0.222
+235,28,Male,0.556,0.41,PTSD,0.975,True,True,True,True,True,Depression,True,0.0,0.0,0.34,0.0,False,False,0.778
+236,25,Female,0.778,1.0,PTSD,0.19,True,True,False,False,False,Anxiety,False,0.8,0.333,0.58,0.889,False,True,0.778
+237,53,Non-binary,0.444,0.513,Phobia,0.418,False,True,False,True,True,Anxiety,False,0.0,0.5,0.32,1.0,False,False,0.667
+238,57,Female,0.556,0.923,Phobia,0.063,True,False,True,False,False,Depression,False,1.0,0.167,0.44,0.889,False,True,0.444
+239,37,Female,0.333,0.128,Caffeine,0.962,False,True,True,False,True,nan,False,0.4,0.833,0.1,0.556,True,True,0.111
+240,42,Male,0.222,0.744,Social Anxiety,0.266,True,True,True,False,True,PTSD,False,0.6,0.5,0.62,0.111,False,False,1.0
+241,52,Male,0.333,0.538,Phobia,0.215,True,True,False,True,False,Depression,True,0.4,0.833,0.04,0.333,False,False,0.778
+242,42,Male,0.667,0.821,PTSD,0.139,True,False,True,False,False,nan,False,0.6,0.667,0.3,0.667,True,True,0.556
+243,35,Female,0.333,0.41,Phobia,0.633,False,True,False,True,False,Anxiety,True,0.2,0.167,0.56,0.889,False,True,0.222
+244,63,Female,0.556,0.795,Stress,0.886,False,True,True,False,True,PTSD,True,0.2,0.167,0.3,0.222,False,False,0.0
+245,35,Male,0.222,0.333,Social Anxiety,0.595,True,True,True,True,False,PTSD,False,0.8,0.667,0.28,0.333,False,False,0.556
+246,19,Male,0.556,0.231,Caffeine,0.228,True,True,True,False,False,Anxiety,True,0.8,0.0,0.98,0.444,False,False,0.111
+247,52,Female,0.111,0.897,Stress,0.063,False,False,True,False,False,Depression,False,0.6,0.833,0.04,0.222,False,False,0.889
+248,33,Male,0.778,0.846,Stress,0.329,True,True,False,False,False,Anxiety,True,1.0,0.667,0.98,0.333,False,False,0.444
+249,58,Female,0.111,0.205,Social Anxiety,0.658,True,False,False,False,False,PTSD,False,0.8,0.667,0.04,0.444,False,False,0.444
+250,53,Female,0.667,0.692,Caffeine,0.595,True,False,False,False,True,Anxiety,False,0.2,0.167,0.28,0.0,True,True,1.0
+251,50,Female,0.889,0.256,PTSD,0.076,True,False,True,True,True,Anxiety,True,0.8,0.833,0.5,0.889,False,False,0.778
+252,50,Female,0.778,0.974,Caffeine,0.861,False,True,True,True,True,Depression,False,0.4,0.5,0.14,1.0,False,False,0.222
+253,31,Male,0.667,0.462,Phobia,0.127,False,True,True,True,False,PTSD,False,1.0,0.167,0.26,0.333,False,False,0.889
+254,38,Female,0.556,0.359,Stress,0.177,True,True,True,False,True,nan,False,1.0,0.833,0.98,0.889,True,False,1.0
+255,37,Female,0.556,0.692,Phobia,0.797,True,False,True,True,False,Depression,False,0.0,0.833,0.38,0.333,False,False,0.333
+256,25,Male,0.556,0.59,PTSD,0.025,True,False,True,True,False,Anxiety,True,0.8,1.0,0.56,0.0,False,False,1.0
+257,24,Female,0.889,0.179,Phobia,0.861,False,False,True,False,True,PTSD,False,1.0,0.0,0.7,0.444,False,True,0.333
+258,20,Female,0.111,0.205,Caffeine,0.278,True,True,False,False,False,Depression,False,0.2,0.5,0.74,0.889,True,True,0.111
+259,34,Female,0.0,0.821,Phobia,0.658,False,False,True,True,False,Depression,True,0.4,0.167,0.68,0.222,False,False,0.222
+260,50,Female,0.556,0.821,PTSD,0.456,True,True,True,True,False,Anxiety,True,0.2,0.167,0.34,0.444,True,True,0.333
+261,29,Female,1.0,0.462,PTSD,0.101,True,True,True,True,True,Depression,True,0.8,0.333,0.12,0.222,True,False,0.667
+262,39,Female,0.778,0.051,PTSD,0.177,True,True,False,False,True,Anxiety,False,0.6,1.0,0.28,0.222,True,False,0.222
+263,39,Female,0.222,0.231,Caffeine,0.025,False,True,True,True,True,PTSD,False,0.0,1.0,0.22,0.0,False,False,0.778
+264,63,Female,1.0,1.0,PTSD,0.873,True,True,False,False,True,Depression,True,0.0,0.0,0.14,0.111,True,False,0.778
+265,47,Female,0.0,0.0,Stress,0.203,True,True,False,True,False,PTSD,False,0.4,1.0,0.02,0.111,True,True,1.0
+266,55,Female,0.889,0.718,PTSD,0.316,True,True,True,True,False,Depression,False,1.0,0.0,0.94,0.889,False,False,0.111
+267,55,Female,0.0,0.846,Phobia,0.253,False,False,True,False,False,Anxiety,True,1.0,0.833,0.92,0.667,False,False,0.333
+268,25,Female,0.778,0.0,Phobia,0.253,True,False,False,False,False,Depression,False,0.0,0.167,0.18,0.111,False,True,0.0
+269,44,Male,0.333,0.718,Phobia,0.468,True,False,True,False,False,Depression,True,1.0,0.167,0.28,0.222,True,False,0.333
+270,51,Female,0.778,0.308,Caffeine,0.899,True,False,True,False,True,Anxiety,True,0.2,1.0,0.2,1.0,False,False,0.111
+271,38,Male,0.0,0.718,Phobia,0.43,True,True,False,True,False,PTSD,True,1.0,0.667,0.94,0.111,True,False,0.0
+272,47,Male,0.556,0.974,Caffeine,0.165,True,True,True,True,True,Depression,False,0.6,0.833,0.08,0.0,True,True,0.778
+273,50,Female,0.0,0.59,Caffeine,0.165,False,True,True,True,True,PTSD,False,0.4,0.667,0.22,0.889,False,True,0.111
+274,45,Male,0.0,0.641,PTSD,0.114,False,True,False,False,False,Anxiety,False,0.4,1.0,0.08,0.778,True,True,0.333
+275,64,Female,0.778,0.41,Stress,0.139,True,False,False,False,False,Anxiety,True,0.0,0.333,0.98,0.333,True,False,0.222
+276,22,Female,0.0,0.308,PTSD,0.418,False,True,True,False,False,PTSD,False,0.2,0.833,0.72,0.222,False,False,0.778
+277,36,Male,1.0,0.103,PTSD,0.506,False,False,False,True,True,Anxiety,False,0.6,0.333,0.42,0.222,False,False,0.222
+278,21,Male,0.667,0.641,Caffeine,0.114,True,False,False,True,False,Anxiety,False,0.2,0.167,0.2,0.333,False,False,0.889
+279,52,Female,0.444,0.051,Caffeine,0.203,False,False,True,True,True,Anxiety,False,0.2,0.167,0.22,0.111,False,True,1.0
+280,61,Female,0.0,0.974,Phobia,0.835,True,False,True,True,False,PTSD,True,0.8,0.5,0.76,0.333,False,True,0.889
+281,45,Male,1.0,0.0,Phobia,0.772,False,True,False,False,True,PTSD,True,0.6,1.0,0.26,1.0,False,True,0.222
+282,47,Female,0.556,0.41,PTSD,0.0,True,True,True,False,False,Depression,True,0.2,0.0,0.32,0.222,False,True,0.444
+283,46,Female,0.889,0.615,Social Anxiety,0.139,True,True,False,False,False,PTSD,True,1.0,0.833,0.6,0.778,True,False,1.0
+284,63,Female,0.889,0.051,Social Anxiety,0.038,True,True,True,True,True,Depression,True,0.4,0.0,0.24,0.111,False,True,0.556
+285,23,Male,0.778,0.359,Phobia,0.519,False,False,False,False,False,Anxiety,True,0.4,0.333,0.58,0.889,False,False,0.889
+286,52,Female,0.444,0.718,Social Anxiety,0.152,False,True,True,False,False,Depression,True,0.0,0.0,0.38,0.222,False,True,0.778
+287,58,Female,0.0,0.795,Phobia,0.038,True,True,False,False,False,nan,False,0.4,0.667,0.04,0.333,False,True,0.111
+288,54,Non-binary,0.889,0.641,Caffeine,0.861,True,True,False,True,True,PTSD,True,0.8,0.5,0.4,1.0,False,True,0.111
+289,41,Male,0.0,0.385,PTSD,0.228,True,False,True,True,True,Depression,False,0.2,0.833,0.92,1.0,False,False,0.444
+290,46,Female,0.778,0.615,Stress,0.013,True,True,False,True,False,Depression,False,0.6,1.0,0.3,0.222,False,False,0.444
+291,63,Non-binary,0.444,0.692,PTSD,0.139,True,False,False,True,True,nan,False,0.6,0.167,0.32,0.222,False,False,0.444
+292,48,Male,0.222,0.205,Phobia,0.924,False,True,True,False,False,Depression,False,0.8,0.167,0.06,0.778,False,False,0.333
+293,52,Non-binary,0.667,0.0,Phobia,0.063,True,True,True,True,True,Anxiety,True,0.4,1.0,0.62,0.778,False,False,0.778
+294,50,Female,0.667,0.718,PTSD,0.089,True,True,False,True,False,nan,False,0.2,0.667,0.84,0.556,False,False,0.444
+295,49,Male,0.667,0.385,Phobia,0.127,True,True,True,False,True,Anxiety,False,0.0,0.0,0.24,0.0,True,False,1.0
+296,40,Female,0.222,0.154,Social Anxiety,0.785,False,True,True,False,True,Depression,True,0.4,1.0,0.96,0.333,False,True,0.444
+297,50,Male,0.0,0.333,Social Anxiety,0.709,True,False,True,False,False,Depression,True,0.0,0.167,0.74,0.778,False,False,0.0
+298,20,Female,0.778,0.718,Phobia,0.139,True,False,True,True,False,Anxiety,True,0.6,0.0,0.56,0.556,False,False,0.333
+299,35,Male,0.222,0.462,Phobia,0.911,True,True,True,True,True,nan,False,0.2,0.667,0.3,0.111,False,False,0.0
+300,59,Male,0.778,0.026,Social Anxiety,0.089,True,False,False,False,True,PTSD,True,0.0,0.333,0.72,0.667,True,True,0.556
+301,48,Female,0.444,0.359,Phobia,0.127,True,True,True,False,True,Anxiety,False,0.4,0.5,0.52,0.333,False,False,0.0
+302,20,Non-binary,0.0,0.051,Phobia,0.658,True,True,False,True,False,Depression,False,0.4,0.0,0.52,0.333,False,True,0.778
+303,41,Male,1.0,1.0,PTSD,0.443,True,True,True,False,True,Depression,False,1.0,0.0,0.82,0.667,False,False,0.0
+304,64,Male,0.778,0.026,Stress,0.165,True,True,False,True,True,Anxiety,False,0.4,0.0,0.1,0.444,False,True,0.667
+305,39,Male,0.889,0.795,Social Anxiety,0.671,True,False,False,False,False,Anxiety,True,0.8,1.0,0.64,0.0,False,True,1.0
+306,40,Male,0.667,0.179,PTSD,0.253,True,True,False,False,False,Anxiety,False,1.0,0.667,0.56,0.333,True,True,1.0
+307,19,Female,0.667,0.538,Stress,0.62,True,True,False,False,False,Anxiety,False,1.0,0.667,0.9,0.556,False,False,0.778
+308,44,Female,0.0,0.128,Phobia,0.481,False,True,True,True,True,Depression,False,0.2,0.833,0.76,0.556,False,False,0.444
+309,59,Female,0.333,0.282,Phobia,0.241,True,True,False,True,True,Depression,False,0.8,0.667,0.96,0.889,False,False,0.667
+310,19,Male,0.111,1.0,PTSD,0.076,False,False,True,True,False,Depression,True,0.2,1.0,0.96,1.0,True,False,0.111
+311,34,Non-binary,0.111,0.359,Phobia,0.0,True,False,False,False,False,Anxiety,False,0.4,0.833,0.72,0.444,False,True,0.556
+312,57,Male,0.333,0.692,Caffeine,0.316,False,True,True,False,True,Anxiety,True,0.4,0.667,0.54,0.556,False,True,0.444
+313,50,Female,0.0,0.436,PTSD,0.468,True,True,True,True,False,Anxiety,False,0.6,0.167,0.22,0.556,False,False,0.556
+314,26,Male,0.333,0.026,Stress,0.468,True,True,False,False,True,PTSD,True,0.8,0.667,0.2,0.222,False,False,0.111
+315,60,Female,0.111,0.308,PTSD,0.759,True,True,True,False,False,Depression,True,0.0,0.167,0.08,0.556,False,False,0.667
+316,56,Female,0.444,0.359,Social Anxiety,0.544,False,False,False,False,True,Anxiety,True,1.0,0.333,0.8,0.778,False,True,0.778
+317,43,Female,0.333,0.718,PTSD,0.772,True,True,True,False,True,PTSD,True,0.8,0.667,0.6,0.222,False,True,0.667
+318,52,Female,0.0,0.051,Phobia,0.063,False,False,True,False,True,Depression,True,0.2,0.333,0.68,0.0,True,False,0.0
+319,42,Male,0.0,0.462,Phobia,0.203,True,True,True,False,False,Depression,False,0.0,0.5,0.3,0.444,True,True,0.889
+320,41,Non-binary,1.0,0.051,Caffeine,0.633,False,True,True,True,False,Anxiety,True,0.4,0.333,0.46,0.556,False,True,0.556
+321,30,Male,0.222,0.333,Caffeine,0.468,True,True,True,False,False,nan,False,0.0,0.167,0.42,0.556,False,False,0.333
+322,53,Non-binary,0.667,0.077,Caffeine,0.633,True,True,True,True,False,Anxiety,False,1.0,0.833,0.84,0.222,True,False,0.889
+323,62,Male,0.111,0.256,Stress,0.114,True,False,False,True,True,PTSD,False,0.0,0.333,0.62,0.333,False,False,0.0
+324,37,Female,0.889,0.769,Caffeine,0.899,True,False,True,True,True,PTSD,False,0.4,0.0,0.04,0.222,False,False,0.111
+325,18,Male,1.0,0.795,Stress,0.253,True,True,False,False,True,Anxiety,False,1.0,1.0,0.82,0.111,True,False,0.222
+326,25,Male,0.111,0.667,Caffeine,0.873,True,False,False,True,False,Depression,False,0.4,0.5,0.1,0.778,False,False,0.0
+327,31,Female,0.111,0.205,Stress,0.405,True,True,False,False,False,PTSD,False,0.6,1.0,0.0,0.556,False,False,0.667
+328,29,Male,0.222,0.692,PTSD,0.734,False,True,False,True,True,Anxiety,True,0.0,1.0,0.66,0.667,True,True,1.0
+329,32,Male,0.889,0.846,PTSD,0.696,True,True,True,False,False,nan,False,0.4,1.0,0.66,1.0,True,False,0.889
+330,45,Female,0.889,0.359,Phobia,0.709,False,False,True,False,True,Anxiety,True,0.6,0.167,0.16,0.444,True,False,0.444
+331,51,Male,0.667,0.615,Stress,0.949,True,True,False,True,True,Depression,True,0.8,0.333,0.26,0.333,True,False,0.889
+332,49,Female,0.333,0.179,Social Anxiety,0.519,True,True,True,True,False,PTSD,False,0.6,1.0,0.96,0.222,False,False,0.889
+333,40,Non-binary,0.556,0.205,Phobia,0.329,True,False,False,False,True,PTSD,False,0.8,1.0,0.06,0.111,True,True,0.111
+334,39,Male,0.444,0.923,PTSD,0.924,True,True,True,False,False,Anxiety,False,0.6,0.5,0.42,0.889,False,True,0.889
+335,39,Female,0.556,0.795,Stress,0.519,True,True,True,False,True,Depression,False,0.0,0.667,0.76,1.0,False,False,0.222
+336,39,Female,0.222,0.41,Caffeine,0.392,False,False,True,False,True,nan,False,1.0,0.5,0.82,0.111,True,True,0.889
+337,59,Female,0.778,0.872,Social Anxiety,0.316,False,True,False,True,False,Anxiety,False,0.0,0.333,0.98,0.556,True,False,0.667
+338,23,Female,0.111,0.923,PTSD,0.304,False,True,True,False,True,nan,True,0.2,1.0,0.38,0.222,False,False,0.778
+339,32,Female,0.0,0.462,Phobia,0.937,True,True,True,False,False,Anxiety,False,1.0,0.5,0.3,0.222,False,False,0.667
+340,60,Male,0.889,0.718,Stress,0.278,True,False,False,True,True,nan,True,0.6,0.167,0.04,0.444,False,False,0.889
+341,54,Male,0.222,0.154,Social Anxiety,0.709,True,True,False,True,False,Depression,True,0.2,0.0,0.16,0.667,False,False,0.778
+342,50,Non-binary,0.0,0.692,Stress,0.646,True,True,False,True,False,Depression,False,0.4,0.0,0.56,0.667,False,True,0.333
+343,61,Female,1.0,0.692,Caffeine,0.797,False,False,True,False,True,Anxiety,True,0.4,1.0,0.74,0.0,False,False,0.444
+344,61,Female,0.444,0.128,Phobia,0.886,True,False,False,False,True,Anxiety,False,0.2,1.0,0.04,0.667,False,True,0.111
+345,22,Male,0.444,0.718,Stress,0.405,True,True,False,False,False,Anxiety,False,0.0,0.667,0.26,0.667,False,False,0.333
+346,56,Male,0.0,0.41,PTSD,0.013,True,True,False,False,True,Anxiety,False,0.6,0.167,0.7,0.556,False,False,0.111
+347,62,Male,0.778,0.769,Phobia,0.405,False,True,False,True,True,Depression,True,0.0,1.0,1.0,0.222,False,True,0.0
+348,47,Male,0.556,0.513,PTSD,0.633,False,True,False,False,True,PTSD,True,0.8,1.0,0.34,0.222,False,False,0.111
+349,64,Female,0.444,0.641,Stress,0.215,True,False,False,True,False,Depression,False,0.8,0.667,0.9,0.111,False,True,0.444
+350,52,Male,0.556,0.897,Phobia,0.899,True,True,False,True,False,nan,True,0.8,0.833,0.06,0.889,True,False,0.778
+351,30,Female,0.222,0.282,PTSD,0.658,False,True,True,True,True,Depression,False,0.8,0.333,0.18,0.222,False,True,0.556
+352,59,Male,0.667,0.308,Caffeine,0.114,True,True,False,False,False,Depression,False,0.2,0.833,0.98,1.0,False,False,0.0
+353,47,Male,0.889,0.256,Caffeine,0.646,True,True,False,False,True,Anxiety,False,0.8,1.0,0.36,0.556,False,True,0.0
+354,34,Female,0.556,0.179,Stress,0.127,True,False,True,True,True,Anxiety,False,0.4,0.0,0.38,0.667,True,False,0.667
+355,36,Female,1.0,1.0,Phobia,0.823,False,False,True,False,False,Anxiety,False,0.2,0.0,0.84,0.556,True,True,1.0
+356,43,Female,0.222,0.026,Social Anxiety,0.443,True,True,True,True,False,Depression,True,0.0,0.833,0.44,0.222,False,False,0.222
+357,54,Female,0.222,0.744,Phobia,0.405,True,True,False,False,True,Anxiety,False,1.0,0.667,0.56,0.778,False,False,0.778
+358,43,Female,0.889,0.744,Caffeine,0.582,True,True,True,False,True,Depression,False,0.8,0.5,0.62,0.889,False,False,0.778
+359,26,Female,0.778,0.231,PTSD,0.494,True,False,False,True,False,Anxiety,False,1.0,0.833,0.26,0.111,True,True,1.0
+360,29,Male,1.0,0.256,Social Anxiety,0.848,False,False,True,True,True,Anxiety,True,0.2,0.833,0.62,0.0,False,True,0.667
+361,18,Non-binary,0.556,0.385,Stress,0.228,True,True,False,True,False,Anxiety,False,0.8,0.167,0.22,0.222,False,True,0.111
+362,64,Male,0.333,0.41,Social Anxiety,0.228,False,False,False,False,False,Anxiety,True,0.6,1.0,0.08,0.778,False,True,0.111
+363,49,Female,0.778,0.026,Stress,0.278,True,True,False,True,False,Depression,True,0.8,1.0,0.88,0.0,True,False,0.667
+364,42,Female,0.667,0.282,Social Anxiety,0.671,True,True,False,False,True,Depression,True,0.4,0.667,0.36,0.333,False,True,0.333
+365,57,Female,0.111,0.641,Stress,1.0,True,False,False,False,True,Anxiety,True,1.0,0.333,0.56,0.667,False,True,0.333
+366,62,Male,0.778,0.564,Stress,0.81,True,True,True,False,False,Anxiety,True,0.6,0.5,0.64,0.444,False,True,0.889
+367,18,Male,0.444,0.436,Social Anxiety,0.139,True,True,False,True,True,Depression,False,0.8,0.667,0.42,1.0,True,True,1.0
+368,33,Female,0.667,0.795,Social Anxiety,0.291,True,True,False,False,True,PTSD,True,0.2,0.0,0.9,0.556,False,False,0.889
+369,56,Male,0.333,0.949,Stress,0.418,False,True,False,False,False,PTSD,False,1.0,0.0,0.36,1.0,True,True,0.667
+370,22,Male,0.444,0.051,Caffeine,0.658,True,True,True,False,False,Depression,False,0.6,1.0,0.12,0.333,True,True,1.0
+371,39,Male,0.778,0.949,Social Anxiety,0.089,True,False,True,True,True,Anxiety,False,0.4,0.667,0.14,0.111,True,False,0.333
+372,20,Male,0.0,0.744,Phobia,0.709,True,False,True,True,False,PTSD,True,1.0,0.333,0.98,0.111,False,False,1.0
+373,29,Male,0.333,0.0,PTSD,0.051,True,True,True,True,True,Anxiety,True,0.0,0.0,0.28,0.111,False,False,0.222
+374,43,Female,0.222,0.744,Stress,0.316,False,False,True,False,False,nan,False,0.2,0.0,0.14,0.111,True,True,0.222
+375,33,Female,1.0,0.795,Stress,0.367,True,True,False,False,False,Depression,False,0.4,0.5,0.48,0.0,True,True,0.667
+376,54,Female,0.111,0.692,PTSD,0.671,True,True,True,False,True,Depression,False,0.4,0.667,0.7,0.222,True,True,0.889
+377,39,Male,0.222,0.513,Caffeine,0.152,True,True,False,False,False,Anxiety,False,0.4,0.333,0.62,0.556,False,True,0.333
+378,46,Male,0.0,0.308,PTSD,0.354,True,True,True,False,False,Depression,False,0.2,0.5,0.96,0.667,True,False,0.333
+379,31,Male,0.0,0.667,Social Anxiety,0.025,True,True,True,True,True,Depression,False,0.4,0.333,0.82,0.0,False,False,0.0
+380,45,Female,0.556,0.897,PTSD,0.722,True,True,True,False,False,Anxiety,False,0.0,0.0,0.86,0.444,True,True,0.0
+381,22,Female,0.444,0.154,Stress,0.949,True,True,True,True,False,Anxiety,True,0.6,0.667,0.54,0.444,True,True,0.222
+382,64,Male,0.778,0.538,PTSD,0.013,True,True,False,True,False,PTSD,True,0.2,0.167,0.32,0.0,True,True,0.667
+383,47,Non-binary,0.111,0.231,Phobia,0.937,True,False,False,False,False,Depression,False,0.4,0.667,0.7,0.333,True,False,0.889
+384,22,Female,0.778,0.359,Social Anxiety,0.962,True,False,True,False,True,Anxiety,False,0.6,0.167,0.28,0.0,False,True,0.111
+385,29,Female,0.556,0.359,PTSD,0.949,False,True,True,False,True,PTSD,True,1.0,1.0,0.16,0.0,False,False,0.556
+386,33,Female,0.0,0.077,Stress,0.013,False,True,False,True,True,PTSD,False,0.2,1.0,0.52,0.667,True,True,0.556
+387,43,Female,0.0,0.564,Social Anxiety,0.316,True,True,False,False,False,Depression,False,1.0,0.167,0.56,0.222,False,True,0.333
+388,38,Male,0.111,0.128,Stress,0.949,True,True,False,True,False,Depression,True,0.8,0.167,0.12,0.667,False,True,0.778
+389,56,Female,0.444,0.59,Caffeine,0.19,True,False,False,True,False,Depression,True,0.4,0.5,0.56,0.222,False,True,0.222
+390,53,Male,0.778,0.487,Phobia,0.278,True,True,True,False,False,Anxiety,True,0.2,0.667,0.16,0.111,False,True,0.111
+391,50,Female,0.778,0.923,Caffeine,0.494,False,False,True,True,False,nan,True,0.4,0.5,0.66,1.0,False,False,0.889
+392,47,Female,0.222,0.487,Phobia,0.747,False,True,False,True,True,Depression,False,1.0,0.833,0.42,0.333,True,False,0.556
+393,54,Female,0.333,0.282,PTSD,0.911,True,True,False,False,False,Anxiety,True,0.0,0.0,0.84,1.0,False,False,0.778
+394,40,Female,1.0,0.821,Social Anxiety,0.392,True,True,False,False,True,Depression,True,0.8,1.0,0.78,0.222,False,False,1.0
+395,27,Female,0.556,0.692,PTSD,0.177,True,True,False,False,False,PTSD,False,0.0,0.0,0.72,0.667,False,True,0.889
+396,22,Female,1.0,0.179,Phobia,0.152,False,False,True,False,False,Anxiety,False,1.0,1.0,0.7,0.0,False,False,0.0
+397,53,Female,0.222,0.0,Phobia,0.051,True,False,False,False,True,Anxiety,True,0.4,0.167,0.56,0.556,False,True,0.0
+398,51,Male,0.111,0.923,Phobia,0.937,True,True,False,False,False,Depression,True,0.6,0.5,0.06,0.111,True,True,0.444
+399,27,Male,0.444,0.128,Stress,0.646,True,False,False,True,True,PTSD,False,0.6,0.5,0.46,0.444,True,True,0.667
+400,36,Male,1.0,0.513,Social Anxiety,0.962,False,True,False,True,False,Anxiety,True,0.2,0.833,0.46,0.222,False,False,0.667
+401,49,Female,0.444,0.795,PTSD,0.506,True,True,True,False,True,PTSD,False,0.8,0.833,0.38,1.0,False,True,0.111
+402,18,Male,1.0,0.872,PTSD,0.658,True,True,True,False,True,Anxiety,True,0.0,0.667,0.92,0.667,False,True,0.222
+403,22,Non-binary,0.444,0.359,Caffeine,0.62,False,True,True,False,False,Anxiety,True,0.6,0.333,0.24,0.111,False,True,0.333
+404,62,Male,1.0,0.103,Phobia,0.177,True,False,False,False,False,PTSD,False,1.0,1.0,0.32,0.444,False,True,0.111
+405,21,Male,0.444,0.128,Phobia,0.076,True,False,True,False,False,Depression,False,0.2,0.333,0.96,0.778,True,True,1.0
+406,33,Female,0.222,0.615,Phobia,0.494,True,True,False,False,False,Anxiety,True,0.8,0.333,0.82,0.0,False,True,0.889
+407,41,Female,0.667,1.0,PTSD,0.342,True,True,False,False,True,Anxiety,False,1.0,1.0,0.02,0.0,True,True,0.444
+408,33,Female,0.556,0.718,Caffeine,0.392,True,True,True,True,False,Depression,True,0.2,0.667,0.9,0.222,False,False,0.667
+409,19,Female,0.333,0.154,Stress,0.177,True,True,False,False,False,Depression,True,0.0,0.5,0.22,0.222,False,True,0.889
+410,49,Male,0.889,0.308,Social Anxiety,0.81,True,False,True,False,True,nan,True,0.8,0.5,0.56,0.556,True,False,0.556
+411,44,Non-binary,0.0,0.949,Stress,0.038,False,True,True,False,False,Depression,False,0.2,0.167,0.54,0.667,False,False,0.333
+412,37,Non-binary,0.333,0.436,PTSD,0.127,False,True,False,False,False,Depression,False,0.4,0.333,0.72,0.333,False,True,0.778
+413,50,Male,0.444,0.821,Phobia,0.278,True,False,True,True,False,Anxiety,False,0.8,0.833,0.3,0.0,False,False,1.0
+414,50,Male,0.444,0.949,Social Anxiety,0.494,False,True,False,False,False,Anxiety,False,0.4,1.0,0.98,0.889,True,True,0.889
+415,60,Male,0.889,0.667,PTSD,0.962,False,False,True,False,True,Anxiety,True,1.0,0.667,0.46,0.667,False,False,0.111
+416,54,Female,0.0,0.487,PTSD,0.278,True,True,False,False,False,Anxiety,False,1.0,0.667,0.12,1.0,False,False,0.222
+417,20,Female,0.556,0.769,PTSD,0.759,True,True,True,False,True,PTSD,False,0.0,0.333,0.3,0.111,False,True,0.444
+418,18,Female,0.444,0.667,Social Anxiety,0.848,True,True,False,False,False,Depression,False,0.4,0.167,0.14,0.222,False,True,0.222
+419,50,Male,0.667,0.795,Social Anxiety,1.0,True,True,True,False,True,Anxiety,True,0.4,0.833,0.42,0.667,False,True,0.556
+420,57,Male,0.222,0.231,Caffeine,0.38,False,True,False,False,True,Anxiety,False,0.2,0.333,0.96,0.444,True,False,0.556
+421,27,Male,0.222,0.051,Caffeine,0.658,False,False,True,False,False,Depression,True,0.6,0.0,0.42,0.222,False,False,0.444
+422,60,Non-binary,1.0,0.667,Stress,0.304,True,False,False,False,True,Anxiety,True,1.0,1.0,0.34,0.889,True,True,0.444
+423,61,Male,0.111,0.872,Social Anxiety,0.544,True,True,False,False,True,Depression,True,0.6,1.0,0.44,0.111,False,False,0.556
+424,46,Female,0.222,0.769,Social Anxiety,0.139,False,True,True,False,True,nan,False,0.2,0.833,0.02,0.667,False,True,0.111
+425,30,Female,1.0,0.359,Social Anxiety,0.101,True,True,True,True,True,Anxiety,True,0.4,1.0,0.14,1.0,True,True,0.556
+426,29,Male,0.0,0.385,Caffeine,0.139,True,True,True,False,False,Anxiety,False,0.2,1.0,0.84,0.556,True,False,0.111
+427,19,Female,0.667,0.256,PTSD,0.671,True,True,False,False,False,PTSD,True,0.2,0.0,0.54,0.556,False,True,0.0
+428,40,Male,0.222,0.256,Phobia,0.696,False,True,False,False,False,Anxiety,False,0.6,0.0,0.16,0.444,False,False,0.889
+429,34,Male,0.0,0.744,Caffeine,0.861,False,True,False,False,False,nan,False,0.8,0.333,0.18,0.222,False,False,0.333
+430,43,Female,0.778,0.872,Social Anxiety,0.962,False,False,False,False,False,Anxiety,True,0.0,1.0,0.92,0.889,True,False,0.444
+431,46,Male,0.111,0.949,Caffeine,0.975,True,True,True,True,False,PTSD,False,0.2,0.333,0.16,1.0,False,True,0.667
+432,27,Female,0.222,0.333,Stress,0.519,False,True,False,True,True,Anxiety,True,0.4,0.667,0.06,0.0,True,False,1.0
+433,43,Female,0.0,0.59,Social Anxiety,0.468,True,False,True,False,False,Anxiety,False,0.8,1.0,0.44,0.333,False,False,0.889
+434,51,Male,0.222,0.795,Stress,0.848,True,True,True,False,True,Anxiety,True,0.4,0.667,0.78,0.333,False,False,0.333
+435,58,Female,0.111,0.897,Social Anxiety,0.658,False,True,True,True,True,Anxiety,False,0.0,0.0,0.56,1.0,True,False,1.0
+436,24,Non-binary,0.778,0.795,Caffeine,0.405,False,False,False,False,True,Anxiety,False,0.8,0.667,0.64,0.111,False,True,1.0
+437,21,Male,0.556,0.359,PTSD,0.886,True,True,True,False,True,nan,True,0.0,0.667,0.32,0.667,False,True,0.0
+438,46,Male,1.0,0.385,Phobia,0.633,True,True,True,True,False,PTSD,False,1.0,0.167,0.82,0.667,False,False,0.667
+439,53,Female,0.222,0.103,Stress,0.924,True,False,False,False,False,Depression,True,0.8,0.333,0.64,0.0,False,True,0.222
+440,38,Male,0.667,0.231,Caffeine,0.177,True,False,True,False,True,Depression,False,1.0,0.333,0.42,0.333,True,False,0.444
+441,53,Female,0.444,0.462,PTSD,0.468,True,False,False,True,False,Anxiety,True,0.6,0.167,0.8,0.778,False,False,0.444
+442,27,Male,0.778,0.615,Caffeine,0.177,True,True,True,False,False,Depression,True,1.0,0.0,0.54,0.778,False,False,0.222
+443,54,Female,0.444,0.077,Stress,0.051,False,True,True,True,True,Depression,False,0.2,0.167,0.3,0.222,True,True,0.889
+444,26,Male,0.0,0.718,Phobia,0.671,True,True,False,True,False,PTSD,True,0.4,0.333,0.26,0.333,True,False,0.222
+445,52,Male,0.333,0.026,Caffeine,0.114,False,True,True,False,True,Depression,True,0.0,1.0,0.82,1.0,False,False,0.889
+446,52,Male,0.556,0.231,Social Anxiety,0.139,True,False,True,False,False,PTSD,True,0.8,0.667,0.58,0.111,False,True,0.889
+447,53,Non-binary,0.222,0.615,PTSD,0.038,False,True,True,False,False,Anxiety,False,0.8,0.833,0.7,0.667,False,True,1.0
+448,35,Male,0.444,0.487,Caffeine,0.215,False,True,False,False,True,PTSD,False,0.0,0.5,0.86,0.667,False,False,0.333
+449,56,Female,0.111,0.462,PTSD,1.0,True,True,False,True,True,Anxiety,False,0.2,0.5,0.98,0.889,False,True,0.333
+450,41,Female,0.556,0.59,Social Anxiety,0.304,True,False,True,True,True,Anxiety,False,1.0,0.167,0.18,0.889,False,True,0.556
+451,40,Male,0.444,0.256,Phobia,0.949,True,False,True,False,False,Depression,True,0.6,1.0,0.46,0.889,True,False,0.889
+452,49,Non-binary,0.556,0.846,Phobia,0.443,True,True,False,True,False,Anxiety,False,0.2,0.0,0.04,0.556,False,True,0.778
+453,54,Female,0.667,0.692,Social Anxiety,0.835,True,False,False,True,True,nan,True,0.8,0.5,0.8,0.778,False,True,1.0
+454,29,Male,0.444,0.103,PTSD,0.101,False,True,True,False,False,Anxiety,False,0.0,0.0,0.88,0.889,False,False,0.222
+455,40,Male,0.778,0.513,Caffeine,0.658,True,True,True,True,True,PTSD,True,0.0,0.833,0.26,0.333,False,True,0.667
+456,42,Female,0.333,0.282,Social Anxiety,0.215,True,True,True,False,True,Anxiety,False,0.8,0.833,0.12,0.333,False,True,0.556
+457,52,Male,0.889,0.077,Stress,0.532,True,True,True,True,False,Anxiety,True,0.0,0.333,0.38,0.556,False,False,0.222
+458,58,Female,1.0,0.487,PTSD,0.43,True,False,True,True,True,PTSD,True,1.0,0.5,0.84,0.333,False,True,0.889
+459,47,Male,0.556,0.949,Phobia,0.785,True,True,False,True,True,Depression,False,0.4,0.833,0.34,0.667,False,False,0.333
+460,34,Male,0.0,0.615,Social Anxiety,0.975,False,False,False,False,True,Depression,False,0.0,0.333,0.04,0.778,False,True,0.111
+461,37,Female,0.222,0.333,Phobia,0.038,True,True,True,False,False,Anxiety,False,0.4,0.833,0.28,0.778,False,False,0.889
+462,42,Female,0.222,0.256,PTSD,0.506,False,True,True,False,False,Depression,False,0.0,0.167,0.98,0.778,True,False,0.222
+463,39,Male,1.0,0.795,Phobia,0.557,True,True,False,False,True,nan,True,0.0,0.5,0.68,0.111,True,False,0.556
+464,30,Male,0.333,0.256,Social Anxiety,0.62,False,True,True,True,True,Anxiety,False,0.4,0.333,0.9,1.0,False,True,0.444
+465,36,Male,0.556,0.436,PTSD,0.987,False,True,False,False,False,Depression,True,1.0,0.833,0.78,0.111,False,False,0.111
+466,53,Female,0.667,0.667,Stress,0.342,True,True,True,True,False,Anxiety,False,0.0,1.0,0.54,0.111,False,True,0.0
+467,29,Female,1.0,0.436,Social Anxiety,0.519,True,False,False,False,True,PTSD,False,1.0,0.333,0.14,0.111,True,False,0.889
+468,58,Female,0.333,0.564,Caffeine,1.0,False,True,True,False,False,PTSD,False,0.2,0.833,0.34,0.333,False,True,0.222
+469,29,Female,0.0,0.513,Social Anxiety,0.861,False,True,True,True,True,Anxiety,True,0.2,0.0,0.88,0.333,False,True,0.889
+470,26,Female,0.778,0.103,PTSD,0.0,True,False,True,True,False,Anxiety,False,0.6,0.833,0.26,0.444,True,False,0.889
+471,45,Male,0.889,0.615,Social Anxiety,0.203,True,True,False,True,False,Depression,True,0.6,0.5,0.56,0.667,True,True,0.556
+472,31,Male,0.222,0.231,Stress,0.43,False,True,True,False,True,nan,True,0.0,0.167,0.18,1.0,False,True,0.778
+473,48,Male,0.111,0.538,Stress,0.57,True,True,True,False,True,Depression,False,0.4,1.0,0.62,0.0,False,True,0.889
+474,36,Male,0.0,0.462,Caffeine,0.519,False,False,False,False,True,Anxiety,False,0.4,0.5,0.26,0.0,True,True,0.222
+475,64,Female,0.222,0.0,Phobia,0.481,False,True,False,True,True,PTSD,True,0.8,1.0,0.24,0.111,False,True,0.556
+476,22,Male,0.111,0.077,PTSD,0.772,True,False,False,False,False,Depression,True,0.8,0.167,0.6,1.0,False,True,0.667
+477,52,Male,0.222,0.0,PTSD,0.468,False,True,True,False,False,Anxiety,True,1.0,0.667,0.54,1.0,False,False,0.667
+478,29,Female,0.333,0.359,Phobia,0.278,True,False,False,True,False,Anxiety,False,1.0,0.167,0.24,0.222,False,True,0.889
+479,42,Non-binary,0.667,1.0,Stress,0.266,False,True,False,True,True,nan,True,0.8,0.167,0.9,0.556,False,False,0.0
+480,38,Male,0.222,0.282,Stress,0.038,True,False,False,True,False,Depression,False,0.6,1.0,0.1,1.0,False,True,0.556
+481,53,Female,0.889,0.538,Social Anxiety,0.608,True,True,True,True,False,Anxiety,True,0.4,0.667,0.04,0.556,False,False,0.444
+482,40,Male,0.778,0.538,Caffeine,0.734,False,True,True,False,True,Depression,True,0.6,0.333,0.6,0.0,False,False,0.333
+483,56,Non-binary,0.0,0.718,Caffeine,0.848,True,False,False,True,True,Anxiety,False,0.0,0.333,0.5,0.444,True,False,0.0
+484,62,Non-binary,0.0,0.333,Caffeine,0.886,True,True,False,False,False,Depression,False,0.8,0.0,0.96,0.667,False,True,0.333
+485,59,Male,0.0,0.487,Social Anxiety,0.013,True,True,False,True,False,nan,False,0.8,0.167,0.7,0.556,False,False,1.0
+486,56,Non-binary,0.0,0.821,Caffeine,0.608,True,False,True,True,True,Anxiety,True,1.0,0.833,0.62,0.667,False,True,0.667
+487,31,Female,0.778,0.359,Phobia,0.38,False,False,False,True,False,PTSD,False,0.6,0.667,0.58,0.111,False,True,0.333
+488,48,Female,0.222,0.282,Social Anxiety,0.494,True,False,False,True,False,Depression,False,0.8,0.833,0.18,0.0,False,True,0.0
+489,22,Female,0.556,1.0,Phobia,0.595,True,False,True,False,True,Depression,False,0.4,0.0,0.44,0.667,True,False,1.0
+490,52,Female,0.222,0.487,Social Anxiety,0.633,True,True,False,True,True,Anxiety,False,0.8,0.667,0.34,0.889,True,True,0.0
+491,40,Female,0.444,0.744,Caffeine,0.532,True,True,True,False,True,Anxiety,False,0.6,0.833,0.96,0.111,False,False,0.0
+492,46,Female,0.667,0.949,Phobia,0.684,True,False,False,False,False,Depression,True,1.0,1.0,0.24,0.667,False,False,1.0
+493,60,Male,0.111,0.051,Phobia,0.608,False,False,False,False,False,Anxiety,False,0.4,0.0,0.48,0.222,False,True,0.444
+494,28,Male,0.556,0.692,Phobia,1.0,False,True,False,True,False,Depression,False,0.4,0.0,0.94,0.556,False,False,0.667
+495,35,Male,0.556,0.641,Social Anxiety,0.709,True,True,False,True,False,Anxiety,False,0.8,0.0,0.78,0.222,False,False,0.889
+496,64,Female,0.222,0.744,PTSD,0.962,True,False,False,True,False,Anxiety,True,0.6,0.667,0.96,1.0,True,False,0.778
+497,29,Male,0.556,0.308,Caffeine,0.177,True,True,True,False,True,nan,True,0.8,0.833,0.6,0.444,False,False,0.111
+498,26,Female,1.0,0.308,Phobia,0.329,True,True,True,True,False,Depression,False,0.0,0.833,0.34,0.111,False,False,0.889
+499,61,Male,0.444,0.923,PTSD,1.0,True,True,True,False,True,Anxiety,True,0.0,0.0,0.3,0.778,False,True,1.0
+500,55,Male,0.889,0.026,Caffeine,0.367,True,True,False,False,True,Anxiety,False,0.8,0.167,0.7,0.556,False,True,0.444
+501,24,Female,0.778,0.897,Caffeine,0.443,True,False,False,True,False,PTSD,False,0.0,1.0,0.64,0.0,True,True,0.333
+502,63,Male,0.222,0.641,Phobia,0.835,False,True,True,False,False,PTSD,False,0.2,1.0,0.88,0.778,False,True,0.556
+503,30,Female,0.778,0.256,Phobia,0.608,True,True,True,False,True,Anxiety,True,0.0,0.5,0.96,0.0,False,False,0.0
+504,57,Female,0.889,0.179,Social Anxiety,0.949,True,False,True,False,True,nan,False,0.8,0.5,0.86,0.778,False,True,0.111
+505,59,Non-binary,0.222,1.0,PTSD,0.684,True,True,True,False,False,Anxiety,True,0.8,0.667,0.06,0.111,False,False,0.333
+506,26,Female,0.222,0.538,PTSD,0.696,True,True,True,False,False,Depression,False,1.0,0.5,0.66,0.778,True,False,0.333
+507,44,Female,0.111,0.487,Phobia,0.848,False,True,False,True,True,nan,False,0.0,0.833,0.78,1.0,False,True,0.778
+508,19,Female,0.778,0.179,Caffeine,0.544,True,True,True,True,True,PTSD,True,0.8,0.667,0.98,0.333,False,True,0.889
+509,22,Female,1.0,0.718,Phobia,0.38,True,True,True,True,False,nan,True,0.8,0.667,0.38,0.667,False,False,0.333
+510,46,Female,0.0,1.0,Caffeine,0.722,True,False,True,True,False,Anxiety,False,1.0,1.0,0.16,0.444,False,False,0.556
+511,54,Male,0.778,0.641,Caffeine,0.658,False,False,False,True,True,Anxiety,True,1.0,1.0,0.86,0.778,True,False,0.333
+512,55,Non-binary,0.667,0.744,Phobia,0.987,True,False,True,False,True,Anxiety,True,1.0,0.333,0.32,0.556,True,True,0.333
+513,36,Female,0.667,0.41,Stress,0.278,True,True,True,False,False,Depression,False,1.0,0.0,0.6,0.444,False,False,0.889
+514,25,Female,0.222,0.487,PTSD,0.342,True,True,True,False,False,PTSD,False,0.2,0.5,0.38,0.0,False,True,0.333
+515,18,Female,0.333,0.154,Caffeine,0.456,True,True,False,False,False,Depression,False,0.8,0.0,0.74,1.0,False,False,0.889
+516,39,Male,0.889,0.385,Caffeine,0.253,True,True,True,True,False,Anxiety,False,0.6,0.0,0.36,0.889,False,True,0.222
+517,34,Female,0.444,0.667,Stress,0.987,True,True,True,True,True,Anxiety,True,1.0,0.667,0.7,0.889,False,True,0.667
+518,42,Female,0.444,0.59,Social Anxiety,0.456,True,True,False,True,True,Depression,True,1.0,0.5,0.32,0.222,False,True,0.0
+519,62,Non-binary,0.778,0.205,Stress,0.962,True,True,False,True,False,PTSD,False,0.4,0.667,0.32,0.556,False,False,0.111
+520,53,Non-binary,0.444,0.487,Stress,0.367,False,True,True,True,True,PTSD,False,0.0,0.667,0.32,0.0,True,False,0.778
+521,23,Male,0.889,0.923,Caffeine,0.557,True,False,True,False,False,Anxiety,False,0.2,0.167,0.64,0.111,False,True,0.556
+522,48,Female,0.0,0.41,PTSD,0.215,False,False,True,False,False,Anxiety,True,0.8,0.167,0.68,0.444,False,False,0.667
+523,36,Female,0.333,0.769,Stress,0.975,True,False,False,False,True,Depression,True,0.0,0.167,0.66,0.889,False,False,0.222
+524,61,Female,0.222,0.179,Social Anxiety,0.772,True,True,True,False,False,PTSD,False,0.6,0.167,0.6,0.333,False,False,0.556
+525,56,Female,0.111,0.359,Phobia,0.443,True,False,True,True,True,Anxiety,False,0.2,0.667,0.42,0.889,True,False,0.889
+526,27,Male,0.667,0.744,Stress,0.228,False,False,False,True,False,Depression,False,0.2,0.333,0.56,0.0,False,False,0.556
+527,43,Male,0.889,0.487,Stress,0.544,False,True,False,True,True,Anxiety,True,0.6,1.0,0.06,0.556,True,True,0.667
+528,36,Female,0.111,0.974,Social Anxiety,0.076,True,True,True,False,False,PTSD,True,1.0,0.833,0.88,1.0,False,True,0.444
+529,56,Female,0.333,0.282,PTSD,0.544,True,True,True,False,True,PTSD,False,1.0,0.333,0.82,0.667,False,True,1.0
+530,20,Female,0.556,0.41,Stress,0.848,False,True,True,False,False,Anxiety,True,1.0,0.167,0.34,0.333,False,False,0.778
+531,62,Female,0.222,0.744,Stress,0.418,True,False,True,True,False,Depression,False,0.0,0.0,0.56,1.0,False,False,0.778
+532,30,Male,0.778,0.718,PTSD,0.823,True,False,True,False,True,PTSD,True,0.8,0.5,0.94,0.444,True,False,0.556
+533,45,Female,0.222,0.462,Social Anxiety,0.861,True,False,False,False,True,Anxiety,True,0.2,0.0,0.28,0.333,False,True,0.667
+534,25,Male,0.556,0.154,Stress,0.519,True,True,True,False,True,Depression,False,1.0,0.0,0.52,0.556,False,False,0.667
+535,58,Male,0.111,0.846,PTSD,0.506,True,False,False,False,False,Anxiety,False,0.2,0.0,0.88,1.0,False,True,0.333
+536,56,Male,0.778,0.487,Stress,0.962,True,False,False,False,True,PTSD,True,0.2,0.833,0.56,0.444,True,False,1.0
+537,18,Male,0.0,0.949,Phobia,0.861,True,True,True,True,True,Anxiety,False,0.6,0.333,0.62,0.0,False,True,0.333
+538,30,Male,0.111,0.231,Caffeine,0.114,False,True,True,True,True,PTSD,False,0.0,0.5,0.72,0.556,False,True,1.0
+539,45,Male,1.0,0.795,Phobia,0.747,True,True,True,True,False,Anxiety,True,0.0,1.0,0.7,1.0,False,True,0.667
+540,42,Male,0.556,0.359,Stress,0.633,True,True,True,False,False,Anxiety,True,1.0,0.0,0.58,0.444,False,True,0.444
+541,50,Male,0.111,0.923,Social Anxiety,0.253,False,True,False,False,False,Anxiety,False,0.0,0.5,0.64,0.0,True,False,0.222
+542,23,Male,1.0,0.051,Caffeine,0.81,True,True,False,False,False,nan,False,0.6,0.0,0.98,1.0,True,True,0.556
+543,61,Female,0.778,0.923,Phobia,0.975,True,True,True,True,False,PTSD,False,0.6,0.5,0.8,0.0,False,False,0.556
+544,49,Female,0.667,0.179,PTSD,0.608,False,False,True,False,False,PTSD,False,1.0,0.333,0.14,0.111,False,True,1.0
+545,62,Female,0.222,1.0,Social Anxiety,0.101,False,False,False,False,False,Depression,False,0.6,0.167,0.82,0.0,False,False,0.667
+546,64,Male,0.778,0.564,Phobia,0.203,False,False,True,False,True,nan,False,1.0,0.0,0.74,0.333,True,False,0.667
+547,38,Female,0.667,1.0,PTSD,0.861,True,False,True,True,False,Anxiety,True,0.0,0.833,0.78,0.111,False,True,1.0
+548,33,Female,0.778,0.256,Stress,0.722,True,True,False,False,False,Depression,True,0.8,0.5,0.24,0.444,True,True,0.333
+549,38,Female,0.667,0.179,PTSD,0.709,True,True,True,True,False,Depression,True,0.4,1.0,0.9,1.0,False,True,0.556
+550,28,Male,0.556,0.718,Phobia,0.772,True,True,False,False,False,Depression,False,0.2,0.833,0.1,0.0,False,False,0.333
+551,54,Male,0.667,0.744,Phobia,0.646,True,True,False,False,False,Depression,True,0.2,0.0,0.26,1.0,True,True,0.333
+552,53,Male,0.444,0.231,Stress,0.759,True,False,True,False,False,Anxiety,True,0.8,0.5,0.66,0.0,False,False,0.556
+553,52,Male,0.667,0.974,PTSD,0.494,True,True,True,True,True,PTSD,False,1.0,0.0,0.68,1.0,True,False,0.889
+554,36,Female,0.0,0.692,PTSD,0.468,False,False,False,True,False,Depression,True,1.0,0.167,0.32,0.333,True,True,0.667
+555,37,Female,0.0,0.897,Stress,0.532,True,True,True,True,True,nan,True,1.0,1.0,0.7,0.667,False,False,0.111
+556,35,Female,0.889,0.308,PTSD,0.785,True,True,False,False,False,Anxiety,True,0.4,1.0,0.38,0.111,False,False,0.556
+557,58,Female,0.444,0.897,Stress,0.62,True,False,True,True,True,nan,False,0.8,0.0,0.16,0.0,True,False,0.556
+558,31,Female,0.222,0.923,Social Anxiety,0.405,False,False,True,False,True,Depression,False,1.0,0.0,0.88,0.444,False,True,0.778
+559,32,Non-binary,0.444,0.641,Phobia,0.152,True,False,False,False,False,PTSD,False,0.6,0.667,0.22,0.556,False,True,0.778
+560,48,Male,0.222,0.538,Social Anxiety,0.975,False,True,True,True,True,PTSD,False,0.0,0.0,0.12,0.556,True,True,0.222
+561,33,Female,0.556,0.436,Caffeine,0.608,True,True,False,False,True,Anxiety,True,0.2,0.833,0.8,0.556,False,True,0.667
+562,40,Female,0.0,0.949,Caffeine,0.443,True,False,True,True,True,Depression,True,0.0,0.833,0.86,0.778,True,True,0.889
+563,28,Male,0.667,0.59,Caffeine,0.114,False,True,True,True,False,Anxiety,False,0.8,0.167,0.84,0.556,False,True,0.667
+564,29,Non-binary,0.667,0.564,Stress,0.063,True,False,False,True,True,PTSD,True,1.0,0.833,0.32,0.889,True,False,1.0
+565,27,Male,1.0,0.538,PTSD,0.709,False,True,True,True,True,Depression,True,0.2,0.0,0.5,1.0,False,False,0.889
+566,33,Male,0.333,0.769,Social Anxiety,0.886,False,False,False,False,False,Anxiety,False,0.6,0.0,0.32,0.667,False,False,0.0
+567,25,Male,0.778,0.256,Social Anxiety,0.722,True,True,False,False,False,nan,True,0.4,1.0,0.04,0.444,False,False,0.222
+568,55,Female,0.556,0.692,Social Anxiety,0.253,False,False,False,False,False,Anxiety,True,0.8,0.667,0.5,0.0,False,True,0.889
+569,29,Male,0.333,0.795,Social Anxiety,1.0,True,True,True,True,False,Anxiety,True,0.2,0.5,0.02,0.222,False,True,0.0
+570,41,Male,0.333,0.103,Caffeine,0.696,True,False,False,False,True,Anxiety,False,0.6,1.0,0.96,0.333,False,False,0.0
+571,45,Male,0.111,0.949,Social Anxiety,0.241,True,True,True,False,True,nan,True,0.4,0.167,0.8,0.111,True,False,0.444
+572,25,Female,0.111,0.231,PTSD,0.671,False,True,True,False,True,nan,False,0.4,0.833,0.2,0.667,False,True,0.778
+573,45,Female,0.333,1.0,Caffeine,0.304,True,True,True,False,True,Depression,False,0.6,0.333,0.28,0.0,False,False,0.111
+574,53,Male,0.444,0.59,Social Anxiety,0.342,True,True,True,False,False,PTSD,False,0.2,1.0,0.98,0.222,False,False,0.333
+575,43,Female,0.778,0.872,Stress,0.051,False,False,False,False,False,Anxiety,True,0.4,0.5,0.38,0.889,False,True,0.556
+576,25,Female,0.556,0.564,Phobia,0.253,True,True,True,True,True,nan,True,0.8,0.333,0.78,0.111,False,False,0.0
+577,45,Male,0.333,0.41,Phobia,0.215,True,True,False,False,False,Anxiety,False,0.0,0.167,0.44,0.444,False,False,0.333
+578,45,Male,0.667,0.0,Phobia,0.582,True,True,False,True,True,Anxiety,False,0.8,0.833,0.86,0.333,False,True,0.333
+579,54,Male,0.778,0.769,Caffeine,0.873,True,True,False,True,True,Anxiety,True,1.0,0.667,0.7,0.222,False,False,0.889
+580,58,Male,0.111,0.769,Social Anxiety,0.709,False,False,True,True,False,Depression,False,0.4,1.0,0.02,0.444,True,True,0.889
+581,26,Female,0.778,0.308,Caffeine,0.519,True,True,False,True,True,Depression,True,0.0,0.333,0.1,0.0,False,True,0.333
+582,50,Male,0.111,0.615,PTSD,0.253,True,True,True,False,False,Anxiety,False,0.0,0.333,0.6,0.222,True,True,1.0
+583,37,Female,0.889,0.436,Stress,0.494,True,False,True,True,False,Depression,False,0.4,0.167,0.3,0.778,False,True,0.778
+584,30,Male,0.0,0.282,Stress,0.835,True,True,False,False,True,Depression,False,1.0,1.0,0.88,0.778,False,True,0.222
+585,45,Non-binary,0.889,1.0,Phobia,0.304,True,False,True,True,True,PTSD,False,1.0,0.0,0.76,0.333,False,False,0.111
+586,46,Female,0.0,0.41,Phobia,0.684,False,False,False,False,False,Depression,False,0.2,0.167,0.36,0.556,False,True,0.556
+587,52,Male,0.111,0.359,Phobia,0.696,True,False,True,False,True,Depression,False,0.2,0.667,0.62,0.111,True,True,0.0
+588,23,Female,0.556,0.974,Social Anxiety,0.684,False,True,True,True,False,nan,True,0.6,0.167,0.4,0.111,True,False,1.0
+589,35,Non-binary,0.556,0.308,PTSD,0.873,False,False,True,False,False,Anxiety,True,0.6,0.5,0.32,0.222,False,False,0.222
+590,22,Female,0.0,0.41,PTSD,0.962,False,True,False,False,True,PTSD,True,0.6,0.833,0.98,0.778,False,True,0.667
+591,64,Female,0.667,0.795,PTSD,0.911,True,False,False,False,False,Depression,False,0.6,0.833,0.46,1.0,False,True,1.0
+592,42,Female,0.778,0.205,PTSD,0.823,False,False,False,False,True,Anxiety,False,0.6,0.833,0.74,0.889,False,False,0.333
+593,19,Male,0.111,1.0,Phobia,0.228,True,True,True,True,False,nan,False,0.8,0.0,0.18,0.222,False,False,1.0
+594,27,Male,0.778,0.487,Stress,0.076,True,True,False,False,False,Depression,False,0.4,0.5,0.02,0.889,False,True,0.444
+595,47,Female,0.889,0.641,Phobia,0.785,True,False,False,True,False,Anxiety,False,0.2,1.0,0.42,1.0,False,True,0.778
+596,62,Male,0.556,0.667,PTSD,0.519,True,True,False,False,True,Anxiety,False,0.6,1.0,0.66,0.778,False,True,0.0
+597,22,Female,0.444,0.513,Phobia,0.519,True,True,True,True,True,Anxiety,False,0.8,0.167,0.5,0.444,True,True,0.0
+598,50,Non-binary,0.889,0.436,PTSD,0.734,True,True,False,False,True,PTSD,False,1.0,0.0,0.9,1.0,False,False,0.667
+599,18,Male,0.889,0.308,Caffeine,0.241,True,True,False,True,False,Depression,False,0.8,0.833,0.44,0.222,False,True,0.889
+600,49,Female,0.222,0.205,Stress,0.203,True,True,False,False,True,Anxiety,False,0.4,0.5,0.92,0.889,False,True,0.778
+601,64,Male,0.889,0.282,Caffeine,0.329,True,True,True,False,True,Anxiety,False,0.6,1.0,0.4,0.556,False,True,1.0
+602,28,Female,0.111,0.949,Social Anxiety,0.582,True,False,False,False,False,Anxiety,False,0.8,0.5,0.26,0.222,False,True,0.667
+603,38,Male,0.333,0.462,Phobia,0.013,False,True,False,True,True,Depression,False,0.8,0.0,0.1,0.444,False,True,0.111
+604,43,Female,0.333,0.154,Social Anxiety,0.785,True,True,False,True,True,nan,False,0.6,1.0,0.8,0.667,False,True,0.444
+605,42,Male,0.111,0.872,Phobia,0.772,True,True,True,False,True,Depression,False,0.4,0.833,0.82,0.778,False,False,0.889
+606,44,Female,0.222,0.385,Caffeine,0.203,False,True,False,False,False,PTSD,False,0.2,0.333,0.36,0.111,False,True,0.222
+607,50,Male,0.556,0.077,PTSD,0.481,True,True,True,False,False,Anxiety,True,1.0,0.0,0.94,0.111,False,True,0.111
+608,52,Male,0.444,1.0,PTSD,0.443,True,False,True,False,False,Anxiety,False,0.4,0.833,0.4,0.0,False,True,0.444
+609,18,Male,0.0,0.308,Phobia,0.494,True,False,True,False,True,Anxiety,True,0.8,0.667,0.18,0.667,False,False,0.667
+610,38,Male,1.0,0.41,PTSD,0.557,True,False,True,False,True,Depression,True,0.0,0.833,0.0,0.556,True,True,0.333
+611,23,Female,0.667,0.923,Caffeine,0.038,True,True,False,False,False,Depression,True,0.0,0.333,0.34,0.111,True,True,0.444
+612,34,Female,0.0,0.462,PTSD,0.861,True,True,False,True,True,Anxiety,False,0.6,0.667,0.94,0.444,False,False,0.889
+613,48,Male,0.778,0.641,Caffeine,0.949,False,False,False,False,False,nan,False,0.8,0.167,0.38,0.222,True,True,0.556
+614,22,Female,0.667,0.333,Social Anxiety,0.848,True,True,False,True,True,PTSD,False,1.0,0.833,0.02,0.667,False,True,0.111
+615,55,Female,1.0,0.769,Caffeine,0.354,False,True,True,True,False,Anxiety,False,0.6,1.0,0.76,0.667,False,True,0.222
+616,20,Non-binary,0.667,0.077,Stress,0.911,True,True,False,False,False,Anxiety,False,0.8,0.667,0.92,1.0,False,True,0.889
+617,40,Male,0.444,0.974,Stress,0.848,True,False,True,False,False,Anxiety,False,0.2,1.0,0.24,0.0,False,True,0.556
+618,54,Female,0.444,0.179,Stress,0.633,True,False,False,False,True,Anxiety,True,1.0,0.0,0.42,1.0,True,False,0.778
+619,27,Male,0.0,0.308,Phobia,0.165,False,True,True,False,True,Depression,False,0.6,0.167,0.46,0.556,True,False,0.111
+620,27,Female,0.778,0.795,Phobia,0.861,True,False,False,False,True,PTSD,True,1.0,0.333,0.14,0.778,False,True,0.667
+621,36,Female,0.0,0.949,Phobia,0.215,False,True,True,False,True,Depression,True,0.0,0.667,0.52,0.222,False,True,0.556
+622,38,Male,0.889,0.692,Caffeine,0.709,False,True,True,True,True,Anxiety,True,0.2,0.333,0.56,0.778,False,False,0.556
+623,31,Male,0.889,0.744,Phobia,0.139,False,True,False,False,True,Depression,False,0.2,0.5,0.24,0.778,False,True,0.778
+624,26,Female,0.444,0.051,Social Anxiety,0.203,False,True,True,True,True,Anxiety,False,0.4,0.5,0.36,0.778,False,False,0.0
+625,63,Female,0.333,0.692,Stress,0.367,True,False,True,True,True,Anxiety,True,1.0,0.333,0.64,0.0,False,False,0.333
+626,18,Male,0.222,0.051,Caffeine,0.937,True,False,True,False,False,Anxiety,False,0.2,0.0,0.58,0.778,False,False,0.0
+627,62,Male,0.222,0.846,Stress,0.278,True,True,True,True,False,Anxiety,False,1.0,0.0,0.14,0.778,False,False,0.111
+628,30,Male,0.444,0.385,Phobia,0.0,True,True,True,False,False,Anxiety,True,0.8,0.5,0.84,0.111,False,False,0.0
+629,21,Female,1.0,0.538,Caffeine,0.987,True,False,False,False,True,PTSD,False,0.8,0.0,0.48,0.889,True,False,0.556
+630,18,Male,0.0,0.795,PTSD,0.392,True,True,True,False,True,PTSD,False,0.2,1.0,0.16,0.667,False,False,0.556
+631,57,Male,0.444,0.949,Social Anxiety,0.101,True,False,True,False,False,Anxiety,False,0.8,0.0,0.12,0.778,False,True,0.0
+632,49,Male,0.556,0.179,Phobia,0.177,True,True,True,False,True,Anxiety,False,1.0,0.333,0.96,0.111,False,True,0.333
+633,51,Male,0.667,0.179,Phobia,0.342,True,True,False,True,False,PTSD,False,0.8,0.833,0.28,0.333,False,False,0.333
+634,45,Male,0.889,0.128,Social Anxiety,0.291,True,False,False,False,True,Anxiety,True,0.0,0.333,0.9,0.667,False,False,0.778
+635,48,Female,0.222,0.333,Social Anxiety,0.747,False,False,False,False,False,Anxiety,False,1.0,0.0,0.42,0.556,False,True,0.556
+636,25,Male,0.111,0.795,PTSD,0.43,True,True,False,False,True,Anxiety,False,0.6,0.333,0.38,0.667,True,True,0.111
+637,56,Female,0.222,0.872,Phobia,0.329,True,True,True,False,True,Anxiety,True,0.8,0.667,0.7,0.0,False,False,0.444
+638,51,Female,0.667,0.051,Phobia,0.241,True,True,True,True,False,PTSD,False,1.0,0.833,0.34,0.667,False,True,1.0
+639,20,Female,0.889,0.282,Stress,0.81,True,False,False,True,True,Anxiety,True,0.4,0.667,0.3,0.333,False,False,0.333
+640,29,Female,0.111,0.769,Caffeine,0.608,True,True,False,True,False,Anxiety,False,0.6,0.667,0.86,0.0,False,False,0.778
+641,18,Female,0.444,0.718,Caffeine,0.0,True,True,True,False,False,Anxiety,True,0.6,0.0,0.52,0.778,True,False,0.444
+642,61,Male,0.333,0.103,Stress,0.114,False,False,True,False,True,Anxiety,False,0.6,0.0,0.36,1.0,False,True,0.222
+643,22,Male,0.111,0.615,Caffeine,0.582,True,False,True,True,True,nan,True,0.2,0.667,0.26,0.667,True,True,1.0
+644,47,Female,0.889,0.769,Social Anxiety,0.734,True,True,True,False,True,Depression,False,0.0,0.667,0.6,0.778,False,True,0.333
+645,47,Non-binary,0.889,0.513,Caffeine,0.772,True,False,False,False,True,Depression,True,0.0,0.167,0.16,1.0,False,True,0.0
+646,34,Female,0.556,0.487,Caffeine,0.215,True,True,True,True,False,PTSD,True,0.4,0.167,0.24,0.0,False,True,0.556
+647,64,Female,0.556,0.974,Stress,0.57,False,True,False,True,True,PTSD,True,0.6,1.0,0.3,0.444,False,False,1.0
+648,40,Female,0.778,0.538,PTSD,0.392,True,False,True,False,True,PTSD,False,0.6,0.5,0.6,0.889,False,True,0.333
+649,32,Female,0.556,0.077,Caffeine,0.329,True,False,False,False,True,Anxiety,False,0.8,0.667,0.38,0.444,True,False,0.556
+650,38,Female,0.333,0.487,Caffeine,0.481,True,True,False,True,True,Depression,False,0.2,0.833,0.66,0.222,True,True,0.444
+651,31,Non-binary,0.667,0.308,PTSD,0.608,True,True,False,False,True,Anxiety,False,0.2,0.167,0.96,0.889,False,False,0.889
+652,19,Male,0.111,0.41,Stress,0.544,False,True,False,True,True,nan,True,0.4,0.0,0.76,0.889,True,False,0.778
+653,28,Female,0.889,0.897,PTSD,0.899,False,True,False,True,False,Depression,False,0.0,0.667,0.4,0.333,False,False,0.222
+654,56,Male,0.778,0.821,Stress,0.671,False,False,False,False,True,nan,True,0.6,0.333,0.74,0.333,False,True,0.0
+655,55,Female,0.778,0.0,Social Anxiety,0.418,False,True,False,True,False,Anxiety,False,1.0,0.833,0.94,0.778,False,False,1.0
+656,51,Male,0.667,0.359,Stress,0.886,True,False,False,True,True,PTSD,False,0.4,0.333,0.5,0.667,True,True,0.222
+657,55,Female,0.333,0.308,Social Anxiety,0.443,True,True,False,True,True,Anxiety,False,0.2,1.0,0.42,0.444,False,False,0.778
+658,51,Female,0.111,0.41,Social Anxiety,0.215,False,True,False,True,False,nan,True,0.2,0.333,0.08,0.556,False,True,0.222
+659,35,Male,0.222,0.59,Stress,0.468,False,True,False,False,True,Anxiety,False,0.2,0.0,0.9,0.222,False,False,0.444
+660,32,Female,0.444,0.667,Phobia,0.101,True,True,True,True,False,PTSD,True,0.6,0.333,0.06,0.778,False,True,0.0
+661,44,Non-binary,0.778,0.564,Stress,0.911,True,False,True,True,False,Depression,True,0.6,0.833,0.54,1.0,False,False,1.0
+662,51,Male,0.556,0.179,Caffeine,0.899,False,True,False,True,False,Depression,False,0.8,0.167,0.84,0.889,True,False,0.444
+663,41,Non-binary,0.333,0.308,Caffeine,0.051,True,False,False,False,False,Depression,True,0.2,0.5,0.84,0.222,False,False,0.111
+664,32,Non-binary,0.444,0.974,Phobia,0.165,True,True,False,True,False,Anxiety,False,0.8,0.0,0.46,0.111,True,False,0.889
+665,59,Female,0.889,0.692,Social Anxiety,0.038,False,True,False,False,True,Depression,True,0.2,1.0,0.54,0.333,True,False,0.111
+666,34,Female,0.0,0.615,Phobia,0.481,True,False,False,False,True,Depression,True,0.6,1.0,0.94,0.444,False,True,0.444
+667,22,Female,0.556,0.385,Caffeine,0.797,True,False,True,True,False,Anxiety,False,0.6,0.167,0.72,0.556,False,True,0.889
+668,46,Male,0.556,0.026,Phobia,0.304,False,True,False,False,True,Depression,False,0.0,0.333,0.92,0.222,False,False,0.333
+669,21,Female,1.0,0.436,Stress,0.342,True,True,False,False,True,Anxiety,False,0.2,0.833,0.22,0.0,False,False,0.556
+670,27,Male,0.444,0.41,Phobia,0.949,False,True,True,False,True,Anxiety,False,0.4,0.333,0.32,0.333,True,False,0.111
+671,34,Female,0.444,0.744,Social Anxiety,0.823,True,False,True,False,False,Depression,True,0.2,0.833,0.08,0.556,True,True,0.333
+672,27,Female,1.0,0.974,Stress,0.975,False,True,False,False,True,Anxiety,True,0.2,1.0,0.5,0.111,False,False,0.889
+673,34,Female,0.444,0.308,PTSD,0.266,True,True,True,False,False,Anxiety,True,0.0,1.0,0.88,0.111,True,True,0.111
+674,37,Male,0.556,0.795,Caffeine,0.38,False,True,True,True,True,Depression,True,0.4,0.0,0.32,0.0,False,False,0.0
+675,41,Male,0.778,0.718,Caffeine,0.278,False,True,True,False,False,Anxiety,False,0.2,0.167,0.12,0.889,False,True,0.333
+676,22,Male,0.111,0.744,Phobia,0.595,True,False,False,False,False,Anxiety,False,1.0,0.667,0.06,0.222,True,True,0.333
+677,23,Male,0.0,0.308,Stress,0.468,True,False,False,True,False,Depression,True,0.4,0.833,0.16,0.333,False,True,0.333
+678,19,Non-binary,0.333,0.513,PTSD,0.684,True,False,True,True,True,Depression,False,1.0,0.833,0.34,0.556,False,False,0.222
+679,30,Female,1.0,0.744,Stress,0.848,False,True,False,False,True,PTSD,False,0.6,0.333,0.82,0.0,False,False,0.111
+680,60,Male,0.222,0.513,Caffeine,0.987,True,False,True,False,False,Anxiety,True,0.6,0.333,0.38,0.889,True,True,1.0
+681,60,Male,0.889,0.41,Stress,0.0,True,True,True,False,True,Anxiety,False,0.4,1.0,0.6,0.889,False,False,0.333
+682,28,Male,0.222,1.0,PTSD,0.076,True,False,True,True,True,Anxiety,True,0.2,1.0,0.5,0.778,False,True,0.778
+683,40,Female,0.0,0.359,Phobia,0.139,False,False,False,False,True,nan,False,1.0,0.833,0.16,0.333,True,False,0.889
+684,33,Non-binary,0.556,0.205,Social Anxiety,0.051,True,True,False,True,False,Anxiety,False,0.4,0.0,0.92,0.111,False,False,0.778
+685,48,Female,0.333,0.231,Stress,0.62,True,True,True,False,True,Anxiety,True,1.0,0.167,0.64,0.778,False,True,0.0
+686,28,Non-binary,0.778,0.769,Social Anxiety,0.519,True,True,False,False,False,Anxiety,True,0.6,0.167,0.28,0.667,False,False,0.111
+687,33,Female,0.889,0.564,Caffeine,0.139,True,True,False,False,False,Depression,False,0.4,0.167,0.12,0.333,False,True,0.111
+688,25,Male,0.333,0.744,Phobia,0.215,True,False,False,False,True,Depression,False,0.8,0.833,0.14,0.222,False,False,0.778
+689,21,Non-binary,1.0,0.821,Phobia,0.823,True,True,True,False,True,Depression,False,1.0,0.333,0.78,0.556,False,False,0.333
+690,57,Male,1.0,0.205,Stress,0.924,True,False,False,True,False,PTSD,True,0.8,0.0,0.58,0.0,False,True,0.889
+691,42,Male,0.0,0.872,Phobia,0.203,True,False,False,True,True,Anxiety,True,0.2,0.833,0.34,0.667,False,True,0.333
+692,20,Female,0.333,0.256,Stress,0.848,True,True,True,True,True,Anxiety,True,1.0,0.667,0.86,0.222,False,True,0.0
+693,49,Female,0.667,0.846,Stress,0.886,True,True,False,True,False,Depression,True,0.2,1.0,0.88,0.0,False,False,0.222
+694,20,Female,0.0,0.385,Social Anxiety,0.772,False,True,True,False,False,Depression,True,0.6,0.5,0.58,0.111,False,False,0.556
+695,44,Female,0.778,0.205,Phobia,0.506,False,False,True,False,True,Depression,False,0.2,0.5,0.52,1.0,False,True,0.889
+696,46,Male,1.0,0.795,Stress,0.418,True,True,False,True,True,Depression,True,1.0,0.167,0.82,1.0,False,False,0.0
+697,49,Male,0.556,0.359,Social Anxiety,0.873,True,False,False,True,False,Depression,False,0.0,0.333,0.74,0.889,True,True,0.444
+698,36,Male,0.444,0.282,PTSD,0.557,False,False,False,False,False,PTSD,True,1.0,0.5,0.4,0.667,True,True,0.111
+699,38,Male,1.0,0.821,Social Anxiety,0.722,False,True,False,False,False,Depression,False,1.0,0.5,0.08,0.667,False,False,0.667
+700,22,Female,0.889,0.333,Social Anxiety,0.633,True,False,True,False,False,PTSD,True,0.8,0.5,0.76,1.0,False,False,0.333
+701,35,Male,0.111,0.179,Stress,0.418,True,True,False,False,True,Anxiety,False,0.0,0.5,0.16,0.778,False,False,0.444
+702,45,Non-binary,0.444,0.179,Caffeine,0.544,True,True,True,False,False,Depression,True,0.0,0.167,0.02,0.778,False,True,0.778
+703,59,Female,0.556,0.667,Caffeine,0.177,True,False,True,True,True,nan,False,0.0,0.833,0.84,0.889,False,False,0.111
+704,38,Male,0.444,0.0,Caffeine,0.873,True,False,False,True,False,PTSD,False,0.6,0.0,0.9,0.778,True,True,0.444
+705,23,Female,0.889,1.0,Social Anxiety,0.62,True,True,False,False,True,PTSD,True,0.0,0.333,0.48,0.778,False,True,1.0
+706,22,Female,0.667,0.974,Stress,0.835,True,True,False,False,True,Depression,False,0.2,1.0,0.36,0.444,False,True,0.444
+707,58,Female,1.0,0.769,Phobia,0.025,True,False,True,False,False,Anxiety,True,0.6,0.667,0.72,0.333,False,True,0.222
+708,29,Female,0.667,0.41,Social Anxiety,0.924,True,True,True,False,False,nan,False,0.4,0.0,0.3,0.444,False,False,0.889
+709,43,Male,0.333,0.821,Social Anxiety,0.633,True,False,False,True,True,PTSD,False,1.0,0.667,0.0,0.111,False,False,0.778
+710,51,Male,0.444,0.718,Stress,0.949,False,True,True,True,True,Anxiety,False,0.4,0.0,0.74,0.444,False,False,0.0
+711,31,Male,0.333,0.513,PTSD,0.595,True,True,True,True,False,Depression,False,0.8,0.333,0.16,0.222,False,False,0.333
+712,43,Male,0.667,0.513,Social Anxiety,0.203,False,True,False,True,True,Anxiety,False,0.8,0.5,0.5,0.0,False,False,0.667
+713,62,Male,0.333,1.0,PTSD,0.076,False,True,True,False,False,Anxiety,False,0.4,0.333,0.22,0.889,False,True,1.0
+714,44,Male,0.222,0.564,PTSD,0.152,True,False,False,False,True,Depression,False,0.8,0.0,0.08,0.111,True,True,0.444
+715,26,Male,0.889,0.128,Caffeine,0.823,True,False,False,False,True,Anxiety,False,0.2,0.833,0.62,1.0,False,True,0.333
+716,43,Non-binary,0.778,0.538,Stress,0.038,True,True,True,False,True,Anxiety,False,0.2,0.5,0.96,0.111,True,True,0.889
+717,64,Female,0.0,0.949,PTSD,0.114,False,True,False,False,True,PTSD,False,1.0,0.833,0.32,0.333,False,True,0.778
+718,39,Non-binary,0.667,0.923,Stress,0.203,False,True,False,False,False,nan,True,0.8,0.833,0.58,0.111,False,True,0.222
+719,64,Male,0.889,0.179,Caffeine,0.646,False,False,False,True,False,PTSD,True,0.0,0.833,0.96,0.667,True,True,0.556
+720,47,Male,0.778,0.872,Stress,0.063,True,True,False,True,False,PTSD,True,0.4,0.5,0.66,1.0,False,True,0.333
+721,60,Female,0.778,0.256,Social Anxiety,0.861,True,False,True,False,True,Anxiety,True,0.2,0.833,0.68,0.0,False,False,0.667
+722,34,Male,0.556,0.59,PTSD,0.924,True,True,False,False,True,Anxiety,True,0.8,0.5,0.18,0.111,False,True,0.0
+723,43,Male,0.333,0.513,Stress,0.101,True,True,True,False,True,Anxiety,False,0.8,0.667,0.5,0.444,False,False,0.0
+724,53,Female,0.778,0.026,Phobia,0.962,True,False,False,False,False,PTSD,True,0.2,1.0,0.36,0.111,False,True,0.556
+725,18,Male,0.222,1.0,Stress,0.253,True,True,False,True,False,nan,False,0.2,0.0,0.48,0.889,False,False,1.0
+726,25,Female,0.889,0.462,PTSD,0.291,False,True,False,True,True,PTSD,False,0.0,0.167,0.8,0.333,False,False,0.667
+727,52,Female,0.111,0.974,Caffeine,0.038,True,True,True,False,True,PTSD,True,0.8,0.833,0.46,0.889,False,False,0.889
+728,32,Male,0.111,0.692,Caffeine,0.291,True,True,True,True,True,Depression,True,0.8,0.333,0.06,0.0,True,False,0.667
+729,64,Male,0.667,0.41,PTSD,0.734,True,True,True,True,False,Anxiety,False,0.6,0.667,0.9,0.0,False,False,0.889
+730,39,Female,1.0,0.128,Social Anxiety,0.025,False,False,True,False,False,Depression,False,1.0,0.333,0.54,0.0,False,True,1.0
+731,31,Female,0.333,0.462,Social Anxiety,0.848,False,False,True,True,False,Anxiety,False,0.0,0.167,0.92,0.333,False,False,0.889
+732,43,Male,1.0,0.949,Caffeine,0.494,True,True,False,False,True,Anxiety,False,0.2,0.5,0.58,0.889,True,False,0.778
+733,45,Non-binary,0.778,0.692,Caffeine,0.595,True,False,True,False,False,Depression,False,0.2,0.167,0.06,0.778,False,False,0.667
+734,40,Male,0.889,0.026,PTSD,0.671,True,True,False,False,False,Depression,False,0.4,0.333,0.56,0.667,False,True,0.222
+735,31,Female,0.667,0.949,Social Anxiety,0.43,False,True,True,True,True,Depression,False,1.0,0.167,0.58,0.0,False,False,0.222
+736,41,Non-binary,0.444,0.923,Caffeine,0.696,True,True,False,True,False,Depression,False,0.2,0.0,0.22,0.222,False,False,0.444
+737,19,Male,0.778,0.077,Social Anxiety,0.494,True,True,False,False,True,Anxiety,False,0.8,0.167,0.48,0.889,False,False,0.667
+738,62,Male,0.333,0.538,Caffeine,0.962,True,True,False,True,True,Depression,True,0.2,0.833,0.46,0.889,False,False,1.0
+739,43,Male,0.111,0.641,Stress,0.848,True,False,False,True,False,Depression,False,0.8,0.0,0.62,0.444,False,True,0.667
+740,31,Male,0.556,0.897,Phobia,0.57,False,True,True,True,True,Anxiety,False,0.8,0.833,0.26,0.556,False,True,0.0
+741,20,Female,0.0,0.795,Stress,0.152,True,True,True,True,False,Depression,True,0.2,1.0,0.24,1.0,True,True,0.0
+742,40,Female,0.667,0.897,Caffeine,0.063,True,False,False,True,False,PTSD,True,1.0,0.0,0.12,0.0,False,True,0.111
+743,63,Non-binary,1.0,0.462,Phobia,0.203,False,True,True,True,False,PTSD,True,0.8,0.0,0.04,0.444,False,True,0.444
+744,60,Female,0.889,0.872,Phobia,0.443,True,True,False,False,True,PTSD,True,1.0,1.0,0.32,0.0,False,True,0.556
+745,64,Female,1.0,1.0,Caffeine,0.013,False,True,True,False,True,Anxiety,False,0.2,0.167,0.28,0.0,False,True,0.333
+746,62,Male,0.889,0.692,Caffeine,0.962,False,True,True,True,True,Anxiety,True,1.0,0.667,0.4,0.444,True,False,0.333
+747,35,Female,1.0,0.0,Social Anxiety,0.646,True,True,True,True,True,Anxiety,True,1.0,0.5,0.96,0.444,False,False,0.667
+748,55,Female,0.222,0.436,Caffeine,0.823,True,True,True,False,True,Anxiety,True,0.2,0.5,0.52,0.667,False,False,0.333
+749,52,Male,0.444,1.0,PTSD,0.646,True,True,True,False,True,nan,False,0.0,0.5,0.56,0.111,True,True,0.111
+750,32,Male,0.778,0.821,Caffeine,0.532,False,True,True,False,True,Depression,True,0.0,0.0,0.94,0.556,True,False,0.333
+751,42,Female,0.778,0.282,PTSD,0.266,True,True,True,False,False,Anxiety,True,0.8,1.0,0.92,0.111,True,False,0.667
+752,54,Male,0.333,0.179,Caffeine,0.684,True,False,False,True,True,Anxiety,False,0.8,0.5,0.88,1.0,False,False,0.0
+753,45,Male,0.0,0.59,Social Anxiety,0.835,True,False,True,False,False,Anxiety,False,0.2,1.0,0.1,0.444,True,False,0.333
+754,27,Male,0.0,0.385,PTSD,0.747,False,True,False,True,False,Depression,True,0.2,0.0,0.64,0.333,False,False,0.556
+755,56,Male,0.333,0.077,Stress,0.722,True,True,True,False,False,PTSD,True,0.6,1.0,0.8,1.0,False,False,0.778
+756,34,Female,0.556,0.949,PTSD,0.139,True,True,False,False,True,PTSD,True,0.6,0.667,0.84,0.444,False,True,0.778
+757,56,Female,0.778,0.667,Social Anxiety,0.861,True,True,True,False,False,nan,False,0.4,0.167,0.58,0.111,False,True,0.889
+758,43,Male,0.889,0.385,PTSD,0.152,False,True,False,True,False,Anxiety,False,1.0,1.0,0.98,0.778,False,True,0.111
+759,61,Male,0.889,0.282,Caffeine,0.506,True,False,True,False,True,Anxiety,True,0.4,0.167,0.48,0.556,False,True,0.222
+760,42,Female,0.111,0.769,Caffeine,0.709,False,False,False,False,True,Anxiety,False,0.4,0.0,0.4,0.222,False,False,0.111
+761,30,Male,0.0,0.333,Social Anxiety,0.139,True,True,False,True,True,Depression,True,1.0,1.0,0.42,0.0,False,False,0.556
+762,37,Female,0.111,0.615,Phobia,0.152,True,True,True,True,True,PTSD,False,0.0,0.667,0.24,0.889,True,False,0.0
+763,42,Male,0.444,0.846,Caffeine,0.924,True,True,True,False,True,Depression,True,0.6,0.5,0.32,1.0,False,True,0.222
+764,21,Female,0.333,0.051,Stress,0.709,True,True,False,True,False,Anxiety,True,0.4,0.667,0.98,0.444,False,True,0.667
+765,27,Male,0.333,0.59,Social Anxiety,0.494,True,True,True,False,False,Anxiety,False,0.6,0.167,0.36,0.778,False,True,0.667
+766,20,Male,0.889,0.205,PTSD,1.0,True,False,False,False,True,Depression,False,1.0,0.167,0.52,0.222,False,True,0.444
+767,58,Male,0.778,0.641,PTSD,0.557,True,True,True,False,False,PTSD,True,1.0,0.833,0.84,0.333,False,True,0.222
+768,62,Non-binary,0.556,0.487,Stress,0.43,True,True,False,False,False,Anxiety,False,0.8,0.5,0.52,0.333,True,True,0.667
+769,35,Female,0.0,1.0,Caffeine,0.025,False,False,True,False,True,PTSD,False,0.2,1.0,0.32,0.778,False,True,0.444
+770,64,Non-binary,0.111,0.231,Social Anxiety,0.051,True,False,False,True,False,PTSD,False,0.0,0.167,0.52,0.889,False,True,0.556
+771,53,Female,0.556,0.462,Stress,0.127,True,True,False,False,False,Depression,False,0.8,0.833,0.12,0.222,False,False,0.222
+772,64,Male,0.111,0.051,Caffeine,0.886,True,False,True,True,False,PTSD,False,0.8,0.0,0.14,0.667,False,False,0.556
+773,39,Female,1.0,0.59,Social Anxiety,0.696,False,True,True,False,True,Depression,True,0.0,0.167,0.7,0.889,False,False,0.667
+774,51,Female,0.444,0.103,PTSD,0.114,False,True,True,True,False,Depression,False,0.0,0.333,0.92,0.111,False,False,0.778
+775,64,Female,0.444,0.051,Social Anxiety,0.418,True,True,False,False,True,PTSD,True,1.0,0.5,0.72,0.333,False,True,0.111
+776,57,Female,0.556,0.385,Phobia,0.899,True,False,True,True,True,Anxiety,False,0.4,0.5,0.4,0.778,False,True,0.556
+777,61,Male,0.556,0.359,Social Anxiety,0.38,True,False,True,False,False,Depression,True,0.6,0.5,0.0,0.333,True,True,0.778
+778,36,Male,0.111,0.872,Phobia,0.937,False,False,True,True,False,Anxiety,False,1.0,0.333,0.52,0.889,False,False,0.444
+779,59,Female,1.0,0.282,Social Anxiety,0.886,False,True,False,False,True,Anxiety,False,0.8,0.667,0.2,0.0,False,True,0.0
+780,58,Female,0.222,0.641,Phobia,0.823,True,True,False,False,True,Depression,False,0.4,0.0,0.86,0.0,True,True,0.0
+781,23,Male,0.778,0.564,PTSD,0.506,True,True,False,False,True,Anxiety,True,0.8,0.167,0.0,0.222,False,False,0.889
+782,43,Female,0.0,0.769,Caffeine,0.785,False,False,False,True,False,Anxiety,False,1.0,0.0,0.46,0.222,False,True,0.333
+783,51,Female,0.0,0.487,Phobia,0.392,True,False,True,True,True,Anxiety,False,0.8,0.167,0.16,1.0,False,True,1.0
+784,23,Non-binary,0.556,0.564,Phobia,0.709,True,True,False,False,False,Anxiety,True,1.0,1.0,0.92,1.0,False,False,0.778
+785,54,Female,0.889,0.077,PTSD,0.62,True,True,False,True,True,Anxiety,False,0.6,0.0,0.04,1.0,True,True,0.111
+786,50,Male,0.333,0.564,Phobia,1.0,True,True,False,False,True,PTSD,True,0.8,0.833,0.4,0.111,True,False,0.111
+787,23,Male,1.0,0.026,Stress,0.886,True,True,True,True,False,PTSD,False,0.2,1.0,0.96,0.778,True,False,0.889
+788,23,Female,0.889,0.744,PTSD,0.481,True,True,False,False,True,Anxiety,True,0.6,0.0,0.16,1.0,False,False,0.0
+789,21,Male,0.444,0.051,Stress,0.203,True,True,False,False,True,Depression,True,1.0,0.5,0.22,0.222,False,True,0.556
+790,47,Non-binary,0.889,0.513,PTSD,0.557,True,True,False,False,False,Depression,True,0.0,0.167,0.16,0.111,False,False,0.667
+791,28,Female,0.111,0.615,Phobia,0.127,False,False,True,False,True,Depression,False,1.0,1.0,0.3,0.889,False,True,0.333
+792,48,Female,0.667,0.538,Stress,0.278,False,False,True,True,True,Anxiety,False,0.6,0.333,0.16,0.444,False,False,0.333
+793,41,Female,0.667,0.513,Phobia,0.873,True,True,True,False,True,PTSD,False,0.2,0.0,0.52,0.556,False,True,0.333
+794,20,Female,0.556,0.949,PTSD,0.013,True,True,True,True,True,Anxiety,False,0.4,0.0,0.82,0.667,True,False,0.0
+795,57,Female,1.0,0.359,Phobia,0.899,True,False,False,True,True,Anxiety,False,0.6,0.0,0.22,0.889,False,True,1.0
+796,54,Male,0.556,0.615,Stress,0.456,False,True,False,False,True,Anxiety,True,0.8,0.5,0.6,0.556,False,True,1.0
+797,53,Female,0.333,0.513,Stress,0.608,True,False,True,False,False,Depression,False,0.2,0.5,0.1,0.0,False,False,0.667
+798,48,Female,0.111,0.103,Phobia,0.405,True,True,True,False,False,Anxiety,False,0.4,1.0,0.44,1.0,False,False,0.778
+799,23,Male,0.0,0.128,Social Anxiety,0.266,False,True,False,False,True,PTSD,True,0.8,0.667,0.86,0.889,True,True,0.667
+800,19,Male,0.444,0.564,PTSD,0.051,True,False,False,False,False,Anxiety,False,0.0,1.0,0.62,0.444,False,False,0.556
+801,37,Female,0.111,0.077,PTSD,0.215,True,True,False,False,False,PTSD,True,0.0,1.0,0.64,0.667,True,True,0.778
+802,45,Male,0.111,0.667,Phobia,0.468,True,False,False,True,True,PTSD,False,0.4,0.667,0.96,0.0,False,True,0.222
+803,28,Male,0.667,0.436,Social Anxiety,0.456,True,True,True,False,False,Anxiety,False,0.2,1.0,0.98,0.333,True,True,0.889
+804,21,Male,0.778,0.513,Stress,0.797,True,True,True,False,False,PTSD,False,0.0,0.667,0.66,1.0,False,True,0.222
+805,32,Non-binary,1.0,0.692,Caffeine,0.114,True,True,True,True,True,PTSD,False,0.6,0.667,0.52,0.333,True,False,0.333
+806,23,Female,0.778,0.872,Caffeine,0.987,False,True,True,False,False,Anxiety,False,1.0,0.667,0.6,0.444,False,False,1.0
+807,47,Male,0.333,0.538,Phobia,0.519,True,False,False,False,False,Anxiety,True,0.8,1.0,0.38,0.556,True,False,0.556
+808,55,Male,0.0,1.0,Social Anxiety,0.595,True,True,True,True,True,Depression,True,0.2,1.0,0.98,0.333,True,False,0.778
+809,19,Male,0.667,0.564,Social Anxiety,0.544,True,False,True,True,True,nan,False,0.0,0.0,0.7,0.556,False,True,0.222
+810,32,Female,0.0,0.051,PTSD,0.19,True,True,True,False,True,Depression,False,1.0,1.0,0.3,1.0,True,False,1.0
+811,28,Female,0.333,1.0,Stress,0.671,True,True,False,True,True,Anxiety,True,0.4,0.0,0.06,0.667,True,False,0.556
+812,43,Male,0.111,0.615,Social Anxiety,0.342,True,True,False,True,True,Depression,False,0.0,0.333,0.2,0.889,False,True,0.444
+813,61,Female,0.556,0.256,Caffeine,0.152,True,True,True,True,True,PTSD,False,0.0,0.833,0.42,0.0,True,False,0.889
+814,23,Male,0.444,0.923,Stress,1.0,False,True,False,False,False,PTSD,False,0.6,0.167,0.64,0.111,False,False,0.889
+815,43,Male,1.0,0.949,Stress,0.734,True,True,False,False,False,PTSD,False,0.6,0.0,0.22,1.0,False,False,0.889
+816,36,Non-binary,0.444,0.103,Phobia,0.658,True,False,True,False,True,Anxiety,False,0.4,0.167,0.48,0.889,False,True,0.556
+817,37,Male,1.0,0.205,Social Anxiety,0.557,True,True,True,True,True,PTSD,True,0.6,0.5,0.88,0.889,False,False,0.333
+818,50,Female,0.444,0.026,Phobia,0.241,False,True,False,True,True,nan,False,0.8,0.0,0.46,0.0,False,True,0.778
+819,29,Male,1.0,1.0,Social Anxiety,0.759,True,True,False,False,True,Depression,True,0.0,0.833,0.58,0.222,False,False,0.444
+820,64,Male,0.778,0.744,PTSD,0.722,False,True,False,False,False,Anxiety,False,0.2,0.333,0.26,0.889,False,True,0.0
+821,18,Male,0.111,0.256,Phobia,0.329,True,True,True,True,False,PTSD,False,0.0,0.0,0.36,0.778,False,False,1.0
+822,43,Female,0.667,0.692,Phobia,0.316,True,False,False,False,True,PTSD,False,0.8,0.833,0.22,0.222,False,False,0.111
+823,55,Female,0.556,0.974,Caffeine,0.519,False,False,True,False,False,PTSD,True,0.4,1.0,0.7,0.889,False,False,0.556
+824,28,Male,0.889,0.308,Phobia,0.658,True,False,False,True,True,PTSD,True,0.4,1.0,0.26,0.0,True,True,0.333
+825,53,Non-binary,0.222,0.179,Social Anxiety,0.734,True,True,True,False,True,Depression,False,0.6,0.0,0.78,0.222,False,True,0.444
+826,30,Female,1.0,0.692,Caffeine,0.468,False,True,False,True,True,Anxiety,True,0.2,0.5,0.26,0.556,False,True,0.667
+827,50,Female,0.556,0.974,Phobia,0.177,False,True,False,False,False,Depression,False,0.2,0.833,0.6,0.333,True,True,0.444
+828,23,Female,0.778,0.769,Phobia,0.316,False,True,True,True,True,Depression,False,0.8,0.5,0.14,0.111,True,False,0.333
+829,27,Female,0.667,0.513,PTSD,0.595,False,True,True,False,False,Anxiety,False,0.8,0.167,0.64,1.0,False,True,0.667
+830,40,Female,0.222,0.769,Phobia,0.101,True,False,False,False,True,Anxiety,False,0.6,1.0,0.3,1.0,False,False,0.667
+831,27,Male,0.0,0.615,Stress,0.797,True,True,False,True,True,PTSD,False,1.0,0.5,0.46,0.444,True,True,0.778
+832,61,Male,0.889,0.282,Caffeine,0.671,True,True,False,False,False,PTSD,False,1.0,0.667,0.22,0.556,False,False,0.333
+833,19,Non-binary,0.667,0.0,Stress,0.633,True,True,False,True,False,Anxiety,False,0.4,0.167,0.36,0.667,False,True,0.333
+834,30,Male,0.0,0.538,Caffeine,0.481,False,False,False,False,False,Depression,True,0.4,0.333,0.02,0.889,False,False,1.0
+835,19,Male,0.333,0.923,PTSD,0.025,False,True,False,False,True,nan,True,0.6,0.0,0.42,0.333,False,False,0.444
+836,37,Male,0.333,0.0,Phobia,0.797,True,True,False,True,True,nan,True,0.8,0.5,0.78,1.0,False,True,0.222
+837,18,Female,0.444,0.0,Phobia,0.354,True,False,True,True,False,Depression,False,0.6,0.333,0.14,0.444,False,True,0.444
+838,54,Non-binary,0.222,0.513,Phobia,0.127,True,True,False,True,False,nan,True,0.6,0.667,0.82,0.556,True,False,0.444
+839,34,Male,0.0,0.41,Caffeine,0.937,True,False,False,True,False,PTSD,True,0.4,0.833,0.72,0.444,False,True,0.667
+840,26,Male,0.667,0.538,Phobia,0.329,False,False,False,False,False,Depression,False,0.6,0.333,0.9,0.444,False,True,0.778
+841,28,Female,1.0,0.949,Stress,0.253,False,True,False,False,False,Anxiety,False,0.6,0.0,0.16,0.667,False,True,0.444
+842,32,Female,0.0,0.872,Phobia,0.481,True,False,True,False,False,Anxiety,True,0.6,0.5,0.48,0.111,False,True,0.111
+843,55,Female,0.333,0.179,PTSD,0.823,False,True,False,True,False,Depression,True,0.6,0.5,0.6,0.111,False,True,0.889
+844,52,Female,0.333,0.41,Stress,0.443,True,True,True,False,True,Anxiety,False,0.6,0.167,0.86,1.0,False,True,0.111
+845,47,Female,0.444,0.41,Phobia,0.937,True,True,False,True,True,Anxiety,False,0.8,1.0,0.22,1.0,False,False,0.0
+846,48,Non-binary,0.111,0.641,Phobia,0.81,True,True,False,False,False,Depression,True,1.0,1.0,0.18,0.111,True,True,0.556
+847,22,Male,0.333,0.308,Social Anxiety,0.785,False,True,False,True,False,Anxiety,False,0.0,0.333,0.26,0.222,False,False,0.222
+848,61,Female,0.0,0.41,Caffeine,0.43,True,True,True,False,False,Depression,False,0.6,0.5,0.9,0.556,False,False,0.0
+849,31,Female,0.111,0.949,Stress,0.38,True,True,True,True,False,nan,False,1.0,0.833,0.94,0.444,True,True,0.556
+850,28,Female,0.0,0.41,Social Anxiety,0.342,False,True,False,False,False,PTSD,False,0.6,0.833,0.56,0.444,True,False,0.778
+851,26,Female,1.0,0.333,PTSD,0.0,True,True,True,True,False,Depression,True,0.2,1.0,0.5,0.111,False,True,0.889
+852,51,Female,1.0,0.128,Caffeine,0.304,True,False,True,False,True,Depression,True,0.2,1.0,0.6,0.111,False,True,0.556
+853,29,Female,0.333,0.872,Stress,0.532,True,False,False,True,False,Depression,True,1.0,0.5,0.62,0.0,False,True,0.556
+854,52,Male,0.333,0.333,Phobia,0.835,False,True,False,False,True,Anxiety,True,0.0,0.0,0.18,0.222,True,True,0.0
+855,52,Female,0.667,0.179,Stress,0.785,True,True,False,False,True,PTSD,True,0.8,0.5,0.68,0.667,True,True,0.444
+856,18,Non-binary,1.0,0.359,Phobia,0.633,False,True,True,False,True,Anxiety,False,0.0,0.667,0.46,0.444,False,True,0.222
+857,57,Non-binary,0.889,0.667,Caffeine,0.013,True,False,True,False,False,Anxiety,True,0.0,0.333,0.52,0.667,True,False,0.667
+858,39,Male,0.889,0.308,Phobia,0.797,True,False,True,False,False,PTSD,False,0.2,0.167,0.04,0.889,True,False,0.889
+859,46,Male,0.444,0.769,PTSD,0.924,False,False,True,False,False,Anxiety,False,0.2,0.833,0.76,0.556,True,False,0.556
+860,28,Female,0.0,0.128,Phobia,0.101,True,False,False,False,True,Anxiety,False,0.6,0.667,0.62,0.0,True,True,0.667
+861,58,Female,0.0,0.103,PTSD,0.013,True,True,True,False,False,Anxiety,False,0.8,1.0,0.74,0.0,False,True,0.889
+862,31,Female,0.111,0.564,Caffeine,0.747,True,True,True,False,False,Anxiety,False,1.0,0.833,0.62,0.889,False,True,0.444
+863,47,Female,0.778,0.615,Caffeine,0.759,True,False,True,False,False,Depression,False,1.0,0.167,0.4,0.556,False,False,1.0
+864,52,Female,0.889,0.846,Stress,0.38,True,True,True,True,False,PTSD,False,0.4,0.833,0.8,0.556,False,False,0.333
+865,38,Female,0.333,0.641,PTSD,0.114,False,False,False,False,False,Anxiety,True,0.2,0.667,0.46,0.333,False,True,0.444
+866,54,Female,0.444,0.103,PTSD,0.949,True,False,False,True,False,PTSD,False,0.4,0.833,0.68,0.111,False,True,0.667
+867,22,Female,0.778,0.641,Social Anxiety,0.443,False,True,False,True,True,Anxiety,False,0.4,0.833,0.62,1.0,False,True,0.222
+868,36,Male,0.222,0.487,Social Anxiety,0.608,True,True,True,False,False,Anxiety,True,0.2,0.5,0.7,0.222,False,True,0.333
+869,21,Female,1.0,0.436,Social Anxiety,0.025,True,True,False,False,False,Depression,False,0.6,0.333,0.82,0.556,False,True,0.778
+870,62,Female,0.222,0.41,Phobia,0.051,False,True,False,True,False,PTSD,False,0.2,0.667,0.96,0.889,False,True,0.444
+871,59,Male,0.667,0.333,Social Anxiety,0.759,False,True,False,True,True,Depression,False,0.0,0.0,0.76,0.0,False,True,0.667
+872,42,Female,0.667,0.333,PTSD,0.316,False,True,False,False,True,Depression,False,1.0,0.0,0.18,0.111,False,False,0.556
+873,35,Male,0.667,0.308,Phobia,0.899,True,True,True,True,True,nan,False,0.8,0.833,0.82,0.889,True,False,0.0
+874,25,Female,0.778,0.359,Caffeine,0.177,True,False,True,False,False,Anxiety,False,0.8,0.167,0.98,0.333,False,False,0.889
+875,56,Non-binary,0.444,0.462,Stress,0.19,True,False,True,True,True,PTSD,True,0.4,0.167,0.72,0.0,True,True,1.0
+876,57,Male,0.444,0.872,Social Anxiety,0.0,False,False,False,False,True,Depression,False,0.4,0.833,0.08,0.889,False,True,0.0
+877,31,Male,0.333,0.41,Caffeine,0.19,True,True,True,False,True,Anxiety,False,0.4,1.0,0.4,0.889,False,False,0.778
+878,55,Male,1.0,0.462,PTSD,0.025,True,True,True,False,False,Depression,False,0.0,0.0,0.84,0.889,False,True,0.556
+879,50,Female,0.333,0.487,Stress,0.646,True,True,True,False,True,Depression,True,0.4,0.333,0.72,1.0,False,True,1.0
+880,40,Female,0.111,0.897,Caffeine,0.582,False,False,True,True,False,Anxiety,False,0.2,1.0,0.36,0.0,False,False,0.778
+881,32,Female,0.333,0.872,Stress,0.152,True,False,False,False,False,nan,True,0.8,0.0,0.66,0.444,False,True,0.444
+882,50,Male,0.778,0.795,Social Anxiety,1.0,False,False,False,False,False,PTSD,True,0.0,0.167,0.58,0.0,False,True,0.778
+883,34,Female,0.222,0.59,PTSD,0.253,True,True,True,False,True,Depression,True,0.4,0.5,0.24,0.444,False,False,0.667
+884,64,Male,0.889,0.154,Stress,0.671,True,False,True,True,False,Anxiety,True,0.8,0.333,0.2,0.111,True,False,0.889
+885,19,Female,0.333,0.0,Caffeine,0.329,True,True,False,False,False,Anxiety,True,0.0,0.667,0.16,0.556,True,False,0.556
+886,31,Male,1.0,0.872,Social Anxiety,0.468,False,True,False,False,False,Depression,False,0.8,0.0,0.06,0.222,False,True,0.556
+887,57,Female,0.222,0.795,Social Anxiety,0.722,False,False,False,True,False,PTSD,True,1.0,0.5,0.88,1.0,False,False,0.889
+888,56,Non-binary,0.0,0.308,Caffeine,0.57,False,True,True,False,True,nan,True,0.6,1.0,0.3,0.444,True,True,0.667
+889,23,Male,0.222,0.128,Caffeine,0.127,False,False,False,False,False,Depression,True,0.0,1.0,0.2,0.111,False,True,0.667
+890,23,Male,0.778,0.333,Stress,0.899,True,False,False,False,False,Anxiety,True,0.4,0.5,0.48,0.111,False,False,0.111
+891,25,Female,0.111,0.077,Phobia,0.797,True,True,False,False,True,PTSD,True,0.8,0.5,0.6,0.333,False,False,0.333
+892,32,Male,0.778,0.385,Social Anxiety,0.899,True,True,False,True,False,Depression,False,0.2,0.167,0.38,0.0,True,False,0.778
+893,64,Male,1.0,0.692,Stress,0.785,True,True,True,False,False,nan,False,0.2,0.667,0.58,0.778,False,False,0.0
+894,46,Female,0.333,0.385,Caffeine,0.797,False,True,False,False,False,PTSD,False,0.4,1.0,0.5,1.0,True,True,1.0
+895,47,Female,0.111,0.641,Stress,0.089,True,False,False,False,True,Depression,True,0.2,0.0,0.74,1.0,False,False,0.333
+896,44,Male,0.0,0.795,Caffeine,0.57,True,False,False,True,True,Depression,True,1.0,0.5,0.64,0.333,False,False,0.889
+897,53,Female,0.667,0.026,PTSD,0.38,True,False,True,True,False,Anxiety,True,0.4,0.833,0.32,0.556,True,True,0.556
+898,46,Male,0.444,0.769,Caffeine,0.101,True,True,False,True,False,Depression,False,0.6,0.167,0.92,1.0,False,True,0.333
+899,55,Female,0.778,0.051,Caffeine,0.177,True,False,True,True,False,Anxiety,False,0.0,0.5,0.46,0.667,False,True,0.0
+900,50,Male,0.333,0.179,Caffeine,0.316,True,True,False,False,True,PTSD,False,0.8,0.333,0.26,0.556,True,False,0.778
+901,44,Male,0.444,0.359,Phobia,0.354,False,False,False,True,True,Anxiety,True,0.0,1.0,0.7,0.444,False,True,0.444
+902,50,Female,0.444,0.769,Caffeine,1.0,True,True,False,False,True,Anxiety,False,0.6,0.333,0.84,0.778,True,True,0.444
+903,21,Female,0.889,0.205,Social Anxiety,0.443,True,False,False,False,True,Depression,False,0.4,0.833,0.36,0.778,False,True,1.0
+904,39,Female,0.889,0.974,Social Anxiety,0.456,True,True,False,True,True,Depression,False,0.0,0.667,0.24,1.0,True,False,0.778
+905,19,Male,0.889,0.026,Stress,0.886,False,False,False,False,False,Anxiety,False,0.4,0.833,0.62,0.889,True,True,0.778
+906,27,Female,0.556,0.179,Phobia,0.278,True,True,False,False,True,Depression,False,0.8,1.0,0.92,0.333,True,False,0.444
+907,22,Female,0.556,0.154,Stress,0.506,True,False,True,True,True,Anxiety,True,0.6,1.0,0.18,1.0,False,False,0.333
+908,27,Female,0.444,0.974,Social Anxiety,1.0,False,True,True,True,False,Anxiety,False,0.6,0.667,0.8,0.556,False,True,0.556
+909,50,Female,0.889,0.385,Social Anxiety,0.342,True,False,True,False,True,Anxiety,True,0.2,0.333,0.48,0.667,False,False,1.0
+910,55,Female,1.0,0.872,PTSD,0.595,True,False,True,False,False,Anxiety,True,1.0,0.333,0.8,0.444,False,True,0.444
+911,30,Female,0.778,0.744,Caffeine,0.468,True,True,False,False,True,PTSD,False,0.6,0.667,0.5,0.778,False,False,0.778
+912,48,Male,0.667,0.231,Social Anxiety,0.38,False,False,False,True,True,nan,True,0.0,0.167,0.38,0.222,False,True,0.889
+913,62,Male,0.444,0.103,Stress,0.962,True,True,True,True,False,Anxiety,False,0.8,0.333,0.32,0.0,True,True,0.889
+914,41,Male,0.333,0.718,Stress,0.354,True,False,False,False,True,Depression,True,0.6,0.0,0.46,0.556,False,False,0.556
+915,32,Male,0.222,0.974,Caffeine,0.633,False,False,False,False,True,Anxiety,True,0.6,0.5,0.22,0.111,False,False,1.0
+916,46,Female,0.222,0.846,Caffeine,0.608,False,True,True,True,True,Depression,True,0.0,0.833,0.18,0.667,False,False,0.444
+917,25,Female,0.556,0.564,PTSD,0.532,True,True,False,False,True,nan,False,0.2,0.5,0.78,0.889,False,True,0.667
+918,22,Female,0.333,0.103,Phobia,0.899,False,True,False,False,True,Anxiety,True,0.2,0.333,0.2,0.222,False,False,0.778
+919,46,Female,0.556,0.744,Stress,0.051,True,False,True,True,False,PTSD,False,0.6,0.167,0.8,1.0,False,False,0.889
+920,64,Male,0.222,0.128,Caffeine,0.519,True,True,False,False,True,Anxiety,True,0.6,0.167,0.42,0.333,False,True,0.889
+921,21,Male,0.333,0.077,Stress,0.076,True,True,True,True,True,Anxiety,True,0.4,0.0,1.0,0.333,False,False,1.0
+922,29,Male,0.889,0.718,Caffeine,0.519,True,False,False,False,True,Anxiety,True,0.6,0.833,0.2,0.333,True,False,0.222
+923,62,Male,0.444,0.564,Social Anxiety,0.443,False,True,True,True,False,Anxiety,False,0.0,0.0,0.1,0.222,False,True,0.778
+924,19,Male,0.667,0.128,Stress,0.329,True,False,True,True,False,Anxiety,False,1.0,0.667,0.08,0.444,False,False,0.0
+925,44,Male,1.0,0.795,Social Anxiety,0.722,True,True,False,False,False,Anxiety,False,0.8,0.167,0.84,0.889,False,True,0.667
+926,48,Female,0.111,0.436,Stress,0.57,False,True,True,False,False,Depression,True,0.6,0.0,0.44,0.778,False,True,0.444
+927,53,Female,0.444,0.359,Phobia,0.823,False,False,False,False,True,Anxiety,False,0.6,0.667,0.0,1.0,False,True,0.111
+928,53,Non-binary,0.889,1.0,PTSD,0.304,True,True,True,True,True,Depression,False,0.0,0.833,0.88,0.111,True,False,0.111
+929,22,Female,0.333,0.231,Social Anxiety,0.924,False,False,False,True,True,Anxiety,True,0.2,0.667,0.38,0.667,False,False,0.0
+930,37,Female,0.667,0.487,Caffeine,0.519,False,False,True,False,False,PTSD,True,0.2,0.167,0.74,0.444,True,True,0.667
+931,27,Male,0.556,0.051,Phobia,0.304,True,True,False,False,True,Depression,False,0.8,0.0,0.16,0.444,False,False,0.667
+932,55,Male,0.556,0.41,Stress,0.835,False,True,True,True,True,Depression,True,1.0,1.0,0.98,0.778,False,False,0.333
+933,23,Female,0.444,0.795,Social Anxiety,0.063,True,True,False,False,True,Anxiety,True,0.6,0.5,0.16,0.0,False,False,0.111
+934,25,Female,0.778,0.077,Stress,0.722,True,False,True,True,True,nan,True,0.6,0.333,0.72,0.0,False,False,0.333
+935,40,Male,0.0,0.077,Stress,0.873,True,True,True,False,True,PTSD,True,0.6,0.167,0.48,0.444,False,True,0.444
+936,64,Male,0.667,0.41,Stress,0.658,True,False,True,False,True,Anxiety,False,0.8,0.333,0.74,0.0,False,True,0.778
+937,43,Male,1.0,0.462,PTSD,0.823,True,True,True,False,False,Depression,True,1.0,0.833,0.66,0.222,False,True,0.111
+938,63,Male,1.0,0.103,PTSD,0.722,True,True,True,False,True,Anxiety,False,0.6,0.0,0.44,1.0,False,True,1.0
+939,60,Male,0.111,0.795,Caffeine,0.013,False,True,False,False,False,Depression,True,0.0,1.0,0.36,0.889,False,False,0.222
+940,29,Female,0.889,0.538,Social Anxiety,0.949,False,False,True,False,True,PTSD,False,0.4,0.667,0.76,0.667,True,False,1.0
+941,43,Male,0.0,0.128,Phobia,0.266,False,False,True,False,True,Depression,False,0.2,0.0,0.32,0.556,False,False,0.444
+942,30,Female,1.0,0.872,Phobia,0.456,True,False,False,False,False,Anxiety,True,0.2,0.167,0.78,0.778,True,False,0.889
+943,57,Male,0.556,0.538,Phobia,0.241,True,True,True,False,False,Anxiety,False,0.0,0.333,0.68,0.778,True,False,1.0
+944,35,Non-binary,0.889,0.0,Stress,0.291,True,True,True,True,False,PTSD,False,0.6,0.333,0.58,0.556,False,True,0.444
+945,42,Male,0.0,0.487,PTSD,0.81,True,True,True,True,False,Depression,False,1.0,0.5,0.36,0.333,False,False,0.889
+946,50,Male,0.333,0.538,Social Anxiety,0.81,False,True,False,True,True,Depression,False,1.0,0.0,0.2,0.333,False,True,0.333
+947,64,Female,0.333,0.256,Stress,0.0,True,True,True,False,True,Anxiety,False,0.8,0.0,0.72,0.333,True,True,1.0
+948,57,Female,0.889,0.308,PTSD,0.025,True,False,True,False,False,Anxiety,False,0.6,0.167,0.1,0.556,False,False,0.444
+949,60,Male,0.444,0.051,PTSD,0.57,False,True,False,False,False,nan,False,1.0,0.333,0.98,0.0,False,True,0.889
+950,53,Female,0.0,0.564,Social Anxiety,0.797,True,False,False,True,False,Depression,False,0.2,0.833,0.1,0.0,False,True,0.444
+951,21,Male,0.0,0.333,Social Anxiety,0.557,True,True,True,True,True,PTSD,False,0.8,0.333,0.42,0.889,True,True,0.333
+952,22,Male,0.889,0.821,Social Anxiety,0.316,True,True,True,False,False,Anxiety,False,0.2,0.167,0.96,0.556,False,True,0.333
+953,54,Female,0.222,0.436,Stress,0.962,True,True,True,True,False,Anxiety,True,0.6,0.333,0.4,0.667,False,True,0.444
+954,25,Female,0.333,0.205,Caffeine,0.81,True,True,True,False,False,Depression,False,0.0,0.167,0.36,0.0,False,True,0.556
+955,59,Male,0.0,0.564,Social Anxiety,0.291,False,True,True,False,True,Depression,True,0.8,0.667,0.7,0.778,True,False,0.667
+956,48,Female,0.778,0.462,Caffeine,0.43,True,True,False,False,True,PTSD,True,0.6,0.167,0.36,0.444,False,False,0.0
+957,26,Male,0.111,0.103,Stress,0.291,True,False,False,False,True,Anxiety,True,0.8,1.0,0.3,0.556,True,True,0.111
+958,46,Female,0.778,0.564,Caffeine,0.342,True,False,True,True,False,Anxiety,False,0.0,0.667,0.6,0.667,False,True,0.667
+959,31,Male,0.667,0.744,Phobia,1.0,False,False,False,False,True,nan,True,0.8,0.0,0.16,0.667,False,False,0.222
+960,57,Female,0.556,0.615,Caffeine,0.19,True,True,True,False,True,Depression,False,0.6,0.333,0.54,0.444,False,False,1.0
+961,58,Female,0.0,0.692,Social Anxiety,0.734,True,False,True,True,True,Depression,False,1.0,1.0,0.86,0.0,False,False,0.111
+962,39,Non-binary,0.667,0.846,Stress,0.671,True,True,False,True,False,Depression,True,0.8,0.5,0.52,0.889,True,False,0.556
+963,28,Male,1.0,0.615,Social Anxiety,0.987,False,True,True,False,False,Depression,True,1.0,0.667,0.68,0.556,False,True,0.333
+964,18,Male,0.889,0.333,Phobia,0.177,False,True,True,True,True,PTSD,True,0.8,0.0,0.44,0.333,False,False,0.556
+965,54,Male,0.111,0.615,Social Anxiety,0.81,True,True,False,False,False,Depression,False,1.0,0.833,0.6,0.222,True,True,0.0
+966,38,Non-binary,0.889,0.333,Social Anxiety,0.987,True,True,True,True,True,Depression,True,0.2,0.0,0.28,0.333,False,True,0.222
+967,43,Male,0.889,0.872,Social Anxiety,0.848,False,False,False,True,False,Anxiety,True,1.0,0.667,0.28,1.0,False,False,0.222
+968,63,Male,0.556,0.846,PTSD,0.532,False,False,False,False,True,Anxiety,False,1.0,0.833,0.08,0.778,True,True,0.556
+969,53,Female,0.556,0.231,Phobia,0.861,True,False,False,True,True,Anxiety,False,1.0,0.167,0.32,0.222,False,True,0.333
+970,40,Male,0.333,0.872,Social Anxiety,0.152,True,False,False,False,False,Anxiety,True,0.6,0.0,0.5,0.778,False,True,0.667
+971,18,Female,0.333,0.256,Social Anxiety,0.114,True,True,True,False,True,nan,True,0.4,0.5,0.58,0.556,False,False,0.111
+972,38,Male,0.0,0.513,Social Anxiety,0.62,False,True,False,True,False,Depression,True,0.0,0.667,0.48,0.444,False,False,0.556
+973,64,Male,0.0,0.538,Stress,0.886,False,True,False,True,False,Anxiety,False,0.2,1.0,0.54,0.444,True,False,1.0
+974,26,Non-binary,0.667,0.154,PTSD,0.734,True,False,False,True,False,nan,False,1.0,0.167,0.84,0.889,False,False,0.222
+975,27,Female,0.0,0.026,Stress,0.025,False,False,False,True,True,Anxiety,False,0.2,0.333,0.18,1.0,False,True,0.111
+976,43,Male,0.222,0.282,PTSD,0.949,False,True,False,False,True,Depression,False,1.0,0.0,0.56,0.333,True,True,0.222
+977,58,Male,1.0,0.436,Social Anxiety,0.076,True,True,False,False,False,PTSD,False,0.8,0.167,0.94,0.444,True,True,0.0
+978,52,Female,0.333,0.256,Phobia,0.608,True,True,False,True,False,PTSD,False,0.4,0.5,0.52,0.0,True,False,0.0
+979,42,Male,0.333,0.385,Caffeine,0.316,True,True,True,True,True,Anxiety,False,1.0,0.5,0.84,0.667,False,True,0.111
+980,43,Female,0.111,0.436,Caffeine,0.405,True,False,True,True,True,PTSD,False,0.2,0.167,0.76,0.778,False,False,0.222
+981,28,Non-binary,0.0,0.872,Social Anxiety,0.595,True,False,True,True,True,Anxiety,False,1.0,0.167,0.52,0.556,False,False,0.889
+982,19,Non-binary,0.333,0.385,Stress,0.013,True,True,False,True,True,PTSD,True,0.8,0.667,0.4,0.222,False,True,0.889
+983,24,Male,0.222,0.128,Phobia,0.886,True,False,False,False,True,PTSD,False,0.8,0.333,0.54,0.111,False,True,0.667
+984,35,Male,0.778,0.282,PTSD,0.392,True,False,True,False,False,Depression,True,0.4,0.667,0.5,0.444,False,True,0.667
+985,44,Male,1.0,0.308,Social Anxiety,0.038,True,True,True,False,False,Depression,False,0.6,0.5,0.7,0.889,False,True,0.444
+986,51,Female,0.0,0.077,Phobia,0.241,False,True,False,False,False,PTSD,True,0.6,0.667,0.4,0.0,False,False,0.667
+987,44,Non-binary,0.111,0.974,Phobia,0.443,False,False,True,False,True,PTSD,False,0.4,0.333,0.1,0.0,False,True,0.333
+988,60,Female,0.333,0.641,PTSD,0.342,True,True,True,True,False,Depression,False,1.0,0.667,0.68,0.222,True,True,0.0
+989,61,Male,0.778,0.667,Phobia,0.962,False,True,True,False,True,nan,False,0.6,0.333,0.96,1.0,False,False,0.333
+990,42,Female,0.556,0.359,Stress,0.747,True,False,True,False,True,Anxiety,False,0.0,0.833,0.08,0.444,True,False,0.111
+991,23,Female,0.0,0.154,Stress,0.43,True,True,True,False,True,Depression,True,1.0,0.5,0.78,0.556,False,True,0.778
+992,41,Male,0.0,1.0,Stress,0.367,True,False,False,False,True,Anxiety,True,0.8,0.5,0.06,0.778,False,True,0.0
+993,50,Male,0.778,0.282,Phobia,0.671,False,True,True,False,False,Depression,True,0.2,0.0,0.9,0.778,False,True,0.778
+994,60,Male,0.444,0.41,Stress,0.684,True,True,False,False,True,Depression,True,0.6,0.667,0.9,0.0,False,False,0.556
