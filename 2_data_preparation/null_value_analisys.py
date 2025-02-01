@@ -2,13 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def main(df):
-    # Trasforma le istanze object in boolean/string prima di effettuare l'analisi
-    for col in df.columns:
-        if df[col].dtype == 'object':
-            unique_vals = df[col].dropna().unique()
-            if all(val in ["Yes", "No"] for val in unique_vals):
-                df[col] = df[col].map({"Yes": True, "No": False})
-
     analysis_data = []
 
     for column in df.columns:
@@ -20,11 +13,7 @@ def main(df):
         not_null_count = len(df) - null_count
 
         if df[column].dtype == 'object':
-            non_nulls = df[column].dropna()
-            if len(non_nulls) > 0:
-                python_type = type(non_nulls.iloc[0]).__name__
-            else:
-                python_type = 'object'
+            python_type = 'object'
         else:
             python_type = df[column].dtype.name
 

@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
-import knnimputation_medicalnone as knn_med
+import knnimputation_medicalempty as knn_med
 
 def controllo_none_migliorato(df):
     # Seleziona solo le righe che soddisfano la condizione (Medical_History NaN e Medication True)

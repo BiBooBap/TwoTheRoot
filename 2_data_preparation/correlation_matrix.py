@@ -36,16 +36,16 @@ def main(df):
     correlation_matrix = df_numeric.corr()
 
     # Qui viene visualizzata la matrice di correlazione con un grafico a matrice di calore Heatmap
-    plt.figure(figsize=(15,12))
+    plt.figure(figsize=(18,15))
     sns.heatmap(correlation_matrix,
                 annot=True,
                 cmap="coolwarm",
                 fmt=".2f",
                 linewidths=0.5,
                 square=True,
-                annot_kws={"fontsize": 8})
+                annot_kws={"fontsize": 9})
     plt.title("Correlation Matrix of Panic Attack Dataset")
     plt.xticks(rotation=45, ha='right')
     plt.yticks(rotation=0)
-    plt.tight_layout()
+    plt.savefig("correlation_matrix.png")
     plt.show()
