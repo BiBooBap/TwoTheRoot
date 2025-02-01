@@ -16,10 +16,10 @@ try:
     null_val.main(df)
     df = knn_med.main(df)
     null_val.main(df)
+    df = over.oversampling(df)
     df = norm.main(df)
     null_val.main(df)
-    df = over.oversampling(df)
-    df= cont.controllo_none_migliorato(df)
+    df = cont.controllo_none_migliorato(df)
     df.to_csv("./0_data/dataset_cleaned.csv", index=False)
 except FileNotFoundError:
     print(f"Error: File './0_data/dataset.csv' not found.")

@@ -47,5 +47,4 @@ def main(df):
     plt.title("Correlation Matrix of Panic Attack Dataset")
     plt.xticks(rotation=45, ha='right')
     plt.yticks(rotation=0)
-    plt.savefig("correlation_matrix.png")
     plt.show()
