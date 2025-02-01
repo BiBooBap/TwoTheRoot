@@ -14,6 +14,7 @@ try:
     null_val.main(df)
     df = knn_med.main(df)
     null_val.main(df)
+    df = over.oversampling(df)
     df = norm.main(df)
     null_val.main(df)
     df = over.oversampling(df)
