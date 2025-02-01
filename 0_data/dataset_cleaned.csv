@@ -57,7 +57,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 56,0.543,Male,0.667,0.231,0.671,False,True,False,False,False,Depression,False,0.4,0.0,0.7,1.0,False,True,0.556,Social Anxiety
 57,0.935,Male,0.889,0.41,0.722,True,True,True,False,True,Depression,True,0.0,0.0,0.08,0.667,False,True,0.667,Caffeine
 58,0.717,Male,0.111,0.026,0.873,True,False,False,False,False,PTSD,False,0.2,0.0,0.94,1.0,False,False,0.778,PTSD
-59,0.761,Male,0.444,0.103,0.063,False,True,True,True,True,nan,True,0.8,0.5,0.94,1.0,True,False,0.444,Phobia
 60,0.283,Female,0.222,0.692,0.557,False,True,True,False,True,Anxiety,True,0.6,0.333,0.1,0.556,True,False,0.667,Caffeine
 61,0.304,Female,1.0,0.436,0.278,False,True,True,True,False,PTSD,False,1.0,0.833,0.1,0.333,False,True,0.444,Social Anxiety
 62,0.152,Male,0.778,0.641,0.316,True,False,False,True,False,Anxiety,False,0.4,0.0,0.46,0.333,True,True,0.222,PTSD
@@ -67,8 +66,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 66,0.435,Male,0.444,0.154,0.544,True,True,True,False,True,Anxiety,False,0.8,0.833,0.8,0.667,False,True,0.889,Caffeine
 67,0.326,Female,0.444,0.051,0.329,True,True,True,True,True,Anxiety,True,0.0,0.333,0.6,0.556,True,True,0.889,Social Anxiety
 68,0.957,Female,0.778,0.231,0.316,True,False,False,False,False,Anxiety,False,1.0,0.167,0.52,0.444,False,True,0.556,Stress
-69,0.37,Female,0.667,0.846,0.987,False,False,True,True,False,nan,True,0.8,0.5,0.04,0.778,False,True,0.333,Social Anxiety
-70,1.0,Female,0.889,0.615,0.443,True,True,False,True,True,nan,True,0.0,0.167,0.66,0.111,True,True,0.333,PTSD
 71,0.5,Male,0.778,0.872,0.684,True,True,True,False,True,Anxiety,False,0.6,0.833,0.18,0.111,False,True,0.889,Phobia
 72,0.543,Male,0.111,0.385,0.797,True,True,True,True,False,PTSD,False,0.6,0.167,0.94,0.889,False,False,0.333,Social Anxiety
 73,0.957,Female,0.333,0.59,0.861,True,True,True,True,False,Anxiety,True,1.0,0.5,0.7,0.556,True,True,0.889,Phobia
@@ -89,13 +86,11 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 88,0.152,Female,0.556,0.744,0.506,True,False,True,False,False,PTSD,False,0.4,0.667,0.04,0.111,False,True,0.444,Phobia
 89,0.739,Male,0.556,0.846,0.278,True,True,False,False,False,Anxiety,True,1.0,0.0,0.76,0.0,True,False,0.667,Stress
 90,0.739,Male,0.222,0.538,0.886,True,True,True,True,False,Anxiety,True,0.4,0.0,0.94,1.0,False,True,0.333,Phobia
-91,0.696,Male,0.889,0.051,0.025,True,False,True,False,False,nan,True,0.4,0.333,0.34,0.111,True,False,0.667,Caffeine
 92,0.087,Non-binary,0.667,0.128,0.722,True,True,False,False,True,Anxiety,True,0.4,0.333,0.18,0.778,False,False,0.778,PTSD
 93,0.891,Female,0.0,0.359,0.392,True,True,False,False,False,Anxiety,True,0.6,0.5,0.54,1.0,False,True,1.0,Social Anxiety
 94,0.826,Female,0.667,0.667,0.38,False,False,True,False,False,Depression,True,0.0,0.333,0.7,0.222,False,False,1.0,Social Anxiety
 95,0.87,Female,0.444,0.231,0.532,True,True,True,True,False,PTSD,True,0.6,0.833,0.68,0.333,True,False,0.333,PTSD
 96,0.587,Female,0.444,0.205,0.076,False,True,False,False,True,PTSD,False,1.0,0.5,0.62,0.778,False,True,0.444,Stress
-97,0.13,Male,0.111,0.821,0.0,True,True,False,True,True,nan,True,0.0,1.0,0.14,0.222,False,False,0.222,Stress
 98,0.174,Non-binary,0.333,0.795,0.759,False,True,True,True,True,Depression,True,1.0,0.5,0.84,0.556,True,True,0.444,Phobia
 99,0.152,Male,0.556,0.128,0.165,True,False,False,True,False,Anxiety,False,0.8,0.0,0.42,0.111,False,True,0.778,PTSD
 100,0.239,Male,1.0,0.897,0.646,False,True,False,False,True,Depression,False,0.8,0.333,0.22,0.222,False,True,0.222,Stress
@@ -108,7 +103,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 107,0.935,Male,0.889,0.615,0.924,True,True,True,True,False,Depression,False,0.6,0.833,0.98,0.778,False,False,0.889,PTSD
 108,0.848,Male,0.333,0.231,0.785,False,False,True,False,True,nan,False,0.2,1.0,0.66,0.889,False,True,0.889,Phobia
 109,0.457,Male,0.111,0.359,0.519,True,True,False,True,True,Anxiety,False,0.6,0.667,0.46,1.0,True,True,0.444,Social Anxiety
-110,0.565,Male,1.0,0.538,0.633,True,False,True,False,False,nan,True,0.4,1.0,0.88,0.111,True,True,0.333,Phobia
 111,0.739,Female,0.444,0.513,0.797,False,True,False,False,False,PTSD,False,1.0,0.0,0.7,0.444,False,True,0.444,Social Anxiety
 112,0.0,Male,0.222,0.538,0.949,True,True,False,True,False,Anxiety,False,0.4,0.167,0.34,0.111,False,True,0.333,Phobia
 113,0.739,Female,0.889,0.897,0.696,True,True,False,True,False,nan,False,0.8,0.167,0.88,0.444,True,False,0.444,Phobia
@@ -156,7 +150,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 155,0.696,Female,0.333,0.436,0.203,False,True,True,False,False,Depression,True,0.2,0.833,0.74,0.889,False,True,0.667,Social Anxiety
 156,0.0,Non-binary,1.0,0.744,0.911,True,False,False,True,True,Anxiety,False,0.4,1.0,0.34,0.444,False,True,0.0,PTSD
 157,0.565,Male,0.889,0.231,0.165,True,True,False,False,True,Anxiety,True,1.0,0.5,0.66,0.111,True,False,0.889,PTSD
-158,0.261,Female,0.556,0.436,0.608,True,True,True,False,True,nan,True,0.8,0.333,0.9,1.0,True,False,0.111,Social Anxiety
 159,0.87,Male,0.444,0.949,0.354,True,False,False,False,True,Depression,True,0.6,0.5,0.72,0.556,False,False,0.778,Stress
 160,0.043,Non-binary,0.222,0.462,0.038,True,False,True,False,False,Depression,False,0.6,0.667,0.72,0.667,True,True,1.0,Phobia
 161,0.826,Non-binary,0.889,0.897,0.241,True,True,True,True,True,PTSD,False,1.0,0.333,0.38,0.111,False,True,0.333,PTSD
@@ -189,18 +182,14 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 188,0.065,Female,0.222,0.692,0.759,True,False,False,True,True,Anxiety,False,0.4,0.167,0.26,1.0,True,False,1.0,PTSD
 189,0.217,Female,0.889,0.359,0.671,True,True,False,True,False,Anxiety,True,0.0,0.833,0.4,0.556,False,True,0.556,PTSD
 190,0.348,Non-binary,0.333,0.0,0.772,True,False,True,True,True,Anxiety,True,0.2,1.0,0.14,0.333,False,False,0.333,Social Anxiety
-191,0.5,Male,0.889,0.333,0.608,False,False,False,True,True,nan,True,0.6,0.167,0.3,0.778,False,True,0.222,Phobia
 192,0.087,Male,0.667,0.949,0.304,True,False,False,True,False,PTSD,False,1.0,0.167,1.0,0.667,True,False,0.667,Caffeine
 193,0.717,Female,0.889,0.0,0.114,True,False,False,True,False,Anxiety,False,0.8,0.0,0.32,0.333,False,True,0.556,Phobia
 194,0.109,Male,0.222,0.949,1.0,True,True,True,True,False,Anxiety,False,0.8,0.667,0.94,0.556,False,False,0.222,Phobia
 195,0.457,Male,0.333,0.949,0.19,True,True,True,False,True,Depression,False,0.6,0.0,0.4,0.556,False,True,0.0,Caffeine
 196,0.217,Male,0.778,0.513,0.722,False,False,False,False,True,PTSD,False,0.0,1.0,0.44,0.0,False,False,1.0,PTSD
-197,0.326,Male,0.556,0.718,0.899,True,False,False,True,True,nan,True,0.0,0.0,0.8,0.111,True,True,0.444,Caffeine
 198,0.696,Male,0.444,0.103,0.354,True,True,True,False,False,Anxiety,True,0.6,0.833,0.1,0.333,False,True,1.0,Phobia
 199,0.609,Non-binary,0.889,0.154,1.0,True,False,True,False,False,PTSD,True,0.2,0.833,0.04,0.778,False,True,0.333,PTSD
 200,0.043,Male,0.0,0.051,0.886,True,True,True,True,True,Depression,True,0.0,0.167,0.04,0.111,False,True,0.556,Stress
-201,0.413,Male,0.778,0.487,0.975,True,True,False,False,False,nan,True,0.0,0.5,0.9,0.444,False,False,0.0,Caffeine
-202,0.391,Male,0.889,0.872,0.316,False,True,True,False,False,nan,True,0.6,0.833,0.46,0.444,False,True,0.556,Caffeine
 203,0.043,Female,0.222,0.103,0.886,False,True,True,True,True,PTSD,False,0.0,0.167,0.84,1.0,False,True,0.333,PTSD
 204,0.391,Male,0.889,0.0,0.405,True,False,True,False,False,Anxiety,False,0.0,1.0,0.32,0.778,False,True,0.333,Stress
 205,0.413,Male,0.889,0.077,0.316,False,False,True,False,True,Anxiety,True,0.8,0.167,0.42,1.0,False,True,1.0,Stress
@@ -231,7 +220,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 230,0.043,Female,0.556,0.923,0.025,True,True,False,True,True,Anxiety,False,0.4,0.833,0.24,0.889,False,False,0.333,Caffeine
 231,0.413,Female,0.889,0.564,0.684,True,True,False,False,True,PTSD,False,1.0,0.333,0.24,1.0,False,False,0.333,PTSD
 232,0.5,Male,0.222,0.308,0.139,False,False,True,True,True,Anxiety,False,0.2,0.833,0.96,0.778,True,True,0.556,Phobia
-233,0.696,Female,1.0,0.795,0.494,True,False,False,True,False,nan,True,0.0,0.833,0.46,0.667,False,False,0.778,Stress
 234,0.5,Male,0.333,0.564,0.823,True,False,False,True,True,Anxiety,True,0.6,0.167,0.02,0.778,False,False,0.222,Stress
 235,0.217,Male,0.556,0.41,0.975,True,True,True,True,True,Depression,True,0.0,0.0,0.34,0.0,False,False,0.778,PTSD
 236,0.152,Female,0.778,1.0,0.19,True,True,False,False,False,Anxiety,False,0.8,0.333,0.58,0.889,False,True,0.778,PTSD
@@ -336,9 +324,7 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 335,0.457,Female,0.556,0.795,0.519,True,True,True,False,True,Depression,False,0.0,0.667,0.76,1.0,False,False,0.222,Stress
 336,0.457,Female,0.222,0.41,0.392,False,False,True,False,True,nan,False,1.0,0.5,0.82,0.111,True,True,0.889,Caffeine
 337,0.891,Female,0.778,0.872,0.316,False,True,False,True,False,Anxiety,False,0.0,0.333,0.98,0.556,True,False,0.667,Social Anxiety
-338,0.109,Female,0.111,0.923,0.304,False,True,True,False,True,nan,True,0.2,1.0,0.38,0.222,False,False,0.778,PTSD
 339,0.304,Female,0.0,0.462,0.937,True,True,True,False,False,Anxiety,False,1.0,0.5,0.3,0.222,False,False,0.667,Phobia
-340,0.913,Male,0.889,0.718,0.278,True,False,False,True,True,nan,True,0.6,0.167,0.04,0.444,False,False,0.889,Stress
 341,0.783,Male,0.222,0.154,0.709,True,True,False,True,False,Depression,True,0.2,0.0,0.16,0.667,False,False,0.778,Social Anxiety
 342,0.696,Non-binary,0.0,0.692,0.646,True,True,False,True,False,Depression,False,0.4,0.0,0.56,0.667,False,True,0.333,Stress
 343,0.935,Female,1.0,0.692,0.797,False,False,True,False,True,Anxiety,True,0.4,1.0,0.74,0.0,False,False,0.444,Caffeine
@@ -348,7 +334,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 347,0.957,Male,0.778,0.769,0.405,False,True,False,True,True,Depression,True,0.0,1.0,1.0,0.222,False,True,0.0,Phobia
 348,0.63,Male,0.556,0.513,0.633,False,True,False,False,True,PTSD,True,0.8,1.0,0.34,0.222,False,False,0.111,PTSD
 349,1.0,Female,0.444,0.641,0.215,True,False,False,True,False,Depression,False,0.8,0.667,0.9,0.111,False,True,0.444,Stress
-350,0.739,Male,0.556,0.897,0.899,True,True,False,True,False,nan,True,0.8,0.833,0.06,0.889,True,False,0.778,Phobia
 351,0.261,Female,0.222,0.282,0.658,False,True,True,True,True,Depression,False,0.8,0.333,0.18,0.222,False,True,0.556,PTSD
 352,0.891,Male,0.667,0.308,0.114,True,True,False,False,False,Depression,False,0.2,0.833,0.98,1.0,False,False,0.0,Caffeine
 353,0.63,Male,0.889,0.256,0.646,True,True,False,False,True,Anxiety,False,0.8,1.0,0.36,0.556,False,True,0.0,Caffeine
@@ -389,7 +374,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 388,0.435,Male,0.111,0.128,0.949,True,True,False,True,False,Depression,True,0.8,0.167,0.12,0.667,False,True,0.778,Stress
 389,0.826,Female,0.444,0.59,0.19,True,False,False,True,False,Depression,True,0.4,0.5,0.56,0.222,False,True,0.222,Caffeine
 390,0.761,Male,0.778,0.487,0.278,True,True,True,False,False,Anxiety,True,0.2,0.667,0.16,0.111,False,True,0.111,Phobia
-391,0.696,Female,0.778,0.923,0.494,False,False,True,True,False,nan,True,0.4,0.5,0.66,1.0,False,False,0.889,Caffeine
 392,0.63,Female,0.222,0.487,0.747,False,True,False,True,True,Depression,False,1.0,0.833,0.42,0.333,True,False,0.556,Phobia
 393,0.783,Female,0.333,0.282,0.911,True,True,False,False,False,Anxiety,True,0.0,0.0,0.84,1.0,False,False,0.778,PTSD
 394,0.478,Female,1.0,0.821,0.392,True,True,False,False,True,Depression,True,0.8,1.0,0.78,0.222,False,False,1.0,Social Anxiety
@@ -408,7 +392,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 407,0.5,Female,0.667,1.0,0.342,True,True,False,False,True,Anxiety,False,1.0,1.0,0.02,0.0,True,True,0.444,PTSD
 408,0.326,Female,0.556,0.718,0.392,True,True,True,True,False,Depression,True,0.2,0.667,0.9,0.222,False,False,0.667,Caffeine
 409,0.022,Female,0.333,0.154,0.177,True,True,False,False,False,Depression,True,0.0,0.5,0.22,0.222,False,True,0.889,Stress
-410,0.674,Male,0.889,0.308,0.81,True,False,True,False,True,nan,True,0.8,0.5,0.56,0.556,True,False,0.556,Social Anxiety
 411,0.565,Non-binary,0.0,0.949,0.038,False,True,True,False,False,Depression,False,0.2,0.167,0.54,0.667,False,False,0.333,Stress
 412,0.413,Non-binary,0.333,0.436,0.127,False,True,False,False,False,Depression,False,0.4,0.333,0.72,0.333,False,True,0.778,PTSD
 413,0.696,Male,0.444,0.821,0.278,True,False,True,True,False,Anxiety,False,0.8,0.833,0.3,0.0,False,False,1.0,Phobia
@@ -435,7 +418,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 434,0.717,Male,0.222,0.795,0.848,True,True,True,False,True,Anxiety,True,0.4,0.667,0.78,0.333,False,False,0.333,Stress
 435,0.87,Female,0.111,0.897,0.658,False,True,True,True,True,Anxiety,False,0.0,0.0,0.56,1.0,True,False,1.0,Social Anxiety
 436,0.13,Non-binary,0.778,0.795,0.405,False,False,False,False,True,Anxiety,False,0.8,0.667,0.64,0.111,False,True,1.0,Caffeine
-437,0.065,Male,0.556,0.359,0.886,True,True,True,False,True,nan,True,0.0,0.667,0.32,0.667,False,True,0.0,PTSD
 438,0.609,Male,1.0,0.385,0.633,True,True,True,True,False,PTSD,False,1.0,0.167,0.82,0.667,False,False,0.667,Phobia
 439,0.761,Female,0.222,0.103,0.924,True,False,False,False,False,Depression,True,0.8,0.333,0.64,0.0,False,True,0.222,Stress
 440,0.435,Male,0.667,0.231,0.177,True,False,True,False,True,Depression,False,1.0,0.333,0.42,0.333,True,False,0.444,Caffeine
@@ -451,7 +433,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 450,0.5,Female,0.556,0.59,0.304,True,False,True,True,True,Anxiety,False,1.0,0.167,0.18,0.889,False,True,0.556,Social Anxiety
 451,0.478,Male,0.444,0.256,0.949,True,False,True,False,False,Depression,True,0.6,1.0,0.46,0.889,True,False,0.889,Phobia
 452,0.674,Non-binary,0.556,0.846,0.443,True,True,False,True,False,Anxiety,False,0.2,0.0,0.04,0.556,False,True,0.778,Phobia
-453,0.783,Female,0.667,0.692,0.835,True,False,False,True,True,nan,True,0.8,0.5,0.8,0.778,False,True,1.0,Social Anxiety
 454,0.239,Male,0.444,0.103,0.101,False,True,True,False,False,Anxiety,False,0.0,0.0,0.88,0.889,False,False,0.222,PTSD
 455,0.478,Male,0.778,0.513,0.658,True,True,True,True,True,PTSD,True,0.0,0.833,0.26,0.333,False,True,0.667,Caffeine
 456,0.522,Female,0.333,0.282,0.215,True,True,True,False,True,Anxiety,False,0.8,0.833,0.12,0.333,False,True,0.556,Social Anxiety
@@ -461,7 +442,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 460,0.348,Male,0.0,0.615,0.975,False,False,False,False,True,Depression,False,0.0,0.333,0.04,0.778,False,True,0.111,Social Anxiety
 461,0.413,Female,0.222,0.333,0.038,True,True,True,False,False,Anxiety,False,0.4,0.833,0.28,0.778,False,False,0.889,Phobia
 462,0.522,Female,0.222,0.256,0.506,False,True,True,False,False,Depression,False,0.0,0.167,0.98,0.778,True,False,0.222,PTSD
-463,0.457,Male,1.0,0.795,0.557,True,True,False,False,True,nan,True,0.0,0.5,0.68,0.111,True,False,0.556,Phobia
 464,0.261,Male,0.333,0.256,0.62,False,True,True,True,True,Anxiety,False,0.4,0.333,0.9,1.0,False,True,0.444,Social Anxiety
 465,0.391,Male,0.556,0.436,0.987,False,True,False,False,False,Depression,True,1.0,0.833,0.78,0.111,False,False,0.111,PTSD
 466,0.761,Female,0.667,0.667,0.342,True,True,True,True,False,Anxiety,False,0.0,1.0,0.54,0.111,False,True,0.0,Stress
@@ -470,14 +450,12 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 469,0.239,Female,0.0,0.513,0.861,False,True,True,True,True,Anxiety,True,0.2,0.0,0.88,0.333,False,True,0.889,Social Anxiety
 470,0.174,Female,0.778,0.103,0.0,True,False,True,True,False,Anxiety,False,0.6,0.833,0.26,0.444,True,False,0.889,PTSD
 471,0.587,Male,0.889,0.615,0.203,True,True,False,True,False,Depression,True,0.6,0.5,0.56,0.667,True,True,0.556,Social Anxiety
-472,0.283,Male,0.222,0.231,0.43,False,True,True,False,True,nan,True,0.0,0.167,0.18,1.0,False,True,0.778,Stress
 473,0.652,Male,0.111,0.538,0.57,True,True,True,False,True,Depression,False,0.4,1.0,0.62,0.0,False,True,0.889,Stress
 474,0.391,Male,0.0,0.462,0.519,False,False,False,False,True,Anxiety,False,0.4,0.5,0.26,0.0,True,True,0.222,Caffeine
 475,1.0,Female,0.222,0.0,0.481,False,True,False,True,True,PTSD,True,0.8,1.0,0.24,0.111,False,True,0.556,Phobia
 476,0.087,Male,0.111,0.077,0.772,True,False,False,False,False,Depression,True,0.8,0.167,0.6,1.0,False,True,0.667,PTSD
 477,0.739,Male,0.222,0.0,0.468,False,True,True,False,False,Anxiety,True,1.0,0.667,0.54,1.0,False,False,0.667,PTSD
 478,0.239,Female,0.333,0.359,0.278,True,False,False,True,False,Anxiety,False,1.0,0.167,0.24,0.222,False,True,0.889,Phobia
-479,0.522,Non-binary,0.667,1.0,0.266,False,True,False,True,True,nan,True,0.8,0.167,0.9,0.556,False,False,0.0,Stress
 480,0.435,Male,0.222,0.282,0.038,True,False,False,True,False,Depression,False,0.6,1.0,0.1,1.0,False,True,0.556,Stress
 481,0.761,Female,0.889,0.538,0.608,True,True,True,True,False,Anxiety,True,0.4,0.667,0.04,0.556,False,False,0.444,Social Anxiety
 482,0.478,Male,0.778,0.538,0.734,False,True,True,False,True,Depression,True,0.6,0.333,0.6,0.0,False,False,0.333,Caffeine
@@ -495,7 +473,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 494,0.217,Male,0.556,0.692,1.0,False,True,False,True,False,Depression,False,0.4,0.0,0.94,0.556,False,False,0.667,Phobia
 495,0.37,Male,0.556,0.641,0.709,True,True,False,True,False,Anxiety,False,0.8,0.0,0.78,0.222,False,False,0.889,Social Anxiety
 496,1.0,Female,0.222,0.744,0.962,True,False,False,True,False,Anxiety,True,0.6,0.667,0.96,1.0,True,False,0.778,PTSD
-497,0.239,Male,0.556,0.308,0.177,True,True,True,False,True,nan,True,0.8,0.833,0.6,0.444,False,False,0.111,Caffeine
 498,0.174,Female,1.0,0.308,0.329,True,True,True,True,False,Depression,False,0.0,0.833,0.34,0.111,False,False,0.889,Phobia
 499,0.935,Male,0.444,0.923,1.0,True,True,True,False,True,Anxiety,True,0.0,0.0,0.3,0.778,False,True,1.0,PTSD
 500,0.804,Male,0.889,0.026,0.367,True,True,False,False,True,Anxiety,False,0.8,0.167,0.7,0.556,False,True,0.444,Caffeine
@@ -507,7 +484,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 506,0.174,Female,0.222,0.538,0.696,True,True,True,False,False,Depression,False,1.0,0.5,0.66,0.778,True,False,0.333,PTSD
 507,0.565,Female,0.111,0.487,0.848,False,True,False,True,True,nan,False,0.0,0.833,0.78,1.0,False,True,0.778,Phobia
 508,0.022,Female,0.778,0.179,0.544,True,True,True,True,True,PTSD,True,0.8,0.667,0.98,0.333,False,True,0.889,Caffeine
-509,0.087,Female,1.0,0.718,0.38,True,True,True,True,False,nan,True,0.8,0.667,0.38,0.667,False,False,0.333,Phobia
 510,0.609,Female,0.0,1.0,0.722,True,False,True,True,False,Anxiety,False,1.0,1.0,0.16,0.444,False,False,0.556,Caffeine
 511,0.783,Male,0.778,0.641,0.658,False,False,False,True,True,Anxiety,True,1.0,1.0,0.86,0.778,True,False,0.333,Caffeine
 512,0.804,Non-binary,0.667,0.744,0.987,True,False,True,False,True,Anxiety,True,1.0,0.333,0.32,0.556,True,True,0.333,Phobia
@@ -553,7 +529,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 552,0.761,Male,0.444,0.231,0.759,True,False,True,False,False,Anxiety,True,0.8,0.5,0.66,0.0,False,False,0.556,Stress
 553,0.739,Male,0.667,0.974,0.494,True,True,True,True,True,PTSD,False,1.0,0.0,0.68,1.0,True,False,0.889,PTSD
 554,0.391,Female,0.0,0.692,0.468,False,False,False,True,False,Depression,True,1.0,0.167,0.32,0.333,True,True,0.667,PTSD
-555,0.413,Female,0.0,0.897,0.532,True,True,True,True,True,nan,True,1.0,1.0,0.7,0.667,False,False,0.111,Stress
 556,0.37,Female,0.889,0.308,0.785,True,True,False,False,False,Anxiety,True,0.4,1.0,0.38,0.111,False,False,0.556,PTSD
 557,0.87,Female,0.444,0.897,0.62,True,False,True,True,True,nan,False,0.8,0.0,0.16,0.0,True,False,0.556,Stress
 558,0.283,Female,0.222,0.923,0.405,False,False,True,False,True,Depression,False,1.0,0.0,0.88,0.444,False,True,0.778,Social Anxiety
@@ -565,16 +540,13 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 564,0.239,Non-binary,0.667,0.564,0.063,True,False,False,True,True,PTSD,True,1.0,0.833,0.32,0.889,True,False,1.0,Stress
 565,0.196,Male,1.0,0.538,0.709,False,True,True,True,True,Depression,True,0.2,0.0,0.5,1.0,False,False,0.889,PTSD
 566,0.326,Male,0.333,0.769,0.886,False,False,False,False,False,Anxiety,False,0.6,0.0,0.32,0.667,False,False,0.0,Social Anxiety
-567,0.152,Male,0.778,0.256,0.722,True,True,False,False,False,nan,True,0.4,1.0,0.04,0.444,False,False,0.222,Social Anxiety
 568,0.804,Female,0.556,0.692,0.253,False,False,False,False,False,Anxiety,True,0.8,0.667,0.5,0.0,False,True,0.889,Social Anxiety
 569,0.239,Male,0.333,0.795,1.0,True,True,True,True,False,Anxiety,True,0.2,0.5,0.02,0.222,False,True,0.0,Social Anxiety
 570,0.5,Male,0.333,0.103,0.696,True,False,False,False,True,Anxiety,False,0.6,1.0,0.96,0.333,False,False,0.0,Caffeine
-571,0.587,Male,0.111,0.949,0.241,True,True,True,False,True,nan,True,0.4,0.167,0.8,0.111,True,False,0.444,Social Anxiety
 572,0.152,Female,0.111,0.231,0.671,False,True,True,False,True,nan,False,0.4,0.833,0.2,0.667,False,True,0.778,PTSD
 573,0.587,Female,0.333,1.0,0.304,True,True,True,False,True,Depression,False,0.6,0.333,0.28,0.0,False,False,0.111,Caffeine
 574,0.761,Male,0.444,0.59,0.342,True,True,True,False,False,PTSD,False,0.2,1.0,0.98,0.222,False,False,0.333,Social Anxiety
 575,0.543,Female,0.778,0.872,0.051,False,False,False,False,False,Anxiety,True,0.4,0.5,0.38,0.889,False,True,0.556,Stress
-576,0.152,Female,0.556,0.564,0.253,True,True,True,True,True,nan,True,0.8,0.333,0.78,0.111,False,False,0.0,Phobia
 577,0.587,Male,0.333,0.41,0.215,True,True,False,False,False,Anxiety,False,0.0,0.167,0.44,0.444,False,False,0.333,Phobia
 578,0.587,Male,0.667,0.0,0.582,True,True,False,True,True,Anxiety,False,0.8,0.833,0.86,0.333,False,True,0.333,Phobia
 579,0.783,Male,0.778,0.769,0.873,True,True,False,True,True,Anxiety,True,1.0,0.667,0.7,0.222,False,False,0.889,Caffeine
@@ -586,7 +558,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 585,0.587,Non-binary,0.889,1.0,0.304,True,False,True,True,True,PTSD,False,1.0,0.0,0.76,0.333,False,False,0.111,Phobia
 586,0.609,Female,0.0,0.41,0.684,False,False,False,False,False,Depression,False,0.2,0.167,0.36,0.556,False,True,0.556,Phobia
 587,0.739,Male,0.111,0.359,0.696,True,False,True,False,True,Depression,False,0.2,0.667,0.62,0.111,True,True,0.0,Phobia
-588,0.109,Female,0.556,0.974,0.684,False,True,True,True,False,nan,True,0.6,0.167,0.4,0.111,True,False,1.0,Social Anxiety
 589,0.37,Non-binary,0.556,0.308,0.873,False,False,True,False,False,Anxiety,True,0.6,0.5,0.32,0.222,False,False,0.222,PTSD
 590,0.087,Female,0.0,0.41,0.962,False,True,False,False,True,PTSD,True,0.6,0.833,0.98,0.778,False,True,0.667,PTSD
 591,1.0,Female,0.667,0.795,0.911,True,False,False,False,False,Depression,False,0.6,0.833,0.46,1.0,False,True,1.0,PTSD
@@ -641,7 +612,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 640,0.239,Female,0.111,0.769,0.608,True,True,False,True,False,Anxiety,False,0.6,0.667,0.86,0.0,False,False,0.778,Caffeine
 641,0.0,Female,0.444,0.718,0.0,True,True,True,False,False,Anxiety,True,0.6,0.0,0.52,0.778,True,False,0.444,Caffeine
 642,0.935,Male,0.333,0.103,0.114,False,False,True,False,True,Anxiety,False,0.6,0.0,0.36,1.0,False,True,0.222,Stress
-643,0.087,Male,0.111,0.615,0.582,True,False,True,True,True,nan,True,0.2,0.667,0.26,0.667,True,True,1.0,Caffeine
 644,0.63,Female,0.889,0.769,0.734,True,True,True,False,True,Depression,False,0.0,0.667,0.6,0.778,False,True,0.333,Social Anxiety
 645,0.63,Non-binary,0.889,0.513,0.772,True,False,False,False,True,Depression,True,0.0,0.167,0.16,1.0,False,True,0.0,Caffeine
 646,0.348,Female,0.556,0.487,0.215,True,True,True,True,False,PTSD,True,0.4,0.167,0.24,0.0,False,True,0.556,Caffeine
@@ -650,13 +620,10 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 649,0.304,Female,0.556,0.077,0.329,True,False,False,False,True,Anxiety,False,0.8,0.667,0.38,0.444,True,False,0.556,Caffeine
 650,0.435,Female,0.333,0.487,0.481,True,True,False,True,True,Depression,False,0.2,0.833,0.66,0.222,True,True,0.444,Caffeine
 651,0.283,Non-binary,0.667,0.308,0.608,True,True,False,False,True,Anxiety,False,0.2,0.167,0.96,0.889,False,False,0.889,PTSD
-652,0.022,Male,0.111,0.41,0.544,False,True,False,True,True,nan,True,0.4,0.0,0.76,0.889,True,False,0.778,Stress
 653,0.217,Female,0.889,0.897,0.899,False,True,False,True,False,Depression,False,0.0,0.667,0.4,0.333,False,False,0.222,PTSD
-654,0.826,Male,0.778,0.821,0.671,False,False,False,False,True,nan,True,0.6,0.333,0.74,0.333,False,True,0.0,Stress
 655,0.804,Female,0.778,0.0,0.418,False,True,False,True,False,Anxiety,False,1.0,0.833,0.94,0.778,False,False,1.0,Social Anxiety
 656,0.717,Male,0.667,0.359,0.886,True,False,False,True,True,PTSD,False,0.4,0.333,0.5,0.667,True,True,0.222,Stress
 657,0.804,Female,0.333,0.308,0.443,True,True,False,True,True,Anxiety,False,0.2,1.0,0.42,0.444,False,False,0.778,Social Anxiety
-658,0.717,Female,0.111,0.41,0.215,False,True,False,True,False,nan,True,0.2,0.333,0.08,0.556,False,True,0.222,Social Anxiety
 659,0.37,Male,0.222,0.59,0.468,False,True,False,False,True,Anxiety,False,0.2,0.0,0.9,0.222,False,False,0.444,Stress
 660,0.304,Female,0.444,0.667,0.101,True,True,True,True,False,PTSD,True,0.6,0.333,0.06,0.778,False,True,0.0,Phobia
 661,0.565,Non-binary,0.778,0.564,0.911,True,False,True,True,False,Depression,True,0.6,0.833,0.54,1.0,False,False,1.0,Stress
@@ -716,7 +683,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 715,0.174,Male,0.889,0.128,0.823,True,False,False,False,True,Anxiety,False,0.2,0.833,0.62,1.0,False,True,0.333,Caffeine
 716,0.543,Non-binary,0.778,0.538,0.038,True,True,True,False,True,Anxiety,False,0.2,0.5,0.96,0.111,True,True,0.889,Stress
 717,1.0,Female,0.0,0.949,0.114,False,True,False,False,True,PTSD,False,1.0,0.833,0.32,0.333,False,True,0.778,PTSD
-718,0.457,Non-binary,0.667,0.923,0.203,False,True,False,False,False,nan,True,0.8,0.833,0.58,0.111,False,True,0.222,Stress
 719,1.0,Male,0.889,0.179,0.646,False,False,False,True,False,PTSD,True,0.0,0.833,0.96,0.667,True,True,0.556,Caffeine
 720,0.63,Male,0.778,0.872,0.063,True,True,False,True,False,PTSD,True,0.4,0.5,0.66,1.0,False,True,0.333,Stress
 721,0.913,Female,0.778,0.256,0.861,True,False,True,False,True,Anxiety,True,0.2,0.833,0.68,0.0,False,False,0.667,Social Anxiety
@@ -833,10 +799,7 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 832,0.935,Male,0.889,0.282,0.671,True,True,False,False,False,PTSD,False,1.0,0.667,0.22,0.556,False,False,0.333,Caffeine
 833,0.022,Non-binary,0.667,0.0,0.633,True,True,False,True,False,Anxiety,False,0.4,0.167,0.36,0.667,False,True,0.333,Stress
 834,0.261,Male,0.0,0.538,0.481,False,False,False,False,False,Depression,True,0.4,0.333,0.02,0.889,False,False,1.0,Caffeine
-835,0.022,Male,0.333,0.923,0.025,False,True,False,False,True,nan,True,0.6,0.0,0.42,0.333,False,False,0.444,PTSD
-836,0.413,Male,0.333,0.0,0.797,True,True,False,True,True,nan,True,0.8,0.5,0.78,1.0,False,True,0.222,Phobia
 837,0.0,Female,0.444,0.0,0.354,True,False,True,True,False,Depression,False,0.6,0.333,0.14,0.444,False,True,0.444,Phobia
-838,0.783,Non-binary,0.222,0.513,0.127,True,True,False,True,False,nan,True,0.6,0.667,0.82,0.556,True,False,0.444,Phobia
 839,0.348,Male,0.0,0.41,0.937,True,False,False,True,False,PTSD,True,0.4,0.833,0.72,0.444,False,True,0.667,Caffeine
 840,0.174,Male,0.667,0.538,0.329,False,False,False,False,False,Depression,False,0.6,0.333,0.9,0.444,False,True,0.778,Phobia
 841,0.217,Female,1.0,0.949,0.253,False,True,False,False,False,Anxiety,False,0.6,0.0,0.16,0.667,False,True,0.444,Stress
@@ -879,14 +842,12 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 878,0.804,Male,1.0,0.462,0.025,True,True,True,False,False,Depression,False,0.0,0.0,0.84,0.889,False,True,0.556,PTSD
 879,0.696,Female,0.333,0.487,0.646,True,True,True,False,True,Depression,True,0.4,0.333,0.72,1.0,False,True,1.0,Stress
 880,0.478,Female,0.111,0.897,0.582,False,False,True,True,False,Anxiety,False,0.2,1.0,0.36,0.0,False,False,0.778,Caffeine
-881,0.304,Female,0.333,0.872,0.152,True,False,False,False,False,nan,True,0.8,0.0,0.66,0.444,False,True,0.444,Stress
 882,0.696,Male,0.778,0.795,1.0,False,False,False,False,False,PTSD,True,0.0,0.167,0.58,0.0,False,True,0.778,Social Anxiety
 883,0.348,Female,0.222,0.59,0.253,True,True,True,False,True,Depression,True,0.4,0.5,0.24,0.444,False,False,0.667,PTSD
 884,1.0,Male,0.889,0.154,0.671,True,False,True,True,False,Anxiety,True,0.8,0.333,0.2,0.111,True,False,0.889,Stress
 885,0.022,Female,0.333,0.0,0.329,True,True,False,False,False,Anxiety,True,0.0,0.667,0.16,0.556,True,False,0.556,Caffeine
 886,0.283,Male,1.0,0.872,0.468,False,True,False,False,False,Depression,False,0.8,0.0,0.06,0.222,False,True,0.556,Social Anxiety
 887,0.848,Female,0.222,0.795,0.722,False,False,False,True,False,PTSD,True,1.0,0.5,0.88,1.0,False,False,0.889,Social Anxiety
-888,0.826,Non-binary,0.0,0.308,0.57,False,True,True,False,True,nan,True,0.6,1.0,0.3,0.444,True,True,0.667,Caffeine
 889,0.109,Male,0.222,0.128,0.127,False,False,False,False,False,Depression,True,0.0,1.0,0.2,0.111,False,True,0.667,Caffeine
 890,0.109,Male,0.778,0.333,0.899,True,False,False,False,False,Anxiety,True,0.4,0.5,0.48,0.111,False,False,0.111,Stress
 891,0.152,Female,0.111,0.077,0.797,True,True,False,False,True,PTSD,True,0.8,0.5,0.6,0.333,False,False,0.333,Phobia
@@ -910,7 +871,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 909,0.696,Female,0.889,0.385,0.342,True,False,True,False,True,Anxiety,True,0.2,0.333,0.48,0.667,False,False,1.0,Social Anxiety
 910,0.804,Female,1.0,0.872,0.595,True,False,True,False,False,Anxiety,True,1.0,0.333,0.8,0.444,False,True,0.444,PTSD
 911,0.261,Female,0.778,0.744,0.468,True,True,False,False,True,PTSD,False,0.6,0.667,0.5,0.778,False,False,0.778,Caffeine
-912,0.652,Male,0.667,0.231,0.38,False,False,False,True,True,nan,True,0.0,0.167,0.38,0.222,False,True,0.889,Social Anxiety
 913,0.957,Male,0.444,0.103,0.962,True,True,True,True,False,Anxiety,False,0.8,0.333,0.32,0.0,True,True,0.889,Stress
 914,0.5,Male,0.333,0.718,0.354,True,False,False,False,True,Depression,True,0.6,0.0,0.46,0.556,False,False,0.556,Stress
 915,0.304,Male,0.222,0.974,0.633,False,False,False,False,True,Anxiety,True,0.6,0.5,0.22,0.111,False,False,1.0,Caffeine
@@ -932,7 +892,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 931,0.196,Male,0.556,0.051,0.304,True,True,False,False,True,Depression,False,0.8,0.0,0.16,0.444,False,False,0.667,Phobia
 932,0.804,Male,0.556,0.41,0.835,False,True,True,True,True,Depression,True,1.0,1.0,0.98,0.778,False,False,0.333,Stress
 933,0.109,Female,0.444,0.795,0.063,True,True,False,False,True,Anxiety,True,0.6,0.5,0.16,0.0,False,False,0.111,Social Anxiety
-934,0.152,Female,0.778,0.077,0.722,True,False,True,True,True,nan,True,0.6,0.333,0.72,0.0,False,False,0.333,Stress
 935,0.478,Male,0.0,0.077,0.873,True,True,True,False,True,PTSD,True,0.6,0.167,0.48,0.444,False,True,0.444,Stress
 936,1.0,Male,0.667,0.41,0.658,True,False,True,False,True,Anxiety,False,0.8,0.333,0.74,0.0,False,True,0.778,Stress
 937,0.543,Male,1.0,0.462,0.823,True,True,True,False,False,Depression,True,1.0,0.833,0.66,0.222,False,True,0.111,PTSD
@@ -957,7 +916,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 956,0.652,Female,0.778,0.462,0.43,True,True,False,False,True,PTSD,True,0.6,0.167,0.36,0.444,False,False,0.0,Caffeine
 957,0.174,Male,0.111,0.103,0.291,True,False,False,False,True,Anxiety,True,0.8,1.0,0.3,0.556,True,True,0.111,Stress
 958,0.609,Female,0.778,0.564,0.342,True,False,True,True,False,Anxiety,False,0.0,0.667,0.6,0.667,False,True,0.667,Caffeine
-959,0.283,Male,0.667,0.744,1.0,False,False,False,False,True,nan,True,0.8,0.0,0.16,0.667,False,False,0.222,Phobia
 960,0.848,Female,0.556,0.615,0.19,True,True,True,False,True,Depression,False,0.6,0.333,0.54,0.444,False,False,1.0,Caffeine
 961,0.87,Female,0.0,0.692,0.734,True,False,True,True,True,Depression,False,1.0,1.0,0.86,0.0,False,False,0.111,Social Anxiety
 962,0.457,Non-binary,0.667,0.846,0.671,True,True,False,True,False,Depression,True,0.8,0.5,0.52,0.889,True,False,0.556,Stress
@@ -969,7 +927,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 968,0.978,Male,0.556,0.846,0.532,False,False,False,False,True,Anxiety,False,1.0,0.833,0.08,0.778,True,True,0.556,PTSD
 969,0.761,Female,0.556,0.231,0.861,True,False,False,True,True,Anxiety,False,1.0,0.167,0.32,0.222,False,True,0.333,Phobia
 970,0.478,Male,0.333,0.872,0.152,True,False,False,False,False,Anxiety,True,0.6,0.0,0.5,0.778,False,True,0.667,Social Anxiety
-971,0.0,Female,0.333,0.256,0.114,True,True,True,False,True,nan,True,0.4,0.5,0.58,0.556,False,False,0.111,Social Anxiety
 972,0.435,Male,0.0,0.513,0.62,False,True,False,True,False,Depression,True,0.0,0.667,0.48,0.444,False,False,0.556,Social Anxiety
 973,1.0,Male,0.0,0.538,0.886,False,True,False,True,False,Anxiety,False,0.2,1.0,0.54,0.444,True,False,1.0,Stress
 974,0.174,Non-binary,0.667,0.154,0.734,True,False,False,True,False,nan,False,1.0,0.167,0.84,0.889,False,False,0.222,PTSD
@@ -1008,7 +965,6 @@ ID,Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortn
 1007,0.013089214309532471,Female,0.4507101029678753,0.6677522536959501,0.8525737024713769,True,True,False,False,False,Depression,False,0.4,0.18204507391900288,0.14782343843788148,0.21865999358998137,False,True,0.22868001282003728,Social Anxiety
 1008,0.1205660253702332,Non-binary,0.49090018484851816,0.5645353646554321,0.24639142759884913,True,True,True,True,False,Anxiety,True,0.6248435466776274,0.167,0.16161451555920908,0.35190770288075973,True,True,0.14340394386463895,Stress
 1009,0.05553595702614369,Female,0.5468399000383679,0.4105351968516908,0.8422775105857669,False,True,True,False,False,Anxiety,True,0.991766202281679,0.163562389452601,0.34205844942958025,0.3421600999616321,False,True,0.771124778905202,Stress
-1010,0.4051464714142805,Female,0.023410135017968403,0.8723260787728354,0.5377171280892211,True,True,True,True,True,nan,True,0.9879639408647978,0.9799298713920503,0.7006018029567601,0.6469298713920503,False,False,0.11768001282003726,Stress
 1011,0.366511150350879,Female,0.3515988668711532,0.8332942500248974,0.4788843171337337,True,False,False,True,False,Depression,True,0.9664885281600843,0.5279820789863295,0.6669160605758819,0.018598866871153183,False,True,0.5372335757696473,Stress
 1012,0.4808304446608619,Female,0.6196483783187444,0.7991290716001375,0.2553444310288725,True,True,False,False,False,Anxiety,False,0.31506435572868957,0.5354606314832722,0.1969871288542621,0.4039212629665443,False,False,0.07070892385586597,Stress
 1013,0.7943624557059644,Female,0.020182571359988168,0.8742699384778816,0.7459076320504734,True,True,True,False,True,Anxiety,False,0.07272998688284026,0.5909124836035503,0.5381824967207101,0.09081742864001183,False,True,0.9798174286400119,Stress
