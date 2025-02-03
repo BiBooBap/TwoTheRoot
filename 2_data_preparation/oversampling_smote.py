@@ -12,6 +12,16 @@ def oversampling(df):
         object_cols.remove('Trigger')
         trigger_is_object = True
     
+    # Plot della distribuzione delle classi Trigger
+    pre_class_counts = df['Trigger'].value_counts()
+    plt.figure(figsize=(12, 8))
+    patches, texts, autotexts = plt.pie(pre_class_counts, labels=pre_class_counts.index, autopct='%1.1f%%', startangle=90)
+    for text in texts:
+        text.set_fontsize(14)
+    for autotext in autotexts:
+        autotext.set_fontsize(14)
+    plt.show()
+    
     encoder_trigger = LabelEncoder()
     encoders = {}
     for col in object_cols:
@@ -51,9 +61,12 @@ def oversampling(df):
     class_counts = df['Trigger'].value_counts()
 
     # Crea il grafico a torta
-    plt.figure(figsize=(8, 8))  # Imposta la dimensione della figura
-    plt.pie(class_counts, labels=class_counts.index, autopct='%1.1f%%', startangle=90)
-    plt.title('Distribuzione dei valori Trigger dopo l\'oversampling') 
+    plt.figure(figsize=(12, 8))  # Imposta la dimensione della figura
+    patches, texts, autotexts = plt.pie(class_counts, labels=class_counts.index, autopct='%1.1f%%', startangle=90)
+    for text in texts:
+        text.set_fontsize(14)
+    for autotext in autotexts:
+        autotext.set_fontsize(14)
     plt.show()
 
     return df
