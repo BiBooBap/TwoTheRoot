@@ -1,5 +1,3 @@
-import pandas as pd
-
 def main(df):
     # Contiamo le righe iniziali
     old_count = len(df)
@@ -10,8 +8,5 @@ def main(df):
     # Contiamo le righe risultanti
     new_count = len(df)
     print(f"Righe iniziali: {old_count}, Righe risultanti: {new_count}, Righe eliminate: {old_count - new_count}")
-    # Reset degli indici
-    df = df.reset_index(drop=True)
-    df['ID'] = df.index + 1
 
     return df

@@ -30,7 +30,7 @@ def oversampling(df):
 
     #prendo prima tutte le colonne tranne la colonna target
     #poi prendo solo la colonna target
-    values_drop = ['Trigger', 'ID']
+    values_drop = ['Trigger']
     X = df.drop(values_drop, axis=1)
     Y= df['Trigger']
 
@@ -47,9 +47,6 @@ def oversampling(df):
     for col in object_cols:
         df[col] = encoders[col].inverse_transform(df[col])
     df['Trigger'] = encoder_trigger.inverse_transform(df['Trigger'])
-    
-
-    df.insert(0, 'ID', range(1, 1 + len(df)))
 
     #stampa un grafico a torta per mostrare la nuova distribuzione dei valori di trigger
     print("Nuova distribuzione dei valori di Trigger:")

@@ -31,12 +31,17 @@ def main(df):
 
     # Ripristiniamo i tipi originali (per gli interi arrotondiamo)
     for col in numeric_cols:
+        imputed_df[col] = imputed_df[col].fillna(imputed_df[col].mean())
         df[col] = imputed_df[col]
         if original_dtypes[col] in ['int64', 'int32']:
+            df[col] = df[col].fillna(df[col].mean())
             df[col] = df[col].round().astype(int)
+        else:
+            df[col] = df[col].fillna(df[col].mean())
 
     # Decode dei valori di "Medical_History" dopo l'imputazione
     med_col_idx = df_temp.columns.get_loc("Medical_History")
+    imputed_df["Medical_History"] = imputed_df["Medical_History"].fillna(imputed_df["Medical_History"].mean())
     df["Medical_History"] = label_enc.inverse_transform(
         imputed_df.iloc[:, med_col_idx].round().astype(int)
     )
