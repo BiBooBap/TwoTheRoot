@@ -1,6 +1,6 @@
 <p align="center">
   <img src="./logo.png" width=200>
-  <h1 align="center">TwoTheRoots</h1>
+  <h1 align="center">TwoTheRoot</h1>
 </p>
 
 Questo repository contiene un modello di Machine Learning progettato per supportare i medici nell'analisi delle cause degli attacchi di panico. Il sistema è stato sviluppato per fornire uno strumento di supporto decisionale che, attraverso l'analisi e la classificazione dei dati, aiuta a identificare pattern e fattori critici associati a queste condizioni.
@@ -13,6 +13,8 @@ Il progetto include:
 - **Deploy per l'utilizzo:** Applicazione web per l'utilizzo del modello pre-trained usando Flask.
 
 L'obiettivo è fornire uno strumento affidabile e utile nel contesto medico, integrando tecnologie avanzate per migliorare la comprensione e la gestione degli attacchi di panico.
+
+Dataset usato: [Panic Attack Dataset](https://www.kaggle.com/datasets/ashaychoudhary/panic-attack-dataset/data)
 <br><br>
 
 # Panoramica delle Fasi del Progetto
