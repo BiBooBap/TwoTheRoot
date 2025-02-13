@@ -1,0 +1,983 @@
+Age,Gender,Panic_Attack_Frequency,Duration_Minutes,Heart_Rate,Sweating,Shortness_of_Breath,Dizziness,Chest_Pain,Trembling,Medical_History,Medication,Caffeine_Intake,Exercise_Frequency,Sleep_Hours,Alcohol_Consumption,Smoking,Therapy,Panic_Score,Trigger
+56,Female,9,5,134,Yes,No,Yes,Yes,No,Anxiety,No,2,3,6.4,5,Yes,Yes,5,Caffeine
+46,Male,8,9,139,Yes,Yes,No,No,No,PTSD,Yes,2,5,5.0,3,No,Yes,7,Stress
+32,Female,6,31,141,No,Yes,Yes,No,No,Depression,No,4,0,8.3,8,No,Yes,7,PTSD
+60,Male,5,20,109,Yes,Yes,No,No,Yes,Depression,No,3,3,5.3,8,No,No,1,Caffeine
+25,Non-binary,6,10,101,Yes,No,Yes,Yes,Yes,Depression,No,3,6,7.2,2,No,No,5,Caffeine
+38,Male,0,44,154,Yes,Yes,Yes,No,No,Depression,Yes,1,4,4.8,6,No,No,8,Social Anxiety
+56,Male,0,17,108,Yes,Yes,Yes,No,No,Anxiety,No,0,6,6.0,4,Yes,Yes,7,PTSD
+36,Male,7,39,120,Yes,No,No,Yes,Yes,PTSD,No,0,4,8.5,8,No,Yes,2,PTSD
+28,Female,8,20,110,No,No,Yes,No,Yes,Anxiety,No,3,4,5.0,9,No,Yes,10,Caffeine
+41,Female,6,14,109,No,Yes,No,No,No,PTSD,No,5,6,6.1,4,No,No,1,PTSD
+41,Male,0,35,117,Yes,Yes,No,No,No,Anxiety,No,0,5,7.0,6,No,Yes,6,Caffeine
+19,Female,5,6,135,Yes,No,No,Yes,No,Depression,No,0,1,6.0,0,Yes,Yes,8,Social Anxiety
+41,Male,1,26,101,Yes,Yes,Yes,Yes,Yes,PTSD,No,1,3,4.2,0,No,No,3,Caffeine
+61,Male,0,41,146,Yes,Yes,Yes,No,Yes,Depression,No,1,3,7.8,2,No,Yes,9,PTSD
+47,Male,9,12,135,Yes,No,No,No,Yes,Depression,Yes,4,6,8.2,0,Yes,No,1,PTSD
+55,Female,4,11,98,Yes,Yes,No,Yes,No,PTSD,Yes,5,2,5.0,0,No,No,3,Caffeine
+19,Female,4,18,136,Yes,Yes,Yes,No,Yes,Anxiety,Yes,5,3,5.0,9,Yes,Yes,3,Caffeine
+50,Male,5,20,114,No,No,Yes,No,Yes,Anxiety,Yes,5,4,8.9,0,Yes,Yes,5,Caffeine
+29,Female,8,23,80,Yes,No,No,No,No,Depression,No,5,4,8.0,8,No,No,4,Phobia
+39,Female,1,22,131,No,No,No,No,No,Anxiety,Yes,3,5,5.8,1,Yes,No,2,PTSD
+42,Male,1,12,116,Yes,Yes,No,Yes,No,PTSD,Yes,5,2,5.5,6,Yes,Yes,3,PTSD
+44,Male,2,37,144,Yes,No,Yes,No,Yes,Anxiety,Yes,3,4,7.0,8,No,Yes,7,Phobia
+59,Female,6,16,130,Yes,Yes,Yes,No,No,Anxiety,No,1,0,7.6,2,Yes,Yes,10,Caffeine
+45,Male,5,15,80,No,Yes,No,No,No,Anxiety,Yes,5,2,6.2,0,No,Yes,7,Social Anxiety
+33,Male,7,9,100,No,No,Yes,No,Yes,Anxiety,No,1,1,8.4,0,No,Yes,2,Caffeine
+32,Female,7,31,132,Yes,Yes,Yes,No,Yes,Anxiety,Yes,4,4,6.6,9,No,Yes,7,Caffeine
+64,Non-binary,5,16,95,Yes,No,No,Yes,Yes,Depression,No,2,3,4.7,5,Yes,Yes,6,Phobia
+20,Male,2,10,133,No,Yes,No,Yes,Yes,PTSD,No,2,6,6.3,8,No,Yes,4,PTSD
+54,Male,2,37,119,Yes,Yes,Yes,No,No,PTSD,No,5,6,8.7,5,Yes,No,5,Caffeine
+38,Female,6,32,159,No,Yes,No,Yes,No,Anxiety,Yes,2,4,6.0,1,No,No,5,PTSD
+26,Male,4,18,144,No,No,No,Yes,No,Anxiety,No,2,5,7.3,1,No,No,3,Stress
+42,Male,3,26,96,Yes,Yes,No,No,Yes,PTSD,No,2,1,5.5,9,No,No,7,PTSD
+31,Female,5,9,138,Yes,No,Yes,Yes,No,PTSD,No,0,4,5.4,6,Yes,Yes,8,Social Anxiety
+43,Male,7,34,86,Yes,No,No,No,No,Depression,No,1,4,4.0,4,No,Yes,8,Social Anxiety
+19,Male,4,43,123,No,Yes,No,No,Yes,Depression,Yes,0,4,5.0,2,No,Yes,1,Caffeine
+24,Female,7,24,113,No,No,Yes,No,Yes,Depression,No,2,5,6.3,1,Yes,No,9,PTSD
+64,Male,0,27,157,No,Yes,Yes,Yes,Yes,Depression,Yes,1,4,5.4,3,No,Yes,7,Caffeine
+52,Female,1,18,157,No,Yes,Yes,No,No,Depression,Yes,2,5,7.1,8,No,Yes,10,Phobia
+31,Male,8,27,95,Yes,No,Yes,No,No,Anxiety,No,0,6,6.7,9,Yes,Yes,3,Social Anxiety
+34,Female,7,23,150,Yes,Yes,No,No,Yes,Anxiety,No,3,5,7.9,0,Yes,No,10,Caffeine
+53,Male,2,33,98,Yes,No,Yes,No,No,Anxiety,No,4,2,5.3,6,No,No,10,Phobia
+59,Female,2,14,149,No,No,No,Yes,No,Anxiety,No,0,0,4.6,4,No,No,9,Caffeine
+21,Female,5,12,101,Yes,Yes,Yes,Yes,Yes,Anxiety,No,1,2,6.7,1,Yes,Yes,8,PTSD
+35,Male,3,33,80,Yes,Yes,No,Yes,No,nan,No,0,6,6.5,9,No,No,10,PTSD
+43,Female,6,14,133,Yes,Yes,Yes,Yes,No,Anxiety,No,2,0,7.5,9,No,No,6,PTSD
+61,Male,8,21,137,Yes,No,Yes,No,No,Anxiety,Yes,0,0,4.4,6,Yes,Yes,7,PTSD
+51,Male,1,6,149,Yes,No,No,No,No,Depression,Yes,1,0,8.7,9,No,Yes,8,Stress
+53,Female,4,9,85,No,No,Yes,No,Yes,PTSD,Yes,4,3,8.7,9,No,Yes,5,Phobia
+31,Male,2,32,124,Yes,Yes,Yes,Yes,No,Depression,No,3,2,4.5,5,No,Yes,7,Phobia
+31,Male,7,24,156,Yes,No,Yes,No,Yes,PTSD,Yes,0,5,8.7,7,No,Yes,6,PTSD
+40,Male,8,31,86,Yes,No,No,Yes,No,PTSD,No,3,4,5.2,1,No,No,5,Stress
+57,Female,3,16,158,Yes,No,Yes,No,No,Depression,Yes,1,2,4.2,0,No,No,8,PTSD
+38,Male,4,11,123,No,Yes,Yes,No,Yes,PTSD,No,4,5,8.0,6,Yes,Yes,9,Stress
+33,Female,4,7,106,Yes,Yes,Yes,No,Yes,PTSD,No,0,2,7.0,5,No,No,9,PTSD
+62,Female,7,14,105,No,Yes,No,Yes,No,Depression,Yes,5,1,6.6,4,No,No,6,Social Anxiety
+35,Male,6,38,158,No,Yes,No,No,No,Depression,No,4,3,4.2,7,No,Yes,4,Social Anxiety
+64,Male,8,29,115,Yes,Yes,Yes,No,Yes,Depression,Yes,0,1,7.3,1,No,Yes,4,Caffeine
+41,Male,7,39,134,Yes,No,No,No,No,PTSD,No,3,5,4.9,1,No,No,9,PTSD
+58,Female,5,14,140,No,Yes,Yes,No,Yes,Anxiety,Yes,0,5,5.2,2,Yes,No,5,Caffeine
+32,Female,6,26,134,No,Yes,Yes,Yes,No,PTSD,No,1,4,6.7,7,No,Yes,3,Social Anxiety
+62,Male,2,30,159,Yes,No,No,Yes,No,Anxiety,No,5,3,8.3,6,Yes,Yes,5,PTSD
+18,Male,2,43,117,No,No,Yes,No,No,Depression,No,3,3,5.4,3,Yes,Yes,5,Caffeine
+42,Non-binary,1,31,159,No,Yes,No,No,Yes,Anxiety,Yes,2,5,7.8,7,Yes,Yes,2,PTSD
+24,Female,7,33,157,Yes,No,Yes,Yes,Yes,Anxiety,Yes,3,2,6.9,9,No,Yes,10,Social Anxiety
+26,Male,5,42,108,Yes,Yes,Yes,No,Yes,Anxiety,No,4,6,4.2,1,No,Yes,6,Caffeine
+41,Female,0,24,105,Yes,Yes,Yes,Yes,Yes,Anxiety,Yes,3,5,6.0,6,Yes,Yes,9,Social Anxiety
+18,Female,0,31,114,Yes,No,No,No,No,Anxiety,No,0,2,4.9,4,No,Yes,7,Stress
+41,Male,4,24,108,Yes,Yes,Yes,No,Yes,Anxiety,No,1,5,6.4,9,No,Yes,9,Phobia
+34,Male,3,6,120,Yes,Yes,Yes,Yes,No,PTSD,No,3,0,6.9,6,No,No,10,Social Anxiety
+52,Female,5,38,102,Yes,Yes,Yes,Yes,No,Anxiety,Yes,5,0,7.8,0,Yes,Yes,7,Phobia
+52,Female,2,26,150,Yes,Yes,Yes,No,No,Anxiety,Yes,2,0,8.7,9,No,Yes,4,Stress
+50,Male,8,7,82,Yes,Yes,Yes,Yes,No,nan,No,2,2,5.7,1,No,No,7,Caffeine
+22,Male,6,10,137,No,No,No,No,No,nan,No,2,2,4.9,7,Yes,No,8,Caffeine
+59,Female,0,19,111,No,Yes,Yes,No,Yes,Anxiety,No,3,3,6.7,9,No,No,10,Phobia
+56,Non-binary,6,31,110,Yes,Yes,No,Yes,Yes,Anxiety,Yes,0,2,7.5,2,No,Yes,10,Caffeine
+58,Female,4,14,122,Yes,Yes,Yes,No,Yes,Anxiety,No,3,5,7.4,3,No,No,4,Social Anxiety
+45,Male,4,13,86,Yes,No,No,Yes,No,Depression,No,5,3,7.1,7,Yes,No,5,Phobia
+24,Male,1,37,80,Yes,Yes,No,No,No,Depression,No,0,6,4.7,2,No,No,3,PTSD
+26,Male,3,36,140,Yes,Yes,Yes,Yes,No,Anxiety,No,5,3,8.2,5,No,Yes,5,Social Anxiety
+25,Non-binary,5,10,93,No,Yes,Yes,No,Yes,PTSD,No,4,0,6.1,1,No,No,8,Social Anxiety
+29,Male,9,40,131,Yes,No,No,No,Yes,Anxiety,No,4,2,5.1,2,No,No,3,Social Anxiety
+51,Female,6,6,85,No,Yes,No,No,Yes,nan,No,0,0,4.4,0,No,No,5,PTSD
+50,Male,4,33,89,Yes,No,Yes,No,Yes,Depression,No,3,2,6.1,8,No,Yes,10,Stress
+41,Female,2,5,109,No,No,No,No,No,PTSD,No,5,6,7.3,5,No,Yes,2,Caffeine
+54,Female,0,23,100,Yes,No,Yes,No,No,PTSD,No,1,0,8.8,6,No,Yes,3,Phobia
+52,Male,3,30,139,Yes,Yes,No,No,No,Anxiety,Yes,5,0,4.8,1,Yes,No,1,Stress
+61,Male,8,29,153,Yes,Yes,Yes,Yes,No,Anxiety,Yes,3,5,8.9,7,No,Yes,9,Phobia
+39,Non-binary,1,19,121,Yes,Yes,No,No,Yes,Anxiety,Yes,3,4,6.3,9,No,No,5,PTSD
+44,Female,9,26,130,Yes,Yes,No,No,No,Anxiety,Yes,2,6,8.4,1,No,Yes,4,Social Anxiety
+52,Female,4,25,143,No,No,Yes,No,No,Depression,Yes,5,0,7.5,4,No,No,5,Social Anxiety
+18,Female,2,26,155,Yes,Yes,Yes,Yes,No,PTSD,Yes,2,1,5.7,1,Yes,No,4,PTSD
+52,Female,8,40,135,No,Yes,No,No,Yes,PTSD,No,4,1,8.4,4,No,Yes,5,Stress
+64,Non-binary,5,34,120,No,Yes,Yes,Yes,Yes,Depression,Yes,0,5,7.5,5,Yes,Yes,8,Phobia
+31,Male,1,29,111,Yes,No,No,Yes,No,Anxiety,No,5,3,8.5,3,No,Yes,2,PTSD
+20,Male,5,32,94,No,Yes,No,No,Yes,Depression,No,1,0,6.2,1,No,Yes,4,Stress
+18,Female,2,5,141,Yes,Yes,No,Yes,No,PTSD,No,2,6,7.3,6,No,Yes,8,PTSD
+22,Male,8,8,106,Yes,Yes,No,Yes,No,Anxiety,No,3,1,7.7,9,No,Yes,7,Caffeine
+43,Male,1,11,107,Yes,No,Yes,No,Yes,Anxiety,No,5,5,6.3,8,No,No,9,Social Anxiety
+56,Female,4,40,138,Yes,No,No,Yes,No,Anxiety,No,3,1,7.9,2,No,No,6,Social Anxiety
+44,Male,7,23,137,Yes,Yes,No,Yes,No,Depression,No,2,2,4.2,6,Yes,No,8,Social Anxiety
+26,Female,1,5,81,Yes,No,Yes,Yes,Yes,PTSD,No,5,4,7.6,8,Yes,Yes,5,PTSD
+32,Male,5,14,115,Yes,Yes,Yes,Yes,No,Depression,No,2,0,8.6,4,No,No,9,PTSD
+59,Male,4,36,94,No,No,Yes,No,Yes,nan,No,2,2,5.2,6,No,Yes,3,Phobia
+49,Male,9,10,101,Yes,Yes,No,Yes,Yes,Anxiety,No,3,2,8.7,4,Yes,Yes,8,Social Anxiety
+49,Female,4,21,154,No,Yes,No,No,No,PTSD,No,2,1,4.6,7,No,Yes,7,Social Anxiety
+21,Male,2,14,153,Yes,Yes,No,Yes,No,Anxiety,No,4,6,7.1,0,No,Yes,1,Phobia
+47,Female,3,31,104,Yes,Yes,No,Yes,No,nan,No,0,0,7.7,1,Yes,No,4,Phobia
+54,Female,1,39,127,Yes,No,No,No,No,Anxiety,No,4,2,6.0,2,No,No,2,Caffeine
+40,Female,8,25,122,No,Yes,No,No,No,PTSD,No,3,5,7.6,6,Yes,Yes,2,Phobia
+56,Non-binary,2,29,117,No,No,Yes,Yes,No,PTSD,No,2,0,5.6,5,No,Yes,7,PTSD
+62,Female,1,32,120,No,Yes,No,Yes,No,PTSD,No,0,6,7.9,6,No,Yes,3,Phobia
+60,Male,8,8,119,Yes,Yes,Yes,No,Yes,Depression,Yes,5,0,5.3,3,No,No,6,Social Anxiety
+46,Male,6,33,96,No,Yes,No,Yes,No,Anxiety,No,2,2,8.4,6,No,No,6,Phobia
+30,Male,0,31,81,Yes,No,Yes,Yes,Yes,Depression,Yes,2,1,5.4,9,No,No,1,Stress
+39,Male,0,32,147,Yes,No,No,No,Yes,PTSD,No,1,2,5.1,7,Yes,Yes,9,Social Anxiety
+45,Female,3,21,96,Yes,No,No,Yes,No,PTSD,Yes,0,0,7.1,5,No,No,4,Stress
+19,Female,1,24,129,Yes,No,Yes,No,Yes,nan,No,0,1,8.4,2,No,Yes,10,Social Anxiety
+59,Male,1,44,119,Yes,Yes,Yes,Yes,Yes,Anxiety,Yes,5,4,7.5,2,No,Yes,6,PTSD
+45,Male,7,36,100,No,Yes,No,No,No,PTSD,Yes,4,2,7.1,5,Yes,No,9,PTSD
+61,Female,5,9,134,No,Yes,No,No,Yes,Anxiety,No,2,0,4.9,7,No,No,5,PTSD
+61,Female,8,38,108,Yes,Yes,Yes,No,Yes,Anxiety,No,4,6,7.5,8,No,Yes,7,Stress
+37,Male,3,44,103,No,Yes,No,No,No,Depression,No,1,1,4.1,6,No,Yes,3,Caffeine
+47,Male,0,15,153,Yes,Yes,No,Yes,Yes,Depression,No,5,0,7.5,2,No,No,2,Social Anxiety
+28,Female,7,7,96,Yes,Yes,Yes,No,No,nan,No,0,6,8.8,9,No,No,2,PTSD
+45,Female,6,37,97,Yes,Yes,Yes,No,Yes,Anxiety,No,2,3,4.9,3,No,No,1,Social Anxiety
+42,Female,6,15,121,Yes,No,Yes,No,Yes,Anxiety,Yes,1,2,5.6,9,No,No,5,Stress
+56,Male,2,20,124,No,Yes,No,Yes,Yes,Depression,No,3,6,6.9,1,No,No,3,Caffeine
+50,Female,3,22,96,Yes,Yes,No,No,Yes,PTSD,No,1,5,7.7,8,No,No,7,Stress
+44,Male,8,14,93,No,Yes,No,No,No,PTSD,No,5,3,7.3,1,No,Yes,9,Social Anxiety
+30,Non-binary,5,22,128,Yes,No,Yes,No,No,Depression,No,4,2,8.5,9,No,Yes,2,Caffeine
+20,Non-binary,2,23,83,Yes,No,Yes,Yes,Yes,PTSD,No,3,4,7.6,6,No,Yes,10,Caffeine
+23,Male,4,17,126,Yes,No,No,Yes,No,Anxiety,Yes,3,5,8.6,0,No,No,6,Stress
+44,Female,3,14,156,Yes,Yes,No,No,Yes,Anxiety,No,2,3,5.0,0,No,No,7,PTSD
+26,Female,3,42,158,No,Yes,Yes,No,No,Anxiety,No,3,1,5.8,2,Yes,Yes,8,Social Anxiety
+54,Female,0,5,106,Yes,No,No,No,Yes,PTSD,Yes,1,3,7.3,3,No,Yes,7,Phobia
+59,Female,8,12,98,Yes,Yes,No,No,Yes,Anxiety,Yes,2,2,4.7,6,No,No,9,Phobia
+61,Female,2,21,131,Yes,No,Yes,Yes,Yes,Anxiety,Yes,5,6,8.1,4,No,Yes,1,Stress
+41,Female,1,13,105,No,No,Yes,Yes,Yes,Anxiety,No,1,1,8.1,0,No,Yes,2,Social Anxiety
+32,Female,2,10,105,No,Yes,Yes,Yes,No,Depression,No,0,0,6.9,7,No,Yes,3,Social Anxiety
+49,Male,0,29,105,Yes,Yes,No,Yes,Yes,Anxiety,No,3,1,7.8,9,Yes,Yes,3,Stress
+49,Female,5,43,125,No,Yes,No,No,No,Depression,Yes,1,0,4.9,6,No,Yes,10,Social Anxiety
+41,Male,6,32,128,Yes,No,No,Yes,Yes,Anxiety,Yes,2,5,4.8,3,Yes,No,4,PTSD
+58,Non-binary,1,37,132,Yes,No,Yes,Yes,No,Anxiety,Yes,1,2,8.3,1,Yes,Yes,5,Stress
+29,Non-binary,7,41,82,Yes,Yes,Yes,Yes,Yes,Depression,Yes,0,6,6.5,6,No,No,6,PTSD
+20,Male,4,25,98,Yes,Yes,No,No,No,Anxiety,No,2,3,8.5,0,No,Yes,6,Social Anxiety
+54,Female,7,6,96,Yes,Yes,No,No,No,Anxiety,No,3,1,7.2,6,No,No,10,Stress
+19,Non-binary,2,44,155,No,No,No,No,No,Anxiety,Yes,5,4,6.4,3,No,No,5,Social Anxiety
+19,Male,3,40,128,Yes,Yes,No,No,Yes,PTSD,Yes,3,0,7.8,3,No,Yes,7,Stress
+45,Female,0,41,135,No,Yes,Yes,No,No,Depression,Yes,1,1,4.3,9,No,Yes,4,Social Anxiety
+49,Non-binary,7,22,128,Yes,No,No,Yes,Yes,Anxiety,No,0,0,7.0,8,No,Yes,4,PTSD
+50,Male,9,38,134,Yes,Yes,No,No,Yes,Anxiety,Yes,2,0,5.7,9,Yes,No,6,PTSD
+61,Male,8,8,86,Yes,No,No,No,Yes,Depression,Yes,2,6,5.4,8,No,No,9,Stress
+43,Non-binary,2,26,125,Yes,No,Yes,No,No,Depression,No,2,4,6.7,0,Yes,Yes,4,Phobia
+49,Non-binary,2,11,125,Yes,Yes,Yes,Yes,Yes,PTSD,No,2,3,6.8,6,No,Yes,4,PTSD
+23,Non-binary,2,28,95,Yes,Yes,Yes,No,No,PTSD,No,2,5,6.5,3,No,Yes,7,PTSD
+21,Female,2,32,140,No,Yes,Yes,No,No,Depression,No,2,1,5.3,9,No,No,10,Phobia
+28,Female,8,19,133,Yes,No,Yes,Yes,No,Depression,No,0,5,6.0,5,Yes,Yes,6,Social Anxiety
+34,Male,3,5,141,Yes,Yes,No,Yes,Yes,Anxiety,Yes,1,6,4.7,3,No,No,4,Stress
+22,Male,6,42,104,No,No,Yes,No,Yes,Depression,No,5,1,9.0,6,No,No,7,Social Anxiety
+51,Female,8,5,89,No,Yes,Yes,Yes,No,Anxiety,Yes,4,0,5.6,3,Yes,Yes,6,Caffeine
+23,Male,2,42,159,Yes,Yes,No,No,No,nan,No,4,4,8.7,5,No,No,3,PTSD
+39,Male,3,42,95,Yes,Yes,Yes,No,No,nan,No,3,0,6.0,5,Yes,No,1,Caffeine
+28,Male,7,25,137,Yes,No,Yes,Yes,Yes,nan,No,0,6,6.2,0,No,No,10,PTSD
+33,Female,5,33,151,No,No,No,No,Yes,PTSD,Yes,0,0,8.0,1,No,No,5,PTSD
+50,Male,4,9,108,Yes,Yes,No,No,Yes,nan,No,3,5,4.5,3,No,No,10,Caffeine
+46,Female,8,11,159,Yes,No,No,No,Yes,Anxiety,No,1,5,4.2,7,No,No,4,Caffeine
+20,Male,0,7,150,Yes,Yes,Yes,Yes,Yes,PTSD,Yes,0,1,4.2,1,No,Yes,6,Social Anxiety
+20,Female,2,9,150,Yes,Yes,Yes,No,No,Anxiety,Yes,0,1,8.2,9,No,No,4,Caffeine
+36,Male,8,5,112,Yes,No,Yes,No,No,nan,No,0,6,5.6,7,Yes,No,4,Social Anxiety
+24,Female,3,31,142,No,Yes,No,No,Yes,PTSD,Yes,1,2,5.8,8,No,No,10,Social Anxiety
+58,Female,7,27,146,No,Yes,Yes,No,Yes,Anxiety,Yes,2,5,7.1,0,No,No,7,Social Anxiety
+50,Male,1,29,131,Yes,Yes,No,Yes,Yes,Anxiety,No,5,5,8.4,5,No,Yes,7,PTSD
+35,Male,8,29,154,Yes,Yes,No,Yes,Yes,Depression,No,0,4,5.4,7,No,Yes,3,PTSD
+57,Female,7,36,81,Yes,Yes,No,No,No,Depression,Yes,3,4,5.4,5,No,Yes,3,Caffeine
+28,Female,0,9,109,Yes,No,No,Yes,No,Anxiety,No,5,2,6.5,8,No,Yes,4,PTSD
+40,Non-binary,4,20,123,No,No,Yes,No,Yes,Anxiety,No,5,6,4.8,6,No,Yes,8,Caffeine
+48,Male,4,37,112,Yes,No,No,No,No,PTSD,No,2,5,5.7,5,Yes,No,4,PTSD
+47,Female,4,25,92,Yes,No,Yes,No,Yes,Depression,Yes,1,2,6.8,4,No,No,3,Stress
+59,Male,3,13,157,Yes,No,Yes,Yes,Yes,Anxiety,No,0,6,7.0,5,No,No,5,Stress
+43,Female,4,26,127,Yes,Yes,No,No,Yes,Depression,Yes,1,2,6.1,0,No,Yes,1,Caffeine
+19,Female,8,9,119,Yes,No,No,Yes,Yes,Anxiety,No,1,1,4.6,5,Yes,No,8,PTSD
+18,Female,8,27,145,Yes,Yes,No,Yes,No,Anxiety,Yes,4,6,6.7,8,No,Yes,8,PTSD
+29,Non-binary,3,21,152,Yes,No,Yes,Yes,Yes,Anxiety,Yes,2,4,5.9,7,No,No,8,Social Anxiety
+49,Male,1,20,102,Yes,No,No,Yes,No,PTSD,No,0,4,5.8,7,Yes,No,9,Caffeine
+58,Female,0,34,81,Yes,No,No,Yes,No,Anxiety,No,1,3,6.5,3,No,Yes,3,Phobia
+36,Male,6,13,138,Yes,Yes,Yes,Yes,No,Anxiety,No,4,3,4.3,1,No,No,6,Phobia
+33,Male,7,33,125,Yes,Yes,Yes,No,Yes,Depression,No,4,0,7.1,0,No,Yes,9,Caffeine
+20,Male,5,41,82,No,No,No,No,Yes,PTSD,No,2,5,5.2,8,No,No,4,PTSD
+41,Male,2,17,91,Yes,Yes,Yes,No,No,Anxiety,Yes,1,5,8.8,7,No,Yes,6,Phobia
+25,Non-binary,7,44,95,Yes,No,Yes,No,No,PTSD,Yes,4,2,6.9,8,No,Yes,8,PTSD
+53,Male,4,25,113,Yes,Yes,Yes,Yes,Yes,Depression,Yes,0,3,5.6,9,No,Yes,7,Stress
+42,Female,6,37,91,No,Yes,Yes,Yes,Yes,PTSD,No,3,4,5.5,6,No,Yes,6,PTSD
+35,Male,3,21,130,Yes,No,Yes,No,No,Anxiety,No,1,1,6.8,8,No,Yes,3,Stress
+63,Male,5,36,150,No,No,Yes,No,Yes,Anxiety,Yes,1,1,5.5,2,No,Yes,1,Stress
+19,Non-binary,5,14,98,No,Yes,No,Yes,No,Depression,Yes,4,0,8.9,4,No,No,2,PTSD
+52,Female,1,40,85,No,No,Yes,No,No,PTSD,Yes,3,5,4.2,2,No,Yes,9,Social Anxiety
+33,Female,7,38,106,Yes,Yes,No,No,Yes,Anxiety,Yes,5,4,8.9,3,No,No,5,Caffeine
+58,Male,1,13,132,No,Yes,No,No,Yes,Anxiety,No,4,4,4.2,4,No,Yes,5,Caffeine
+53,Non-binary,6,32,127,No,Yes,Yes,No,No,PTSD,No,1,1,5.4,0,No,No,10,Phobia
+50,Male,8,15,86,No,Yes,Yes,No,Yes,Anxiety,No,4,5,6.5,8,No,No,8,PTSD
+50,Non-binary,7,43,148,Yes,No,Yes,Yes,No,Anxiety,No,2,3,4.7,9,No,No,3,Phobia
+38,Female,5,19,94,No,No,No,Yes,Yes,Depression,No,5,5,8.9,8,No,No,10,Phobia
+37,Female,5,32,143,Yes,Yes,No,Yes,Yes,Anxiety,Yes,0,5,5.9,3,Yes,No,4,Stress
+25,Male,5,28,82,No,Yes,Yes,Yes,Yes,PTSD,No,4,6,6.8,0,No,No,10,Caffeine
+24,Male,8,12,148,Yes,No,Yes,No,Yes,Depression,No,5,0,7.5,4,No,No,4,Phobia
+20,Male,1,13,102,Yes,No,Yes,No,No,nan,No,1,3,7.7,8,No,No,2,Stress
+34,Male,0,37,132,Yes,Yes,No,Yes,No,Depression,Yes,2,1,7.4,2,Yes,Yes,3,PTSD
+50,Female,5,37,116,Yes,Yes,Yes,Yes,Yes,Anxiety,No,1,1,5.7,4,Yes,No,4,Phobia
+63,Female,9,44,149,Yes,No,No,Yes,No,Anxiety,Yes,0,0,4.7,1,No,Yes,8,Caffeine
+47,Non-binary,0,5,96,Yes,Yes,Yes,No,No,Anxiety,No,2,6,4.1,1,No,Yes,10,Phobia
+55,Non-binary,8,33,105,Yes,No,Yes,No,Yes,Depression,No,5,0,8.7,8,Yes,Yes,2,PTSD
+55,Male,0,38,100,Yes,Yes,No,Yes,Yes,Anxiety,Yes,5,5,8.6,6,No,Yes,4,Phobia
+25,Male,7,5,100,No,Yes,Yes,No,Yes,Anxiety,No,0,1,4.9,1,No,No,1,Caffeine
+44,Female,3,33,117,Yes,Yes,No,Yes,No,PTSD,No,5,1,5.4,2,No,Yes,4,Stress
+51,Female,7,17,151,No,No,Yes,No,Yes,nan,No,1,6,5.0,9,No,Yes,2,Caffeine
+47,Female,5,43,93,Yes,Yes,Yes,Yes,Yes,Anxiety,Yes,3,5,4.4,0,Yes,Yes,8,Stress
+45,Male,0,30,89,Yes,Yes,No,Yes,Yes,Anxiety,No,2,6,4.4,7,No,Yes,4,Social Anxiety
+64,Female,7,21,91,Yes,No,No,Yes,Yes,nan,No,0,2,8.9,3,No,Yes,3,Caffeine
+22,Female,0,17,113,Yes,Yes,No,Yes,Yes,Anxiety,No,1,5,7.6,2,No,No,8,Caffeine
+36,Female,9,9,120,Yes,Yes,No,No,Yes,PTSD,No,3,2,6.1,2,No,No,3,PTSD
+21,Male,6,30,89,No,No,Yes,Yes,Yes,Anxiety,No,1,1,5.0,3,Yes,Yes,9,Phobia
+61,Male,0,43,146,Yes,No,No,Yes,Yes,Anxiety,Yes,4,3,7.8,3,No,No,9,Stress
+45,Male,9,5,141,Yes,Yes,Yes,Yes,Yes,Depression,Yes,3,6,5.3,9,No,No,3,PTSD
+47,Female,5,21,80,Yes,Yes,No,No,No,Anxiety,No,1,0,5.6,2,No,Yes,5,PTSD
+46,Non-binary,8,29,91,No,Yes,No,Yes,Yes,Anxiety,No,5,5,7.0,7,No,No,10,Phobia
+23,Female,7,19,121,Yes,No,Yes,No,No,Depression,No,2,2,6.9,8,No,Yes,9,Phobia
+52,Female,4,33,92,No,Yes,Yes,No,Yes,nan,No,0,0,5.9,2,Yes,Yes,8,Caffeine
+54,Male,8,30,148,Yes,Yes,Yes,No,Yes,PTSD,No,4,3,6.0,9,No,No,2,Social Anxiety
+41,Male,0,20,98,Yes,Yes,No,Yes,No,Depression,Yes,1,5,8.6,9,No,No,5,Phobia
+46,Male,7,29,81,Yes,No,Yes,No,No,nan,No,3,6,5.5,2,Yes,Yes,5,PTSD
+48,Female,2,13,153,No,Yes,No,Yes,No,Anxiety,Yes,4,1,4.3,7,No,Yes,4,Phobia
+52,Female,6,5,85,No,Yes,Yes,No,Yes,PTSD,Yes,2,6,7.1,7,No,No,8,Stress
+50,Male,6,33,87,Yes,Yes,Yes,Yes,No,PTSD,No,1,4,8.2,5,No,No,5,Social Anxiety
+49,Male,6,20,90,Yes,Yes,Yes,No,No,Anxiety,Yes,0,0,5.2,0,No,No,10,Caffeine
+40,Female,2,11,142,No,No,Yes,No,No,Depression,No,2,6,8.8,3,No,No,5,Stress
+50,Male,0,18,136,Yes,Yes,No,No,No,Anxiety,Yes,0,1,7.7,7,No,No,1,Stress
+20,Female,7,33,91,Yes,No,No,No,No,PTSD,No,3,0,6.8,5,No,No,4,Social Anxiety
+35,Female,2,23,152,Yes,No,No,No,Yes,Anxiety,No,1,4,5.5,1,Yes,Yes,1,Caffeine
+59,Female,7,6,87,Yes,No,Yes,Yes,Yes,Anxiety,Yes,0,2,7.6,6,No,No,6,PTSD
+20,Female,0,7,132,No,Yes,Yes,Yes,Yes,Depression,No,2,0,6.6,3,No,No,8,Caffeine
+41,Male,9,44,115,No,Yes,Yes,Yes,No,PTSD,No,5,0,8.1,6,No,No,1,Phobia
+64,Female,7,6,93,Yes,Yes,Yes,No,Yes,nan,No,2,0,4.5,4,Yes,No,7,Stress
+39,Female,8,36,133,Yes,No,Yes,Yes,No,Depression,No,4,6,7.2,0,No,No,10,Phobia
+40,Male,6,12,100,Yes,No,Yes,Yes,No,Anxiety,Yes,5,4,6.8,3,No,No,10,PTSD
+19,Female,6,26,129,No,No,Yes,No,Yes,PTSD,No,5,4,8.5,5,No,Yes,8,Phobia
+44,Female,0,10,118,Yes,Yes,No,No,No,Depression,No,1,5,7.8,5,Yes,Yes,5,Caffeine
+59,Female,3,16,99,No,No,Yes,Yes,No,Depression,Yes,4,4,8.8,8,No,No,7,Phobia
+19,Female,1,44,86,Yes,Yes,Yes,Yes,No,Anxiety,Yes,1,6,8.8,9,Yes,Yes,2,PTSD
+34,Female,1,19,80,Yes,Yes,Yes,Yes,Yes,Depression,Yes,2,5,7.6,4,Yes,No,6,PTSD
+57,Female,3,32,105,Yes,Yes,No,No,Yes,Anxiety,No,2,4,6.7,5,Yes,No,5,PTSD
+50,Female,0,22,117,No,Yes,Yes,Yes,Yes,PTSD,No,3,1,5.1,5,No,No,6,Caffeine
+26,Female,3,6,117,Yes,Yes,No,No,Yes,Depression,Yes,4,4,5.0,2,Yes,No,2,PTSD
+60,Female,1,17,140,Yes,Yes,No,Yes,No,PTSD,No,0,1,4.4,5,Yes,Yes,7,Stress
+56,Female,4,19,123,Yes,Yes,Yes,Yes,No,Depression,No,5,2,8.0,7,No,No,8,PTSD
+43,Female,3,33,141,No,No,Yes,No,No,Anxiety,Yes,4,4,7.0,2,No,No,7,Phobia
+42,Female,0,23,96,Yes,No,No,No,No,Depression,No,0,3,5.5,4,No,Yes,9,Phobia
+30,Male,2,18,117,Yes,No,Yes,No,No,Depression,Yes,0,1,6.1,5,Yes,No,4,Phobia
+53,Female,6,8,130,Yes,No,Yes,No,Yes,Anxiety,Yes,5,5,8.2,2,No,No,9,Caffeine
+62,Male,1,15,89,Yes,Yes,No,Yes,No,PTSD,Yes,0,2,7.1,3,Yes,No,1,Phobia
+37,Male,8,35,151,Yes,Yes,Yes,Yes,Yes,Depression,No,2,0,4.2,2,Yes,Yes,2,Caffeine
+18,Female,9,36,100,No,Yes,Yes,Yes,Yes,PTSD,No,5,6,8.1,1,No,Yes,3,Caffeine
+25,Male,1,31,149,No,Yes,No,No,No,Anxiety,No,2,3,4.5,7,Yes,Yes,1,PTSD
+31,Female,1,13,112,Yes,No,No,No,No,Anxiety,Yes,3,6,4.0,5,Yes,No,7,Stress
+32,Female,8,38,135,No,Yes,Yes,No,No,PTSD,No,2,6,7.3,9,No,No,9,PTSD
+45,Male,8,19,136,No,No,No,Yes,Yes,Anxiety,No,3,1,4.8,4,No,No,5,PTSD
+51,Male,6,29,155,Yes,No,No,Yes,No,Anxiety,No,4,2,5.3,3,No,No,9,Caffeine
+49,Female,3,12,121,No,No,Yes,Yes,Yes,Anxiety,No,3,6,8.8,2,No,Yes,9,Caffeine
+39,Female,4,41,153,Yes,No,Yes,Yes,No,PTSD,Yes,3,3,6.1,8,No,Yes,9,Phobia
+39,Male,5,36,121,No,Yes,No,No,Yes,PTSD,Yes,0,4,7.8,9,No,Yes,3,Phobia
+39,Female,2,21,111,Yes,Yes,Yes,No,No,Depression,Yes,5,3,8.1,1,No,Yes,9,PTSD
+59,Female,7,39,105,Yes,Yes,No,No,No,PTSD,Yes,0,2,8.9,5,Yes,No,7,Social Anxiety
+23,Female,1,41,104,Yes,Yes,Yes,Yes,Yes,Depression,Yes,1,6,5.9,2,No,Yes,8,Social Anxiety
+32,Male,0,23,154,No,No,No,No,No,Anxiety,Yes,5,3,5.5,2,No,No,7,Phobia
+60,Female,8,33,102,No,Yes,Yes,No,No,Depression,Yes,3,1,4.2,4,No,Yes,9,Social Anxiety
+54,Female,2,11,136,Yes,Yes,No,No,No,nan,No,1,0,4.8,6,No,Yes,8,Phobia
+50,Non-binary,0,32,131,Yes,Yes,No,Yes,Yes,PTSD,Yes,2,0,6.8,6,No,Yes,4,Caffeine
+61,Male,9,32,143,Yes,No,Yes,Yes,Yes,Depression,No,2,6,7.7,0,No,No,5,PTSD
+61,Female,4,10,150,Yes,Yes,No,Yes,No,Depression,No,1,6,4.2,6,No,No,2,Stress
+22,Non-binary,4,33,112,Yes,No,No,Yes,Yes,nan,No,0,4,5.3,6,No,No,4,PTSD
+56,Male,0,21,81,No,Yes,Yes,No,No,Depression,No,3,1,7.5,5,No,No,2,Phobia
+62,Non-binary,7,35,112,Yes,Yes,Yes,Yes,Yes,Anxiety,Yes,0,6,9.0,2,No,No,1,Phobia
+47,Female,5,25,130,Yes,Yes,No,Yes,No,nan,No,4,6,5.7,2,No,No,2,PTSD
+52,Male,5,40,151,Yes,Yes,Yes,No,Yes,Anxiety,No,4,5,4.3,8,Yes,No,8,Phobia
+30,Female,2,16,132,No,Yes,Yes,No,Yes,Depression,Yes,4,2,4.9,2,No,Yes,6,Social Anxiety
+59,Male,6,17,89,Yes,No,Yes,No,No,Depression,Yes,1,5,8.9,9,No,No,1,Social Anxiety
+47,Female,8,15,131,Yes,No,Yes,Yes,No,Anxiety,Yes,4,6,5.8,5,No,No,1,Phobia
+34,Male,5,12,90,Yes,Yes,Yes,Yes,Yes,nan,No,2,0,5.9,6,No,No,7,Phobia
+43,Male,2,6,115,Yes,No,No,No,Yes,PTSD,Yes,0,5,6.2,2,Yes,Yes,3,Social Anxiety
+54,Female,2,34,112,Yes,Yes,Yes,No,Yes,Anxiety,No,5,4,6.8,7,No,No,8,Phobia
+43,Non-binary,8,34,126,Yes,Yes,No,Yes,No,Depression,No,4,3,7.1,8,No,Yes,8,Phobia
+18,Male,5,20,98,Yes,Yes,Yes,No,Yes,Depression,No,4,1,5.1,2,No,No,2,PTSD
+49,Male,7,6,102,Yes,Yes,No,Yes,Yes,Anxiety,No,4,6,8.4,0,No,Yes,7,Stress
+42,Male,6,16,133,Yes,No,No,No,No,Anxiety,Yes,2,4,5.8,3,No,Yes,4,Social Anxiety
+57,Male,1,30,159,Yes,Yes,No,No,No,Anxiety,No,5,2,6.8,6,Yes,Yes,4,PTSD
+62,Female,7,27,144,Yes,Yes,No,No,No,Anxiety,No,3,3,7.2,4,No,No,9,Stress
+18,Female,4,22,91,No,Yes,Yes,Yes,Yes,Depression,No,4,4,6.1,9,No,No,10,Phobia
+33,Female,6,36,103,Yes,Yes,No,Yes,Yes,Depression,No,1,0,8.5,5,No,No,9,Phobia
+56,Male,3,42,113,No,No,Yes,Yes,No,Depression,Yes,5,0,5.8,9,Yes,No,7,PTSD
+39,Non-binary,7,42,87,Yes,No,No,No,No,Anxiety,No,2,4,4.7,1,No,Yes,4,Phobia
+20,Male,0,34,136,No,Yes,Yes,No,Yes,Anxiety,Yes,5,2,8.9,1,No,Yes,10,Caffeine
+29,Female,3,5,84,Yes,Yes,Yes,Yes,No,Anxiety,No,0,0,5.4,1,No,No,3,PTSD
+43,Male,2,34,105,Yes,Yes,No,No,Yes,PTSD,Yes,1,0,4.7,1,No,No,3,Stress
+33,Female,9,36,109,Yes,Yes,Yes,No,No,Depression,Yes,2,3,6.4,0,No,No,7,PTSD
+54,Female,1,32,133,No,No,No,No,Yes,Anxiety,Yes,2,4,7.5,2,No,Yes,9,Social Anxiety
+31,Female,0,31,82,Yes,Yes,Yes,No,Yes,PTSD,Yes,2,2,8.1,0,No,Yes,1,PTSD
+45,Female,5,40,137,No,No,Yes,No,Yes,Depression,Yes,0,0,8.3,4,Yes,No,1,Phobia
+22,Male,4,11,155,Yes,Yes,Yes,No,No,Depression,No,3,4,6.7,4,Yes,Yes,3,Phobia
+64,Non-binary,7,26,81,No,Yes,Yes,Yes,No,Anxiety,Yes,1,1,5.6,0,No,Yes,7,Caffeine
+47,Male,1,14,154,Yes,Yes,Yes,No,No,nan,No,2,4,7.5,3,No,No,9,Caffeine
+29,Non-binary,5,19,155,Yes,Yes,Yes,Yes,No,Anxiety,No,5,6,4.8,0,Yes,No,6,Caffeine
+33,Male,0,8,81,Yes,No,No,Yes,Yes,PTSD,No,1,6,6.6,6,No,No,6,Stress
+43,Female,0,27,105,Yes,No,Yes,Yes,Yes,PTSD,No,5,1,6.8,2,No,No,4,Caffeine
+38,Male,1,10,155,Yes,Yes,No,No,Yes,Anxiety,No,4,1,4.6,6,Yes,No,8,Stress
+56,Male,4,28,95,Yes,No,No,Yes,No,Depression,No,2,3,6.8,2,No,No,3,Caffeine
+47,Female,2,24,139,Yes,Yes,No,No,No,PTSD,No,5,5,6.1,3,No,No,6,Stress
+54,Male,3,16,152,No,Yes,No,Yes,Yes,Anxiety,Yes,0,0,8.2,9,Yes,Yes,8,PTSD
+27,Male,5,32,94,Yes,Yes,Yes,No,No,nan,No,0,0,7.6,6,Yes,No,9,PTSD
+22,Female,9,12,92,No,No,Yes,No,Yes,Anxiety,Yes,5,6,7.5,0,Yes,No,1,Phobia
+53,Male,2,5,84,Yes,Yes,No,Yes,Yes,Depression,Yes,2,1,6.8,5,Yes,No,1,Stress
+27,Female,4,10,131,Yes,Yes,Yes,Yes,No,PTSD,No,3,3,6.3,4,No,No,7,Social Anxiety
+36,Non-binary,9,25,156,Yes,No,No,No,Yes,PTSD,No,1,5,6.3,2,Yes,Yes,7,Phobia
+49,Male,4,36,120,Yes,Yes,Yes,No,No,Anxiety,No,4,5,5.9,9,No,Yes,2,PTSD
+22,Female,4,19,129,Yes,Yes,Yes,No,Yes,Depression,No,3,2,5.2,1,No,No,4,Stress
+62,Female,9,9,94,No,No,Yes,No,Yes,nan,No,5,6,5.6,4,Yes,Yes,2,Caffeine
+21,Female,4,10,86,No,Yes,No,Yes,No,Anxiety,No,1,2,8.8,7,Yes,No,10,Social Anxiety
+41,Female,6,44,107,Yes,Yes,Yes,No,No,Anxiety,No,5,6,4.1,0,No,No,5,Phobia
+19,Male,3,11,94,Yes,Yes,No,Yes,No,Depression,Yes,0,3,5.1,2,No,No,9,Social Anxiety
+49,Non-binary,8,17,144,Yes,Yes,No,Yes,No,Depression,No,4,3,6.8,5,No,Yes,6,Stress
+37,Female,3,22,90,No,No,Yes,No,Yes,Anxiety,Yes,2,2,7.6,3,No,No,8,Caffeine
+50,Female,4,37,102,Yes,No,No,No,Yes,Anxiety,No,4,5,5.5,0,No,Yes,10,Phobia
+50,Male,4,42,119,Yes,Yes,No,No,No,Anxiety,No,2,6,8.9,8,No,No,9,Stress
+60,Male,8,31,156,Yes,Yes,No,No,Yes,Anxiety,No,5,4,6.3,6,No,No,2,PTSD
+18,Male,4,31,147,No,Yes,No,Yes,Yes,Depression,Yes,2,1,4.7,2,No,Yes,3,Phobia
+57,Male,2,14,110,No,Yes,No,No,Yes,PTSD,Yes,1,2,8.8,4,No,No,6,PTSD
+27,Female,2,7,132,Yes,No,No,Yes,No,Depression,No,3,0,6.1,2,No,Yes,5,Stress
+30,Female,9,19,88,No,Yes,Yes,Yes,Yes,Depression,No,2,6,4.7,9,No,Yes,6,PTSD
+29,Male,0,20,91,Yes,Yes,No,No,No,Depression,No,1,6,8.2,5,No,No,2,Caffeine
+19,Male,6,15,133,Yes,Yes,No,No,Yes,Anxiety,No,1,0,6.7,5,No,Yes,1,Caffeine
+34,Female,0,34,148,Yes,No,Yes,Yes,Yes,Anxiety,No,4,2,4.9,2,Yes,No,4,Stress
+43,Female,7,39,156,No,No,Yes,No,No,Anxiety,No,0,6,8.6,8,Yes,Yes,5,Phobia
+27,Female,2,18,121,Yes,Yes,Yes,Yes,No,Depression,Yes,2,4,4.3,0,No,No,10,Social Anxiety
+43,Female,0,28,117,Yes,Yes,No,No,Yes,Anxiety,No,4,6,6.2,3,No,No,9,Phobia
+51,Female,2,36,147,Yes,Yes,Yes,No,Yes,Depression,No,2,4,7.9,3,No,No,4,Caffeine
+24,Female,7,36,112,Yes,No,No,Yes,No,Anxiety,No,4,4,7.2,1,Yes,Yes,10,PTSD
+21,Male,5,19,150,No,No,Yes,Yes,Yes,Anxiety,Yes,0,4,5.6,6,No,Yes,1,Social Anxiety
+53,Non-binary,2,9,153,Yes,Yes,No,Yes,No,Anxiety,No,4,2,7.2,0,No,Yes,3,Stress
+38,Male,6,14,94,No,No,No,No,No,Anxiety,Yes,5,2,6.1,3,No,Yes,5,Social Anxiety
+27,Female,7,29,94,Yes,Yes,No,Yes,No,Depression,Yes,5,0,6.7,7,Yes,No,3,Stress
+54,Female,4,8,84,Yes,Yes,No,No,Yes,Depression,Yes,1,1,5.5,2,No,Yes,9,Social Anxiety
+26,Female,0,33,133,Yes,No,No,No,Yes,Anxiety,Yes,2,2,5.3,3,No,Yes,3,Stress
+52,Male,3,6,89,Yes,Yes,Yes,No,No,Anxiety,Yes,0,6,8.1,9,No,Yes,9,Stress
+52,Male,5,14,91,Yes,Yes,No,Yes,Yes,Depression,No,4,4,6.9,1,Yes,Yes,9,Social Anxiety
+53,Female,2,29,83,Yes,Yes,No,No,Yes,PTSD,Yes,4,5,7.5,6,No,No,10,Social Anxiety
+35,Male,4,24,97,No,Yes,No,No,No,PTSD,No,0,3,8.3,6,Yes,Yes,4,Stress
+56,Male,1,23,159,Yes,Yes,Yes,No,No,Depression,No,1,3,8.9,8,Yes,Yes,4,Caffeine
+41,Male,5,28,104,Yes,No,Yes,Yes,Yes,Anxiety,No,5,1,4.9,8,Yes,No,6,Social Anxiety
+49,Male,5,38,115,Yes,No,Yes,Yes,No,PTSD,Yes,1,0,4.2,5,No,No,8,Phobia
+54,Male,6,32,146,Yes,Yes,Yes,Yes,Yes,Anxiety,Yes,4,3,8.0,7,No,No,10,PTSD
+29,Female,4,9,88,No,No,Yes,No,No,nan,No,0,0,8.4,8,Yes,Yes,3,Stress
+40,Female,7,25,132,Yes,Yes,No,No,No,Depression,No,0,5,5.3,3,Yes,Yes,7,Stress
+42,Female,3,16,97,Yes,Yes,Yes,No,Yes,Depression,No,4,5,4.6,3,Yes,Yes,6,PTSD
+52,Male,8,8,122,Yes,Yes,No,No,No,Anxiety,No,0,2,5.9,5,No,Yes,3,Caffeine
+58,Male,9,24,114,Yes,Yes,Yes,No,No,Depression,No,5,3,8.2,3,Yes,No,9,PTSD
+47,Male,5,42,142,Yes,Yes,Yes,Yes,Yes,Depression,No,2,5,5.7,6,No,No,4,Social Anxiety
+34,Female,0,29,157,Yes,Yes,Yes,No,No,Anxiety,No,0,2,4.2,7,Yes,Yes,2,PTSD
+37,Female,2,18,83,Yes,Yes,Yes,Yes,No,Anxiety,Yes,2,5,5.4,7,Yes,Yes,9,Stress
+42,Male,2,15,120,Yes,Yes,No,Yes,No,PTSD,Yes,0,1,8.9,7,Yes,Yes,3,PTSD
+39,Non-binary,9,36,124,Yes,No,No,No,No,Depression,No,0,3,7.4,1,Yes,No,6,Phobia
+36,Female,5,22,158,Yes,No,Yes,No,Yes,Anxiety,No,5,5,7.9,1,No,Yes,2,Social Anxiety
+53,Female,6,31,107,No,Yes,Yes,No,Yes,PTSD,Yes,0,6,6.7,1,No,No,1,PTSD
+29,Female,9,22,121,No,Yes,No,Yes,Yes,PTSD,No,5,2,4.7,1,Yes,Yes,9,Stress
+29,Female,0,25,148,Yes,Yes,No,No,No,Depression,No,1,0,8.4,3,No,Yes,9,Social Anxiety
+26,Male,7,9,80,Yes,Yes,No,Yes,No,Depression,Yes,3,5,5.3,4,No,Yes,9,Stress
+45,Female,8,29,96,Yes,No,No,Yes,No,Depression,Yes,3,3,6.8,6,No,Yes,6,Caffeine
+31,Male,2,14,114,Yes,Yes,Yes,No,No,Anxiety,Yes,0,1,4.9,9,No,Yes,8,Phobia
+36,Female,0,23,121,No,Yes,No,Yes,Yes,Depression,No,2,3,5.3,0,Yes,No,3,Phobia
+64,Female,2,5,118,Yes,Yes,No,No,No,Anxiety,Yes,4,6,5.2,1,No,No,6,PTSD
+22,Female,1,8,141,Yes,Yes,No,No,Yes,Depression,Yes,4,1,7.0,9,No,No,7,Social Anxiety
+52,Female,2,5,117,Yes,Yes,No,No,No,PTSD,No,5,4,6.7,9,No,Yes,7,PTSD
+29,Female,3,19,102,No,No,Yes,No,No,Anxiety,No,5,1,5.2,2,No,No,9,Phobia
+42,Female,6,44,101,Yes,No,No,No,Yes,Anxiety,Yes,4,1,8.5,5,No,Yes,1,Phobia
+38,Male,2,16,83,Yes,Yes,No,No,No,Depression,Yes,3,6,4.5,9,Yes,Yes,6,Phobia
+40,Male,7,26,138,Yes,No,No,Yes,Yes,PTSD,No,3,2,7.0,0,Yes,Yes,4,Stress
+56,Male,0,33,147,No,Yes,No,Yes,No,Anxiety,Yes,0,2,6.5,4,No,No,1,Social Anxiety
+62,Female,0,18,150,Yes,Yes,Yes,No,Yes,PTSD,No,4,0,8.8,6,No,Yes,4,PTSD
+59,Male,0,24,81,Yes,Yes,Yes,No,Yes,Anxiety,Yes,4,1,7.5,5,No,Yes,10,PTSD
+56,Non-binary,0,37,128,No,Yes,Yes,No,No,Anxiety,Yes,5,5,7.1,6,No,Yes,7,Caffeine
+31,Male,7,19,110,Yes,No,No,No,No,PTSD,No,3,4,6.9,1,No,Yes,4,Phobia
+48,Male,2,16,119,Yes,No,Yes,No,No,Depression,No,4,5,4.9,0,Yes,Yes,1,Phobia
+22,Female,5,44,127,Yes,Yes,No,No,No,Anxiety,Yes,2,0,6.2,6,No,Yes,10,Phobia
+52,Female,2,24,130,Yes,Yes,No,No,Yes,Anxiety,No,4,4,5.7,8,Yes,Yes,1,PTSD
+40,Female,4,34,122,Yes,Yes,Yes,Yes,No,Depression,Yes,3,5,8.8,1,No,No,1,Caffeine
+46,Female,6,42,134,Yes,Yes,No,No,No,Depression,Yes,5,6,5.2,6,No,Yes,10,Stress
+35,Non-binary,5,30,136,No,Yes,Yes,No,No,Depression,No,4,0,7.9,2,No,No,9,Stress
+64,Non-binary,2,34,156,No,Yes,No,No,No,Depression,No,3,4,8.8,9,No,Yes,8,PTSD
+55,Male,8,6,109,Yes,No,Yes,Yes,No,Anxiety,No,4,1,7.5,5,No,No,5,Phobia
+24,Male,7,40,115,No,Yes,No,No,No,Anxiety,No,0,6,7.2,0,Yes,Yes,4,Social Anxiety
+63,Male,2,30,146,No,No,Yes,No,Yes,Anxiety,Yes,1,6,8.4,7,No,No,6,PTSD
+30,Female,7,15,128,Yes,Yes,No,No,No,Anxiety,No,0,3,8.8,0,No,No,1,PTSD
+59,Female,2,44,134,Yes,Yes,Yes,No,Yes,PTSD,No,4,4,4.3,1,No,Yes,4,PTSD
+26,Female,2,26,135,Yes,Yes,No,No,No,Depression,No,5,3,7.3,7,No,Yes,4,Social Anxiety
+44,Male,1,24,147,Yes,Yes,Yes,No,Yes,Anxiety,Yes,0,5,7.9,9,No,Yes,8,Social Anxiety
+19,Male,7,12,123,No,Yes,No,No,Yes,Anxiety,No,4,4,8.9,3,Yes,No,9,Caffeine
+22,Male,9,33,110,No,No,Yes,No,No,Depression,Yes,4,4,5.9,6,No,No,4,Caffeine
+46,Non-binary,0,44,137,Yes,No,No,No,Yes,Anxiety,Yes,5,6,4.8,4,Yes,Yes,6,Stress
+54,Male,7,30,132,Yes,Yes,No,No,Yes,Depression,Yes,5,6,8.3,7,No,No,4,Social Anxiety
+55,Female,6,34,158,No,Yes,Yes,No,Yes,nan,No,5,2,5.6,5,No,Yes,4,Social Anxiety
+36,Female,6,21,102,Yes,Yes,Yes,Yes,Yes,Anxiety,Yes,5,0,7.0,4,Yes,Yes,9,Social Anxiety
+25,Male,2,24,107,Yes,Yes,Yes,No,No,Anxiety,No,1,3,5.9,0,Yes,No,4,Caffeine
+34,Female,4,31,158,Yes,Yes,No,No,No,PTSD,Yes,5,4,7.5,8,No,Yes,7,PTSD
+62,Male,7,13,156,No,Yes,No,No,No,Anxiety,No,2,4,5.6,5,No,No,2,Phobia
+53,Male,4,24,109,No,Yes,No,No,No,nan,No,0,4,5.6,0,No,No,8,Caffeine
+23,Female,8,41,124,No,No,No,No,No,Anxiety,Yes,1,1,7.2,1,Yes,No,6,Social Anxiety
+36,Male,3,35,157,Yes,Yes,Yes,Yes,No,PTSD,No,0,1,7.3,8,No,Yes,3,Caffeine
+56,Female,1,19,115,No,Yes,No,Yes,Yes,Anxiety,Yes,1,4,6.1,8,Yes,No,9,Stress
+27,Female,6,34,98,Yes,No,Yes,No,No,Anxiety,No,1,2,6.8,0,No,No,6,Social Anxiety
+43,Male,8,24,123,Yes,Yes,Yes,No,Yes,Anxiety,Yes,3,6,4.3,5,No,No,7,Stress
+36,Female,1,43,86,No,Yes,Yes,Yes,Yes,Anxiety,No,5,5,8.4,9,Yes,No,5,Social Anxiety
+56,Non-binary,3,16,123,No,No,No,No,Yes,Anxiety,No,5,2,8.1,6,No,Yes,10,Caffeine
+45,Male,2,23,148,Yes,Yes,Yes,Yes,No,PTSD,No,1,0,5.4,3,No,No,7,Phobia
+25,Female,5,11,121,Yes,No,No,No,No,Depression,Yes,5,0,6.6,5,No,Yes,7,Stress
+56,Male,7,24,156,Yes,No,Yes,No,Yes,Depression,No,1,5,6.8,4,Yes,No,10,Caffeine
+18,Female,0,42,148,Yes,No,No,Yes,No,Anxiety,Yes,3,2,7.1,0,No,No,4,PTSD
+30,Male,1,14,89,Yes,Yes,Yes,No,No,Depression,Yes,0,3,7.6,5,No,No,10,Caffeine
+45,Female,9,36,139,No,Yes,Yes,Yes,Yes,Depression,No,0,6,7.5,9,Yes,Yes,7,Stress
+42,Male,5,19,130,Yes,Yes,No,Yes,No,PTSD,Yes,5,0,6.9,4,Yes,No,5,Phobia
+23,Male,9,7,144,No,Yes,Yes,No,Yes,Depression,Yes,3,0,8.9,9,No,No,6,Caffeine
+61,Male,7,41,157,Yes,No,Yes,No,No,PTSD,Yes,3,3,8.0,0,No,Yes,6,Social Anxiety
+49,Non-binary,6,12,128,No,Yes,Yes,No,No,Anxiety,No,5,2,4.7,1,No,Yes,10,PTSD
+62,Male,2,44,88,No,Yes,No,No,Yes,PTSD,No,3,1,8.1,0,No,No,7,Caffeine
+64,Female,7,27,96,Yes,Yes,No,Yes,Yes,Anxiety,No,5,0,7.7,3,No,Yes,7,PTSD
+33,Female,7,15,137,Yes,No,Yes,Yes,Yes,Anxiety,No,4,3,5.2,4,No,Yes,4,Social Anxiety
+38,Male,6,12,136,Yes,No,Yes,No,No,Depression,Yes,2,6,8.5,9,Yes,No,6,Phobia
+28,Non-binary,5,33,141,Yes,Yes,No,Yes,No,Anxiety,No,1,5,4.5,0,No,Yes,4,Phobia
+53,Male,4,14,140,No,Yes,Yes,No,No,Anxiety,No,4,3,7.3,0,No,No,6,PTSD
+36,Male,0,32,117,Yes,Yes,Yes,Yes,Yes,PTSD,Yes,5,1,5.6,3,No,Yes,7,Caffeine
+37,Female,0,40,122,Yes,Yes,Yes,No,Yes,Anxiety,No,5,6,7.5,6,No,Yes,2,Social Anxiety
+35,Male,8,17,142,Yes,Yes,Yes,Yes,No,Anxiety,Yes,2,6,5.9,1,No,No,6,Stress
+58,Female,4,40,129,Yes,No,Yes,Yes,Yes,PTSD,Yes,4,0,4.8,0,No,Yes,6,PTSD
+31,Male,2,41,112,Yes,Yes,No,Yes,Yes,Depression,No,5,0,8.4,4,No,No,8,Phobia
+32,Male,4,30,92,No,No,No,No,Yes,Depression,No,3,4,5.1,5,No,Yes,8,Social Anxiety
+48,Female,2,26,157,Yes,Yes,Yes,No,No,Anxiety,No,0,0,4.6,5,No,No,3,Phobia
+33,Female,5,22,128,No,Yes,Yes,No,No,Depression,No,1,5,8.0,5,Yes,No,7,PTSD
+28,Male,6,28,89,No,Yes,Yes,Yes,Yes,Anxiety,No,4,1,8.2,5,No,Yes,7,Social Anxiety
+29,Male,6,27,85,No,Yes,No,No,No,Depression,Yes,5,5,5.6,8,No,No,10,PTSD
+27,Female,9,26,136,Yes,Yes,Yes,Yes,No,Anxiety,No,1,0,6.5,9,No,Yes,9,Stress
+33,Female,3,35,150,Yes,No,No,No,Yes,PTSD,No,3,0,5.6,6,Yes,No,1,Social Anxiety
+25,Female,7,15,137,No,Yes,Yes,No,No,PTSD,No,2,6,4.2,4,No,Yes,3,Caffeine
+29,Female,3,36,159,No,Yes,Yes,Yes,Yes,Anxiety,Yes,1,3,4.1,2,No,Yes,1,Social Anxiety
+41,Female,3,9,135,Yes,No,Yes,Yes,No,Anxiety,No,3,6,8.8,3,Yes,No,1,PTSD
+25,Male,1,14,133,Yes,Yes,No,Yes,No,Depression,Yes,2,5,5.0,6,Yes,Yes,8,Social Anxiety
+53,Male,4,28,107,Yes,Yes,Yes,No,Yes,Depression,No,1,6,8.9,2,No,Yes,4,Stress
+43,Male,7,39,84,No,No,No,No,Yes,Anxiety,No,2,3,5.9,8,Yes,Yes,6,Caffeine
+25,Female,5,27,100,No,Yes,No,Yes,Yes,PTSD,Yes,4,2,7.9,1,No,Yes,1,Phobia
+45,Male,6,5,126,Yes,No,No,No,No,Depression,Yes,4,5,8.3,3,No,Yes,4,PTSD
+54,Male,7,35,149,No,Yes,Yes,No,No,Anxiety,Yes,5,4,7.5,2,No,No,9,PTSD
+58,Female,1,35,136,Yes,No,No,Yes,No,Anxiety,No,2,6,4.1,4,No,Yes,9,Phobia
+50,Male,1,29,100,Yes,No,No,Yes,No,Depression,No,0,2,7.0,2,No,Yes,10,Stress
+37,Female,8,22,119,Yes,Yes,Yes,Yes,No,Anxiety,Yes,2,1,5.5,7,No,No,8,Social Anxiety
+30,Male,0,16,146,No,Yes,Yes,No,Yes,Depression,Yes,5,6,8.4,7,No,No,3,Caffeine
+46,Non-binary,0,21,134,Yes,No,No,Yes,Yes,Anxiety,No,1,1,5.8,5,Yes,No,6,Caffeine
+52,Non-binary,1,19,135,Yes,Yes,No,No,No,Depression,No,1,4,7.1,1,No,Yes,1,Caffeine
+23,Male,5,43,134,Yes,Yes,No,Yes,No,nan,No,3,1,6.0,1,No,No,10,Social Anxiety
+35,Non-binary,5,17,149,Yes,No,Yes,Yes,Yes,Anxiety,Yes,3,3,5.6,2,No,Yes,3,Caffeine
+22,Female,0,21,156,No,No,No,Yes,No,PTSD,No,3,5,8.9,7,No,Yes,7,Phobia
+64,Female,6,36,152,Yes,No,No,Yes,No,Depression,No,3,5,6.3,9,No,Yes,10,Social Anxiety
+42,Female,7,13,145,Yes,No,Yes,No,Yes,Depression,No,3,5,7.7,8,Yes,No,4,Phobia
+19,Female,1,44,98,Yes,Yes,No,Yes,Yes,Anxiety,No,4,0,4.9,2,Yes,Yes,10,Social Anxiety
+27,Female,7,24,86,Yes,Yes,Yes,No,Yes,Anxiety,No,2,3,4.1,8,No,No,5,Caffeine
+47,Female,8,30,142,Yes,No,No,No,No,Depression,Yes,1,6,6.1,9,No,No,8,Phobia
+62,Male,5,31,121,No,No,No,No,No,Anxiety,No,3,6,7.3,7,No,Yes,1,Phobia
+22,Male,4,25,121,No,Yes,No,Yes,No,Depression,No,4,1,6.5,4,No,No,1,Phobia
+50,Male,8,22,138,Yes,Yes,No,Yes,No,Anxiety,No,5,0,8.5,9,No,No,7,Social Anxiety
+18,Female,8,17,99,Yes,No,No,Yes,No,Anxiety,Yes,4,5,6.2,2,Yes,No,9,PTSD
+64,Female,8,16,106,Yes,Yes,Yes,Yes,No,Depression,No,3,6,6.0,5,No,No,10,Phobia
+38,Male,3,23,81,Yes,Yes,Yes,No,Yes,Anxiety,Yes,4,0,4.5,4,No,Yes,2,PTSD
+42,Male,1,39,141,Yes,Yes,No,No,Yes,Anxiety,No,2,5,8.1,7,No,Yes,9,Caffeine
+44,Female,2,20,96,Yes,No,No,Yes,No,PTSD,No,1,2,5.8,1,Yes,Yes,3,Caffeine
+50,Male,5,8,118,No,Yes,Yes,No,No,PTSD,No,5,0,8.7,1,No,Yes,2,Phobia
+52,Female,4,44,115,Yes,Yes,Yes,No,Yes,Anxiety,Yes,2,5,6.0,0,No,No,5,Phobia
+18,Female,0,17,119,Yes,No,Yes,No,Yes,nan,No,4,4,4.9,6,No,Yes,7,Social Anxiety
+38,Non-binary,9,21,124,Yes,Yes,Yes,No,No,Anxiety,Yes,0,5,4.0,5,No,No,4,PTSD
+23,Female,6,41,83,Yes,Yes,Yes,No,No,Depression,No,0,2,5.7,1,Yes,No,5,PTSD
+34,Female,0,23,148,No,Yes,No,Yes,Yes,nan,No,3,4,8.7,4,No,Yes,9,Phobia
+48,Female,7,30,155,Yes,Yes,Yes,Yes,Yes,PTSD,Yes,4,1,5.9,2,No,Yes,6,Caffeine
+55,Female,9,35,108,Yes,No,Yes,Yes,No,Anxiety,No,3,6,7.8,6,No,No,3,Caffeine
+20,Male,6,8,152,No,No,No,Yes,Yes,Anxiety,Yes,4,4,8.6,9,Yes,No,9,Caffeine
+40,Non-binary,4,43,147,Yes,No,Yes,No,Yes,Anxiety,Yes,1,6,5.2,0,Yes,Yes,6,Phobia
+54,Female,4,12,130,Yes,Yes,Yes,No,No,Depression,No,5,0,6.1,9,No,No,8,Stress
+27,Female,0,17,93,Yes,Yes,Yes,No,No,PTSD,No,3,1,6.3,5,No,Yes,2,PTSD
+36,Female,0,42,97,Yes,Yes,No,No,No,Depression,No,0,4,6.6,2,No,No,6,Caffeine
+38,Male,8,32,136,Yes,Yes,Yes,Yes,No,Anxiety,No,1,2,6.8,7,No,Yes,6,Caffeine
+31,Female,8,34,91,Yes,Yes,Yes,Yes,Yes,Anxiety,Yes,1,3,5.2,7,No,Yes,8,Stress
+63,Female,3,32,109,Yes,Yes,No,Yes,Yes,Depression,Yes,5,2,7.2,0,No,Yes,4,Social Anxiety
+18,Non-binary,2,7,154,Yes,Yes,No,Yes,No,PTSD,No,1,0,6.9,7,No,No,1,Stress
+30,Non-binary,4,20,80,No,Yes,Yes,Yes,Yes,PTSD,No,4,3,8.2,1,Yes,No,1,Stress
+21,Male,9,26,158,Yes,No,Yes,No,No,Anxiety,No,4,0,6.4,8,No,Yes,6,Caffeine
+18,Female,0,36,111,No,No,Yes,No,No,Anxiety,Yes,1,6,4.8,6,No,No,6,PTSD
+57,Female,4,42,88,Yes,No,No,No,Yes,Depression,Yes,4,0,4.6,7,No,No,1,Stress
+49,Female,5,12,94,Yes,Yes,Yes,No,No,PTSD,No,5,2,8.8,1,No,No,4,Social Anxiety
+51,Female,6,12,107,Yes,No,Yes,Yes,Yes,Anxiety,No,4,5,5.4,3,Yes,No,4,Phobia
+48,Male,2,18,139,No,No,No,Yes,No,Depression,No,5,0,6.1,5,No,No,6,Stress
+25,Male,1,36,114,No,Yes,No,Yes,Yes,Anxiety,Yes,3,2,5.9,6,Yes,Yes,2,Stress
+56,Female,2,39,106,Yes,Yes,Yes,No,No,PTSD,Yes,4,4,7.5,0,No,Yes,5,Social Anxiety
+51,Female,6,7,99,Yes,Yes,Yes,No,Yes,PTSD,No,5,5,5.7,6,No,Yes,10,PTSD
+20,Female,8,16,144,No,Yes,Yes,No,No,Anxiety,Yes,2,4,5.5,3,No,No,4,Stress
+29,Female,1,35,128,Yes,No,Yes,Yes,No,Depression,No,3,4,8.3,0,No,No,8,Stress
+18,Male,4,33,80,Yes,No,Yes,No,Yes,PTSD,Yes,3,0,6.6,7,Yes,No,5,PTSD
+61,Female,3,9,89,Yes,No,No,No,Yes,Anxiety,Yes,3,0,5.8,9,No,Yes,3,Social Anxiety
+47,Male,8,25,141,Yes,Yes,Yes,No,Yes,Depression,No,0,1,4.8,9,No,No,1,Stress
+34,Male,5,24,97,Yes,No,No,No,No,Anxiety,No,2,1,5.2,0,No,Yes,6,PTSD
+64,Male,5,43,125,Yes,No,No,No,Yes,PTSD,Yes,3,6,5.5,4,Yes,No,10,Stress
+40,Male,7,26,111,Yes,Yes,Yes,Yes,Yes,Anxiety,No,3,3,7.0,8,No,Yes,4,Phobia
+38,Male,3,24,118,No,Yes,Yes,Yes,Yes,PTSD,No,1,5,7.3,2,No,Yes,5,Caffeine
+31,Male,6,17,128,Yes,Yes,Yes,Yes,No,Anxiety,Yes,1,1,8.8,8,No,Yes,9,Phobia
+19,Male,1,21,123,Yes,Yes,Yes,No,No,Anxiety,Yes,2,0,7.8,8,No,Yes,8,Stress
+28,Male,8,40,151,No,Yes,No,No,No,Anxiety,No,0,4,6.0,3,Yes,No,3,Social Anxiety
+55,Male,7,5,113,Yes,Yes,No,No,No,nan,No,5,5,8.7,7,Yes,Yes,10,Caffeine
+51,Female,6,19,150,Yes,Yes,Yes,Yes,No,PTSD,No,2,2,6.5,6,No,No,3,Phobia
+51,Female,1,21,97,No,No,Yes,No,No,PTSD,No,1,2,4.4,5,No,Yes,3,PTSD
+35,Female,2,28,117,No,No,No,No,No,Depression,No,1,0,8.5,2,No,No,5,Social Anxiety
+32,Male,4,31,88,No,No,Yes,No,Yes,nan,No,3,2,4.3,7,Yes,No,1,Phobia
+44,Female,7,27,152,Yes,No,Yes,Yes,No,Anxiety,Yes,3,5,6.7,9,No,Yes,10,PTSD
+51,Female,5,12,151,Yes,Yes,No,No,No,Depression,Yes,4,1,8.2,8,Yes,Yes,5,Stress
+41,Female,3,17,84,Yes,Yes,Yes,Yes,No,Depression,Yes,1,3,8.2,2,No,Yes,2,PTSD
+32,Male,4,43,93,Yes,Yes,No,No,No,Depression,No,4,0,6.3,1,No,No,9,Phobia
+59,Male,8,32,83,Yes,Yes,No,No,No,Depression,Yes,1,6,6.7,3,Yes,Yes,2,Phobia
+34,Male,0,29,118,Yes,No,Yes,No,No,Anxiety,Yes,3,6,8.7,4,No,No,5,Stress
+22,Male,5,20,143,Yes,Yes,Yes,Yes,Yes,PTSD,No,3,1,7.6,5,Yes,No,9,PTSD
+46,Female,5,6,104,No,No,No,Yes,No,Depression,Yes,0,2,8.6,2,Yes,Yes,4,PTSD
+27,Female,4,21,155,Yes,Yes,No,No,No,Anxiety,Yes,2,2,5.6,3,No,No,2,PTSD
+27,Female,9,43,157,Yes,No,Yes,Yes,Yes,nan,No,1,6,6.5,1,Yes,No,9,Stress
+34,Female,4,17,101,No,No,Yes,No,Yes,Depression,No,0,6,8.4,1,No,Yes,2,Social Anxiety
+37,Non-binary,5,36,110,Yes,No,No,No,No,PTSD,No,2,0,5.6,0,No,Yes,1,Phobia
+41,Male,7,33,102,No,Yes,Yes,Yes,Yes,PTSD,No,1,1,4.6,8,Yes,Yes,4,Social Anxiety
+19,Female,3,25,134,Yes,Yes,No,No,Yes,Anxiety,Yes,5,5,5.7,5,No,Yes,3,Caffeine
+30,Female,9,34,147,Yes,No,Yes,Yes,Yes,Depression,Yes,3,2,8.1,0,Yes,Yes,2,Caffeine
+60,Male,2,25,158,No,Yes,Yes,Yes,No,Anxiety,No,3,2,5.9,8,No,Yes,10,Caffeine
+60,Non-binary,8,21,80,Yes,No,No,Yes,Yes,PTSD,Yes,2,6,7.0,8,Yes,No,4,Stress
+28,Male,2,44,86,No,Yes,Yes,Yes,Yes,Depression,Yes,1,6,6.5,7,No,No,8,PTSD
+33,Male,5,13,84,No,No,No,No,No,Anxiety,No,2,0,8.6,1,No,No,8,Social Anxiety
+28,Female,7,35,121,No,No,No,No,No,Anxiety,Yes,3,1,5.4,6,No,Yes,2,Social Anxiety
+33,Male,8,27,91,Yes,Yes,Yes,Yes,No,Anxiety,Yes,2,1,4.6,3,No,Yes,2,Social Anxiety
+25,Male,3,34,97,Yes,No,No,No,Yes,Anxiety,No,4,5,4.7,2,No,No,8,Caffeine
+57,Female,9,13,153,No,Yes,Yes,No,Yes,nan,No,4,0,6.9,0,No,Yes,9,PTSD
+42,Female,0,39,96,Yes,Yes,Yes,No,Yes,Depression,No,1,5,5.7,6,No,No,4,Caffeine
+20,Male,3,15,147,Yes,Yes,Yes,No,No,PTSD,No,5,4,8.3,2,No,No,1,Social Anxiety
+49,Female,6,38,150,No,No,No,No,No,Anxiety,Yes,1,6,8.4,0,No,Yes,3,Stress
+44,Male,7,13,120,Yes,Yes,No,No,No,Anxiety,No,1,3,6.6,9,No,No,9,Phobia
+46,Male,9,36,113,Yes,Yes,No,Yes,Yes,Anxiety,No,5,1,8.1,9,No,Yes,1,Phobia
+49,Male,5,19,149,Yes,Yes,No,Yes,Yes,Anxiety,Yes,0,2,7.7,8,No,No,5,Caffeine
+36,Male,4,16,124,No,No,Yes,Yes,No,Depression,No,5,3,6.0,6,Yes,Yes,2,Social Anxiety
+45,Female,4,12,123,Yes,Yes,No,Yes,Yes,Depression,Yes,0,1,4.1,7,No,Yes,8,Caffeine
+59,Male,5,31,94,Yes,Yes,Yes,No,No,Anxiety,No,0,5,8.2,8,Yes,Yes,2,PTSD
+38,Female,4,5,149,Yes,No,Yes,Yes,No,Depression,No,3,0,8.5,7,No,Yes,5,Stress
+23,Male,8,44,129,Yes,Yes,No,No,Yes,Depression,No,0,2,6.4,7,No,Yes,10,Stress
+22,Non-binary,6,43,146,Yes,No,Yes,Yes,Yes,PTSD,No,1,6,5.8,4,No,No,5,Phobia
+58,Female,9,35,82,No,No,No,No,No,Depression,No,3,4,7.6,3,No,Yes,3,Phobia
+51,Male,4,33,155,Yes,No,Yes,No,Yes,Depression,No,2,0,7.7,4,Yes,Yes,1,Phobia
+43,Non-binary,6,25,96,No,No,Yes,No,No,Anxiety,Yes,4,3,6.5,0,No,No,7,PTSD
+62,Female,3,44,86,No,Yes,No,No,Yes,PTSD,Yes,2,2,5.1,8,No,Yes,10,PTSD
+44,Female,2,27,92,Yes,No,No,No,No,Depression,No,4,0,4.4,1,No,Yes,5,PTSD
+26,Female,8,10,145,No,No,No,No,Yes,Anxiety,No,1,5,7.1,9,No,No,4,PTSD
+43,Male,7,26,83,Yes,Yes,Yes,Yes,No,nan,No,1,3,8.8,1,No,No,9,Phobia
+64,Male,0,42,89,Yes,Yes,No,No,No,Depression,No,5,5,5.6,3,No,Yes,8,Stress
+39,Female,6,41,96,Yes,No,No,Yes,No,Anxiety,No,4,5,6.9,1,No,Yes,3,Phobia
+64,Male,8,12,131,Yes,Yes,No,No,Yes,Anxiety,No,0,5,8.8,6,No,Yes,6,PTSD
+47,Female,7,39,85,Yes,Yes,Yes,Yes,Yes,Anxiety,No,2,3,7.3,9,Yes,Yes,4,Phobia
+60,Non-binary,7,15,148,Yes,Yes,No,No,Yes,PTSD,No,1,5,7.4,0,No,No,7,PTSD
+34,Male,5,28,153,Yes,Yes,No,Yes,No,Depression,No,4,3,4.9,1,No,Yes,1,Caffeine
+53,Female,7,6,156,Yes,Yes,No,No,Yes,Anxiety,No,1,6,5.8,1,No,Yes,6,Stress
+18,Male,2,44,100,Yes,Yes,Yes,No,Yes,Anxiety,No,1,0,6.4,8,No,Yes,10,Caffeine
+25,Female,8,23,103,Yes,No,No,No,No,Anxiety,No,0,1,8.0,3,No,Yes,7,Social Anxiety
+52,Male,1,43,83,No,Yes,No,Yes,Yes,Depression,No,4,5,6.3,8,No,Yes,9,Phobia
+32,Female,1,32,103,Yes,Yes,No,Yes,Yes,nan,No,4,2,4.3,0,No,Yes,7,Social Anxiety
+64,Male,6,21,138,Yes,Yes,Yes,No,Yes,Depression,No,3,4,8.5,0,No,No,9,Phobia
+31,Female,3,23,147,No,Yes,No,No,No,PTSD,No,0,1,8.6,3,No,Yes,9,Caffeine
+45,Male,7,32,127,Yes,Yes,Yes,No,No,Anxiety,Yes,1,1,4.3,7,No,Yes,7,PTSD
+41,Male,4,41,135,Yes,No,Yes,No,No,Anxiety,No,1,0,5.1,2,No,Yes,5,PTSD
+19,Male,7,8,119,Yes,No,Yes,No,Yes,Anxiety,Yes,4,1,6.4,8,No,No,7,Phobia
+62,Male,3,26,156,Yes,No,Yes,No,Yes,Depression,Yes,1,5,6.3,8,Yes,Yes,10,PTSD
+43,Female,1,30,147,Yes,Yes,No,No,No,Depression,Yes,4,0,7.1,4,Yes,Yes,7,Caffeine
+20,Female,0,36,92,Yes,Yes,No,Yes,Yes,Anxiety,No,1,6,5.2,9,No,No,1,PTSD
+63,Male,9,23,96,No,No,No,No,No,nan,No,4,0,4.2,4,Yes,Yes,5,Caffeine
+60,Female,8,39,115,Yes,Yes,No,Yes,Yes,PTSD,No,5,6,5.6,0,No,Yes,6,Social Anxiety
+64,Female,9,44,81,No,Yes,Yes,Yes,No,Anxiety,No,1,1,5.4,0,No,Yes,4,Caffeine
+62,Non-binary,8,32,156,Yes,Yes,No,No,No,Anxiety,No,5,4,6.0,4,No,Yes,4,Stress
+35,Male,9,5,131,Yes,No,Yes,No,No,Anxiety,No,5,3,8.8,4,No,Yes,7,Stress
+55,Female,2,22,145,Yes,No,No,No,Yes,Anxiety,Yes,1,3,6.6,6,Yes,No,4,Stress
+32,Male,7,37,122,No,Yes,Yes,No,Yes,Depression,No,0,0,8.7,5,Yes,No,4,Phobia
+42,Female,7,16,101,Yes,No,No,No,Yes,PTSD,Yes,4,6,8.6,1,No,Yes,7,Phobia
+54,Female,3,12,134,No,Yes,Yes,No,Yes,Depression,Yes,4,3,8.4,9,No,Yes,1,Phobia
+27,Male,0,20,139,No,Yes,Yes,Yes,Yes,Anxiety,Yes,1,0,7.2,3,No,No,6,Caffeine
+56,Male,3,8,137,No,Yes,No,No,Yes,Depression,No,3,6,8.0,9,No,Yes,8,Phobia
+34,Female,5,42,91,No,Yes,Yes,Yes,Yes,Anxiety,No,3,4,8.2,4,No,No,8,Social Anxiety
+56,Female,7,31,148,Yes,No,Yes,Yes,Yes,Anxiety,Yes,2,1,6.9,1,No,No,9,Stress
+43,Male,8,20,92,Yes,No,Yes,No,No,Anxiety,No,5,6,8.9,7,No,No,2,Caffeine
+61,Male,8,16,120,Yes,Yes,Yes,Yes,No,Anxiety,No,2,1,6.4,5,No,No,3,Stress
+42,Male,1,35,136,Yes,Yes,Yes,No,No,Anxiety,Yes,2,0,6.0,2,No,No,2,Phobia
+30,Female,0,18,91,Yes,No,No,No,Yes,PTSD,No,5,6,6.1,0,Yes,No,6,Caffeine
+37,Male,1,29,92,Yes,Yes,Yes,No,Yes,PTSD,No,0,4,5.2,8,No,No,1,PTSD
+42,Male,4,38,153,Yes,No,Yes,No,No,Anxiety,No,3,3,5.6,9,No,Yes,3,Social Anxiety
+21,Male,3,7,136,Yes,Yes,Yes,No,Yes,Anxiety,No,2,4,8.9,4,No,Yes,7,Phobia
+27,Male,3,28,119,Yes,Yes,No,Yes,No,PTSD,No,3,1,5.8,7,No,No,7,Phobia
+20,Male,8,13,159,Yes,No,No,No,Yes,Anxiety,Yes,5,1,6.6,2,No,No,5,Social Anxiety
+58,Female,7,30,124,No,No,No,No,No,Anxiety,No,5,5,8.2,3,No,Yes,3,Social Anxiety
+62,Male,5,24,114,Yes,Yes,No,No,Yes,Anxiety,No,4,3,6.6,3,Yes,Yes,7,PTSD
+35,Female,0,44,82,Yes,Yes,Yes,No,Yes,Anxiety,Yes,1,6,5.6,7,No,No,5,Phobia
+53,Female,5,23,90,Yes,Yes,Yes,Yes,No,PTSD,No,4,5,4.6,2,No,Yes,3,Phobia
+64,Female,1,7,150,Yes,No,No,Yes,Yes,Anxiety,Yes,4,0,4.7,6,No,No,6,Stress
+39,Female,9,28,135,Yes,Yes,No,Yes,No,Anxiety,No,0,1,7.5,8,No,No,7,Caffeine
+51,Female,4,9,89,Yes,Yes,Yes,No,No,Anxiety,Yes,0,2,8.6,1,Yes,No,8,Caffeine
+64,Male,4,7,113,No,No,Yes,No,Yes,Anxiety,No,5,3,7.6,3,No,Yes,2,Stress
+61,Female,5,19,110,Yes,Yes,Yes,No,Yes,Depression,No,3,3,4.0,3,No,Yes,8,Social Anxiety
+36,Non-binary,1,39,154,Yes,No,No,No,Yes,Depression,Yes,5,2,6.6,8,No,Yes,5,Caffeine
+59,Female,9,16,150,Yes,Yes,Yes,Yes,No,PTSD,Yes,4,4,5.0,0,No,Yes,1,Caffeine
+58,Female,2,30,145,No,Yes,No,Yes,Yes,PTSD,Yes,2,0,8.3,0,No,No,1,Stress
+23,Female,7,27,120,Yes,No,Yes,No,Yes,PTSD,No,4,1,4.0,2,No,Yes,9,PTSD
+43,Female,0,35,142,Yes,No,No,No,Yes,Anxiety,No,5,0,6.3,2,Yes,No,4,Caffeine
+23,Female,5,27,136,Yes,Yes,No,Yes,Yes,Depression,No,5,6,8.6,9,Yes,Yes,8,Caffeine
+54,Non-binary,8,8,129,Yes,Yes,No,No,Yes,Anxiety,No,3,0,4.2,9,No,No,2,PTSD
+23,Female,9,6,150,No,Yes,No,Yes,No,Depression,No,1,6,8.8,7,No,No,9,PTSD
+21,Female,4,7,96,No,Yes,No,Yes,No,Anxiety,No,5,3,5.1,2,No,No,6,Social Anxiety
+47,Male,8,25,124,Yes,No,No,Yes,Yes,PTSD,No,0,1,4.8,1,Yes,Yes,7,Stress
+28,Female,1,29,90,Yes,Yes,No,Yes,Yes,Anxiety,No,5,6,5.5,8,No,No,4,Social Anxiety
+41,Male,6,25,149,No,Yes,No,No,Yes,Anxiety,No,1,0,6.6,5,No,No,4,Stress
+57,Female,9,19,151,Yes,Yes,Yes,Yes,No,PTSD,Yes,3,0,5.1,8,No,Yes,10,Phobia
+54,Non-binary,5,29,116,Yes,No,Yes,Yes,No,Depression,Yes,4,3,7.0,5,No,No,10,Stress
+53,Male,3,25,128,No,Yes,No,Yes,No,Depression,No,1,3,4.5,0,Yes,No,7,Caffeine
+19,Non-binary,4,27,84,Yes,No,No,No,No,Depression,Yes,0,6,7.1,4,No,No,6,Caffeine
+37,Non-binary,1,8,97,Yes,Yes,No,Yes,No,Anxiety,No,0,6,7.2,6,Yes,No,8,Phobia
+28,Female,6,22,116,No,Yes,No,No,Yes,Depression,Yes,1,6,8.9,3,Yes,No,9,Social Anxiety
+21,Female,7,25,143,Yes,No,No,No,Yes,Depression,Yes,0,4,7.3,9,No,Yes,3,Phobia
+32,Female,9,32,89,Yes,No,Yes,Yes,No,Anxiety,No,3,4,6.6,3,No,Yes,4,Caffeine
+23,Male,7,39,158,No,Yes,No,No,Yes,Depression,No,5,4,7.0,4,No,No,10,Phobia
+47,Female,3,26,121,Yes,Yes,No,No,Yes,Anxiety,No,4,6,5.9,5,No,No,6,Stress
+55,Male,0,44,127,No,Yes,Yes,No,Yes,Anxiety,No,1,6,8.9,3,Yes,No,8,Phobia
+19,Female,6,27,123,Yes,No,Yes,No,No,Depression,Yes,0,0,7.5,5,Yes,Yes,3,Social Anxiety
+32,Female,0,7,95,No,Yes,No,No,Yes,Anxiety,Yes,5,6,5.5,9,No,No,10,Stress
+28,Female,3,44,133,Yes,Yes,Yes,No,No,Anxiety,Yes,2,0,4.3,6,Yes,Yes,6,PTSD
+43,Male,1,29,107,No,Yes,Yes,Yes,Yes,Depression,Yes,0,2,5.0,8,No,No,5,Caffeine
+61,Male,5,15,92,No,Yes,Yes,No,No,Anxiety,No,0,5,6.1,0,No,Yes,9,Caffeine
+23,Male,4,41,159,Yes,No,No,No,No,Anxiety,No,3,1,7.2,1,Yes,Yes,9,Phobia
+36,Male,4,9,132,Yes,No,No,Yes,No,Depression,Yes,2,1,6.4,8,No,Yes,6,Stress
+37,Non-binary,9,13,124,Yes,No,Yes,Yes,Yes,Depression,No,3,3,8.4,8,No,No,4,PTSD
+50,Female,4,6,99,No,Yes,No,No,Yes,PTSD,No,4,0,6.3,0,No,No,8,Stress
+29,Male,9,44,140,Yes,No,Yes,No,No,Anxiety,Yes,0,5,6.9,2,Yes,Yes,5,Caffeine
+64,Male,7,34,137,Yes,Yes,Yes,No,Yes,Anxiety,No,1,2,5.3,8,No,No,1,Stress
+18,Male,1,15,106,Yes,No,Yes,Yes,Yes,Anxiety,Yes,0,0,5.8,7,No,Yes,10,PTSD
+55,Female,5,43,121,No,No,No,No,Yes,nan,No,2,6,7.5,8,Yes,No,6,Phobia
+28,Non-binary,8,17,132,Yes,Yes,No,Yes,No,Anxiety,No,2,6,5.3,0,No,No,4,Social Anxiety
+53,Female,2,12,138,Yes,Yes,Yes,No,Yes,Anxiety,Yes,3,0,7.9,2,No,Yes,5,Stress
+30,Non-binary,9,32,117,Yes,Yes,No,No,No,Anxiety,Yes,1,3,5.3,5,No,No,7,Social Anxiety
+50,Female,5,43,94,Yes,Yes,No,No,No,Depression,No,1,5,7.0,3,No,Yes,5,Caffeine
+23,Male,7,35,105,Yes,No,No,No,Yes,Depression,No,4,3,4.7,1,No,No,4,Phobia
+27,Non-binary,6,25,127,Yes,Yes,Yes,No,Yes,Depression,No,4,1,7.2,9,No,No,7,Phobia
+40,Male,2,35,88,Yes,No,No,Yes,No,PTSD,Yes,3,6,5.5,9,No,Yes,7,Stress
+61,Male,8,16,133,Yes,No,No,Yes,Yes,Anxiety,Yes,5,4,5.1,5,No,Yes,4,Phobia
+19,Female,6,5,130,Yes,Yes,Yes,Yes,Yes,Anxiety,Yes,2,1,5.8,6,No,Yes,4,Stress
+30,Female,0,26,118,Yes,Yes,No,Yes,No,Depression,Yes,2,2,4.1,8,No,No,10,Stress
+19,Female,3,41,82,No,Yes,Yes,No,No,Depression,Yes,3,0,6.1,3,No,No,5,Social Anxiety
+37,Female,3,5,143,No,No,Yes,No,Yes,Depression,No,4,3,7.9,9,No,Yes,3,Phobia
+18,Male,4,5,108,Yes,Yes,No,Yes,Yes,Depression,Yes,3,2,4.7,4,No,No,5,Stress
+54,Male,2,25,90,Yes,No,No,Yes,No,Depression,No,3,4,8.1,5,Yes,Yes,5,Social Anxiety
+34,Male,0,21,154,No,No,No,No,No,PTSD,Yes,2,5,7.6,4,Yes,Yes,7,PTSD
+26,Male,6,26,106,No,Yes,No,No,No,Depression,No,3,2,8.5,4,No,No,8,Social Anxiety
+28,Female,9,42,100,Yes,No,Yes,No,No,PTSD,Yes,3,0,4.8,6,No,No,5,Social Anxiety
+32,Male,0,39,118,Yes,Yes,No,No,Yes,Anxiety,No,3,3,6.4,1,No,No,2,Stress
+55,Non-binary,3,12,145,Yes,Yes,Yes,No,No,Depression,Yes,3,3,7.0,1,No,Yes,9,Caffeine
+52,Female,3,21,115,Yes,No,Yes,Yes,Yes,nan,No,3,1,8.3,9,No,No,2,Caffeine
+48,Male,1,30,144,Yes,No,No,Yes,No,PTSD,No,5,6,4.9,1,Yes,Yes,6,Caffeine
+22,Female,3,17,142,Yes,Yes,No,No,Yes,PTSD,Yes,0,2,5.3,2,No,Yes,3,Social Anxiety
+31,Female,1,42,110,Yes,Yes,No,No,Yes,Depression,No,5,5,8.7,4,No,Yes,6,Stress
+28,Female,0,21,107,Yes,No,Yes,No,No,Anxiety,Yes,3,5,6.8,4,No,Yes,8,Phobia
+26,Female,9,18,80,Yes,Yes,Yes,No,No,nan,No,1,6,6.5,1,No,No,9,Social Anxiety
+51,Male,9,10,104,Yes,No,No,Yes,Yes,PTSD,No,1,6,7.0,1,No,No,6,Social Anxiety
+52,Male,3,18,146,No,Yes,Yes,Yes,Yes,Anxiety,No,0,0,4.9,2,No,No,1,Stress
+52,Male,6,12,142,Yes,Yes,Yes,Yes,No,Depression,No,4,3,7.4,6,No,No,5,PTSD
+18,Male,9,19,130,No,Yes,No,Yes,Yes,Anxiety,No,0,4,6.3,4,No,No,3,Social Anxiety
+57,Male,8,31,81,No,Yes,Yes,No,No,Anxiety,No,0,2,6.6,6,No,Yes,7,PTSD
+39,Male,8,17,143,Yes,No,No,No,Yes,Depression,No,1,1,4.2,8,Yes,Yes,9,PTSD
+46,Male,4,35,153,Yes,No,No,No,Yes,Anxiety,No,1,5,7.8,5,No,Yes,6,Caffeine
+28,Non-binary,0,10,88,Yes,Yes,Yes,No,Yes,Anxiety,No,3,4,7.1,0,Yes,Yes,7,Stress
+58,Female,0,9,81,No,Yes,No,No,Yes,PTSD,No,4,6,7.7,0,No,Yes,9,PTSD
+47,Male,7,29,140,No,No,No,Yes,No,PTSD,Yes,5,1,6.0,5,Yes,Yes,10,Caffeine
+52,Male,8,38,110,Yes,Yes,No,Yes,No,PTSD,Yes,2,5,8.0,5,No,Yes,4,Stress
+38,Female,3,30,89,Yes,No,Yes,No,Yes,Anxiety,Yes,1,4,6.3,3,No,No,5,Social Anxiety
+54,Male,4,9,155,Yes,Yes,No,No,Yes,Anxiety,Yes,2,5,7.4,1,No,Yes,7,PTSD
+22,Male,7,30,115,Yes,Yes,Yes,No,Yes,Anxiety,No,2,5,7.1,9,No,No,3,Stress
+36,Female,2,24,128,Yes,No,No,No,No,PTSD,Yes,1,3,7.5,2,No,Yes,4,Phobia
+21,Male,9,22,82,Yes,Yes,No,Yes,No,nan,No,3,2,8.1,5,No,No,8,Stress
+62,Female,2,21,84,No,Yes,No,Yes,Yes,PTSD,No,1,4,8.8,8,No,No,5,PTSD
+59,Female,6,18,140,Yes,Yes,Yes,No,Yes,PTSD,Yes,0,0,7.8,0,No,No,7,Caffeine
+42,Male,6,18,105,Yes,Yes,Yes,Yes,Yes,Depression,Yes,5,0,4.9,1,Yes,No,6,Caffeine
+35,Male,6,17,151,Yes,Yes,Yes,Yes,No,Anxiety,No,4,5,8.1,8,No,No,1,PTSD
+25,Female,7,19,94,No,No,Yes,No,No,Depression,No,4,1,8.9,3,No,Yes,9,Social Anxiety
+56,Female,4,23,95,No,No,Yes,Yes,No,Anxiety,No,2,1,7.6,0,No,No,10,Social Anxiety
+57,Male,4,39,80,Yes,Yes,No,No,Yes,Anxiety,No,2,5,4.4,8,Yes,No,1,Caffeine
+31,Non-binary,3,21,95,Yes,No,Yes,No,No,Depression,No,2,6,6.0,8,No,No,8,Caffeine
+55,Male,9,23,82,Yes,Yes,No,No,No,Depression,No,0,0,8.2,8,No,Yes,6,PTSD
+50,Female,3,24,131,No,Yes,Yes,Yes,Yes,Depression,No,2,2,7.6,9,No,No,10,Social Anxiety
+40,Non-binary,1,40,126,Yes,Yes,No,Yes,No,Depression,No,1,6,5.8,0,No,No,8,Caffeine
+32,Male,3,39,92,Yes,Yes,No,No,Yes,Anxiety,No,4,0,7.3,4,No,No,5,Social Anxiety
+50,Male,7,36,159,Yes,Yes,No,Yes,Yes,Depression,Yes,0,1,6.9,0,No,No,8,Caffeine
+34,Male,2,28,100,Yes,No,No,Yes,No,Depression,No,2,3,5.2,4,No,Yes,7,Stress
+64,Male,8,11,133,No,Yes,Yes,Yes,Yes,Anxiety,No,4,2,5.0,1,No,Yes,9,Phobia
+31,Female,9,39,117,Yes,Yes,Yes,Yes,No,Depression,Yes,4,0,4.3,2,Yes,Yes,6,Stress
+56,Female,0,17,125,Yes,No,No,Yes,No,PTSD,Yes,3,6,5.5,4,No,Yes,7,Caffeine
+23,Non-binary,2,10,90,No,Yes,Yes,Yes,No,PTSD,Yes,0,6,5.0,1,No,Yes,7,Phobia
+23,Female,7,18,151,Yes,Yes,No,No,Yes,PTSD,Yes,2,3,6.4,1,No,Yes,2,Phobia
+25,Female,1,8,143,No,Yes,Yes,No,Yes,Anxiety,No,4,3,7.0,3,No,Yes,4,Caffeine
+32,Male,7,20,151,No,Yes,Yes,Yes,Yes,Anxiety,Yes,1,1,5.9,0,Yes,No,8,Caffeine
+64,Female,9,32,142,Yes,Yes,Yes,Yes,Yes,Anxiety,Yes,1,4,6.9,7,No,No,1,Social Anxiety
+46,Female,3,20,143,Yes,Yes,Yes,No,Yes,Anxiety,Yes,2,6,6.5,9,No,No,10,Caffeine
+47,Male,1,30,87,Yes,Yes,Yes,No,Yes,nan,No,1,0,7.7,9,Yes,Yes,4,PTSD
+44,Male,0,36,125,No,Yes,Yes,No,Yes,Depression,Yes,5,3,7.2,3,Yes,No,9,Caffeine
+53,Female,6,6,110,Yes,Yes,Yes,No,No,Anxiety,Yes,2,5,5.6,5,Yes,No,6,PTSD
+46,Male,4,35,88,Yes,No,No,Yes,Yes,Anxiety,No,3,1,8.6,9,No,No,4,Caffeine
+55,Male,7,7,94,Yes,No,Yes,No,No,Anxiety,No,0,3,6.3,6,Yes,No,1,Social Anxiety
+50,Male,3,12,105,No,Yes,No,Yes,No,Depression,Yes,4,2,5.3,5,No,No,8,PTSD
+44,Male,4,19,108,Yes,Yes,Yes,No,No,PTSD,Yes,0,6,7.5,4,No,No,5,Stress
+50,Female,4,35,159,Yes,Yes,No,No,Yes,PTSD,Yes,3,2,8.2,7,No,Yes,5,PTSD
+21,Female,8,13,115,Yes,Yes,Yes,No,No,nan,No,2,5,5.8,7,No,Yes,10,Social Anxiety
+19,Male,8,6,150,No,Yes,No,Yes,No,Anxiety,No,2,5,7.1,8,No,Yes,8,PTSD
+27,Male,5,12,102,Yes,No,Yes,No,Yes,Anxiety,Yes,4,6,8.6,3,No,Yes,5,Caffeine
+22,Female,5,11,120,No,No,No,No,Yes,Anxiety,No,3,6,4.9,9,No,No,4,Caffeine
+50,Male,8,20,107,Yes,Yes,No,Yes,Yes,Depression,Yes,1,2,6.4,6,No,No,10,Social Anxiety
+55,Female,9,39,127,Yes,Yes,Yes,Yes,Yes,PTSD,No,5,2,8.0,4,Yes,No,5,Phobia
+30,Male,7,34,117,Yes,Yes,Yes,No,Yes,Depression,Yes,3,4,6.5,7,No,Yes,8,Caffeine
+48,Female,6,14,110,Yes,Yes,No,Yes,No,Anxiety,Yes,0,1,5.9,2,No,Yes,9,Stress
+62,Male,4,9,156,Yes,Yes,Yes,No,No,Anxiety,No,4,2,5.6,0,No,Yes,9,Social Anxiety
+41,Male,3,33,108,Yes,No,No,No,Yes,Depression,No,3,0,6.3,5,No,Yes,6,PTSD
+32,Male,2,43,130,Yes,Yes,Yes,No,No,PTSD,Yes,3,3,5.1,1,No,Yes,10,PTSD
+46,Non-binary,2,38,128,Yes,Yes,No,No,No,Anxiety,No,0,5,4.9,6,Yes,Yes,5,Stress
+25,Female,5,27,122,No,No,Yes,No,Yes,PTSD,No,1,3,7.9,8,No,Yes,7,Caffeine
+22,Non-binary,3,9,151,Yes,No,No,Yes,No,PTSD,No,1,2,5.0,2,No,Yes,8,Social Anxiety
+46,Female,5,34,84,Yes,Yes,No,No,No,Depression,No,3,1,8.0,9,No,No,9,Stress
+64,Male,2,10,121,Yes,No,Yes,Yes,No,PTSD,No,3,1,6.1,3,No,No,9,Caffeine
+21,Female,3,8,86,No,Yes,Yes,No,Yes,Depression,Yes,2,0,9.0,3,No,No,10,Social Anxiety
+29,Female,8,33,121,No,Yes,Yes,Yes,No,Depression,No,3,5,5.0,3,No,No,3,PTSD
+62,Female,4,27,115,Yes,Yes,No,No,Yes,PTSD,Yes,0,0,4.5,2,No,Yes,8,Social Anxiety
+44,Female,9,36,137,Yes,No,Yes,Yes,Yes,Anxiety,No,4,1,8.2,8,No,Yes,7,Phobia
+48,Male,1,22,125,Yes,No,Yes,No,No,Depression,Yes,3,0,6.2,7,Yes,Yes,5,Social Anxiety
+53,Male,4,19,145,No,No,Yes,Yes,No,Anxiety,No,3,4,4.0,9,No,No,2,Phobia
+53,Female,8,44,104,No,Yes,No,No,Yes,Anxiety,No,0,5,8.4,1,No,Yes,2,Social Anxiety
+22,Female,3,14,153,Yes,Yes,No,No,Yes,Depression,No,1,4,5.9,6,Yes,Yes,1,Phobia
+27,Male,5,7,104,Yes,Yes,No,No,Yes,Anxiety,Yes,4,0,4.8,4,No,No,7,PTSD
+55,Female,5,21,146,No,No,No,Yes,No,Anxiety,No,5,6,8.9,7,No,Yes,4,Caffeine
+23,Female,4,36,85,Yes,No,Yes,Yes,Yes,Anxiety,No,3,3,4.8,0,No,Yes,2,Phobia
+40,Non-binary,0,8,149,Yes,Yes,No,No,No,Anxiety,Yes,3,1,6.4,4,No,No,5,Phobia
+64,Female,6,21,132,Yes,Yes,No,Yes,Yes,Anxiety,No,4,2,7.7,0,Yes,Yes,8,PTSD
+43,Male,9,23,145,Yes,Yes,No,No,Yes,PTSD,Yes,5,5,7.3,2,Yes,No,2,Phobia
+29,Male,8,26,155,Yes,Yes,Yes,Yes,No,PTSD,No,2,4,7.8,6,Yes,No,10,Stress
+43,Female,0,10,101,Yes,Yes,No,No,Yes,Anxiety,Yes,1,0,5.6,5,No,No,5,PTSD
+30,Male,9,39,116,Yes,Yes,No,No,Yes,Depression,Yes,1,1,7.9,7,No,Yes,9,Stress
+57,Non-binary,5,26,99,Yes,Yes,No,No,No,Depression,Yes,0,2,7.4,7,No,No,10,PTSD
+35,Female,8,5,103,No,No,Yes,No,Yes,Depression,No,3,2,6.9,5,No,Yes,5,Phobia
+50,Female,3,26,144,No,No,Yes,Yes,Yes,Anxiety,No,5,0,5.0,3,No,No,4,Stress
+64,Female,3,15,80,Yes,Yes,Yes,No,Yes,PTSD,No,4,0,7.6,3,No,Yes,10,Phobia
+60,Female,4,7,125,Yes,Yes,Yes,Yes,Yes,Anxiety,No,5,2,8.9,0,Yes,No,9,PTSD
+21,Female,0,18,124,Yes,No,No,Yes,Yes,Anxiety,No,4,2,6.1,8,No,Yes,4,Phobia
+22,Male,8,37,105,No,Yes,No,No,Yes,Anxiety,Yes,1,1,8.8,5,No,Yes,4,Stress
+54,Female,2,22,156,Yes,No,Yes,No,No,Depression,No,3,2,6.0,6,No,No,5,Stress
+59,Female,0,27,103,Yes,Yes,Yes,No,No,Anxiety,No,4,4,7.5,7,No,No,7,Phobia
+48,Male,7,23,114,No,Yes,No,No,Yes,PTSD,Yes,3,1,5.8,4,Yes,Yes,1,Social Anxiety
+26,Male,1,9,103,Yes,No,No,No,No,Anxiety,No,4,6,5.5,5,No,No,2,PTSD
+46,Female,7,27,107,Yes,Yes,No,No,No,PTSD,Yes,0,4,7.0,6,Yes,Yes,7,PTSD
+31,Male,6,34,159,Yes,No,No,Yes,Yes,PTSD,No,4,0,4.8,6,No,Yes,3,Phobia
+57,Male,5,29,95,Yes,Yes,Yes,No,No,Anxiety,No,3,2,6.7,4,Yes,Yes,10,Social Anxiety
+58,Male,0,32,138,Yes,Yes,Yes,No,No,PTSD,No,5,6,8.3,0,No,Yes,2,Stress
+39,Non-binary,6,38,133,Yes,Yes,Yes,Yes,Yes,PTSD,No,4,3,6.6,8,Yes,No,6,Caffeine
+28,Female,9,29,158,No,Yes,Yes,No,No,Anxiety,No,5,4,7.4,5,No,No,4,Caffeine
+18,Male,8,18,94,Yes,No,No,No,No,Anxiety,Yes,4,0,6.2,3,Yes,No,6,Phobia
+54,Male,1,29,144,Yes,Yes,Yes,Yes,Yes,Depression,Yes,5,5,7.0,2,Yes,No,1,Social Anxiety
+38,Male,8,18,158,Yes,No,Yes,Yes,Yes,nan,No,1,0,5.4,3,No,Yes,3,Social Anxiety
+43,Female,8,39,147,Yes,Yes,Yes,No,Yes,Depression,No,5,4,5.4,9,Yes,No,3,PTSD
+63,Female,5,38,122,Yes,Yes,No,Yes,Yes,Anxiety,Yes,5,5,4.4,7,Yes,No,6,Stress
+40,Male,3,39,92,Yes,Yes,No,Yes,Yes,Depression,No,3,0,6.5,7,No,Yes,7,Social Anxiety
+38,Female,0,25,129,Yes,Yes,Yes,Yes,Yes,PTSD,No,0,4,6.4,4,Yes,No,6,Caffeine
+26,Male,6,11,138,No,Yes,No,No,No,PTSD,No,5,1,8.2,8,No,No,3,Stress
+27,Male,0,6,82,Yes,Yes,No,No,No,PTSD,No,1,2,4.9,9,No,No,2,Stress
+58,Non-binary,9,22,86,Yes,No,Yes,No,Yes,Anxiety,No,4,1,8.7,4,No,Yes,1,Phobia
+52,Male,3,15,128,Yes,Yes,Yes,Yes,Yes,PTSD,Yes,2,3,6.6,0,No,No,1,Social Anxiety
+42,Female,3,20,105,No,Yes,No,Yes,Yes,nan,No,5,3,8.2,6,No,Yes,2,Phobia
+28,Male,0,39,127,Yes,Yes,No,No,Yes,Depression,Yes,5,1,6.6,5,No,No,9,Social Anxiety
+19,Male,3,20,81,No,Yes,No,No,No,Anxiety,No,4,4,6.0,2,No,Yes,9,PTSD
+24,Male,2,10,150,Yes,Yes,Yes,Yes,No,PTSD,No,4,2,6.7,1,No,No,7,Phobia
+35,Female,7,16,111,Yes,No,No,No,Yes,PTSD,No,2,4,6.5,4,No,No,7,Phobia
+51,Female,0,8,99,No,No,Yes,No,No,PTSD,Yes,3,4,6.0,0,No,No,7,Caffeine
+60,Male,3,30,107,Yes,No,No,Yes,Yes,PTSD,Yes,5,4,7.4,2,Yes,Yes,1,Phobia
+61,Non-binary,7,31,156,Yes,Yes,Yes,No,Yes,Depression,No,3,2,8.8,9,No,Yes,4,Social Anxiety
+42,Female,5,19,139,No,Yes,No,Yes,Yes,Anxiety,Yes,0,5,4.4,4,No,Yes,2,Caffeine
+50,Female,7,16,133,No,Yes,No,No,No,Depression,No,1,0,8.5,7,Yes,Yes,8,Phobia
+60,Female,4,21,134,No,Yes,Yes,Yes,Yes,Depression,No,3,4,8.5,0,Yes,No,6,Phobia
+41,Female,4,24,120,No,Yes,Yes,No,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Female,4,24,120,Yes,No,No,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,No,6,Phobia
+41,Male,4,24,120,Yes,Yes,No,Yes,Yes,PTSD,No,3,3,6.5624396135265695,4,Yes,Yes,6,Stress
+41,Male,4,24,120,Yes,Yes,No,No,No,PTSD,No,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Non-binary,4,24,120,Yes,Yes,No,Yes,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Male,4,24,120,No,No,No,No,No,Depression,Yes,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Female,4,24,120,Yes,No,Yes,Yes,No,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Male,4,24,120,Yes,No,No,Yes,No,PTSD,Yes,3,3,6.5624396135265695,4,No,Yes,6,Caffeine
+41,Male,4,24,120,No,No,No,No,No,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Female,4,24,120,No,Yes,No,No,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Female,4,24,120,Yes,No,Yes,No,No,Anxiety,Yes,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Female,4,24,120,No,Yes,No,Yes,No,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Female,4,24,120,Yes,Yes,Yes,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Female,4,24,120,Yes,Yes,No,Yes,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,No,6,Phobia
+41,Non-binary,4,24,120,Yes,Yes,No,No,No,Depression,Yes,3,3,6.5624396135265695,4,Yes,Yes,6,Phobia
+41,Male,4,24,120,No,Yes,No,Yes,No,Anxiety,No,3,3,6.5624396135265695,4,No,No,6,Social Anxiety
+41,Female,4,24,120,Yes,Yes,Yes,No,No,Depression,No,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Female,4,24,120,Yes,Yes,Yes,Yes,No,nan,No,3,3,6.5624396135265695,4,Yes,Yes,6,Stress
+41,Female,4,24,120,No,Yes,No,No,No,PTSD,No,3,3,6.5624396135265695,4,Yes,No,6,Social Anxiety
+41,Female,4,24,120,Yes,Yes,Yes,Yes,No,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Female,4,24,120,Yes,No,Yes,No,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,Caffeine
+41,Female,4,24,120,Yes,No,No,Yes,No,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Male,4,24,120,No,Yes,No,No,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,Yes,Yes,6,Phobia
+41,Female,4,24,120,Yes,Yes,No,No,Yes,PTSD,Yes,3,3,6.5624396135265695,4,Yes,Yes,6,Stress
+41,Non-binary,4,24,120,No,Yes,Yes,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Non-binary,4,24,120,Yes,No,Yes,No,No,Anxiety,Yes,3,3,6.5624396135265695,4,Yes,No,6,Caffeine
+41,Male,4,24,120,Yes,No,Yes,No,No,PTSD,No,3,3,6.5624396135265695,4,Yes,No,6,Phobia
+41,Male,4,24,120,No,No,Yes,No,No,Anxiety,No,3,3,6.5624396135265695,4,Yes,No,6,PTSD
+41,Female,4,24,120,Yes,No,No,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,Yes,Yes,6,Phobia
+41,Female,4,24,120,Yes,Yes,Yes,No,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Female,4,24,120,Yes,Yes,Yes,No,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Caffeine
+41,Female,4,24,120,Yes,No,Yes,No,No,Depression,No,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Female,4,24,120,Yes,Yes,Yes,Yes,No,PTSD,No,3,3,6.5624396135265695,4,No,No,6,Stress
+41,Female,4,24,120,No,No,No,No,No,Anxiety,Yes,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Female,4,24,120,Yes,No,No,Yes,No,PTSD,No,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Female,4,24,120,No,Yes,No,Yes,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Male,4,24,120,Yes,Yes,Yes,No,No,Anxiety,Yes,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,Yes,Yes,No,No,No,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,No,Yes,No,Yes,No,PTSD,No,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Male,4,24,120,No,Yes,No,Yes,Yes,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,No,Yes,No,No,Yes,Depression,No,3,3,6.5624396135265695,4,No,No,6,PTSD
+41,Male,4,24,120,Yes,Yes,Yes,Yes,Yes,nan,No,3,3,6.5624396135265695,4,Yes,No,6,Phobia
+41,Female,4,24,120,Yes,No,Yes,No,No,Anxiety,No,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Non-binary,4,24,120,Yes,No,Yes,Yes,Yes,PTSD,Yes,3,3,6.5624396135265695,4,Yes,Yes,6,Stress
+41,Male,4,24,120,No,No,No,No,Yes,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Male,4,24,120,Yes,Yes,Yes,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Male,4,24,120,Yes,Yes,Yes,No,No,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Female,4,24,120,Yes,Yes,Yes,No,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Female,4,24,120,No,No,Yes,Yes,No,Anxiety,No,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Male,4,24,120,No,No,No,No,No,PTSD,Yes,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,Yes,Yes,Yes,No,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,No,6,PTSD
+41,Male,4,24,120,Yes,No,Yes,Yes,No,Anxiety,Yes,3,3,6.5624396135265695,4,Yes,No,6,Stress
+41,Female,4,24,120,Yes,Yes,No,No,No,Anxiety,Yes,3,3,6.5624396135265695,4,Yes,No,6,Caffeine
+41,Male,4,24,120,No,Yes,No,No,No,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,No,No,No,Yes,No,PTSD,Yes,3,3,6.5624396135265695,4,No,No,6,Social Anxiety
+41,Male,4,24,120,No,No,No,No,No,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,Caffeine
+41,Male,4,24,120,Yes,No,No,No,No,Anxiety,Yes,3,3,6.5624396135265695,4,No,No,6,Stress
+41,Female,4,24,120,Yes,Yes,No,No,Yes,PTSD,Yes,3,3,6.5624396135265695,4,No,No,6,Phobia
+41,Male,4,24,120,Yes,Yes,No,Yes,No,Depression,No,3,3,6.5624396135265695,4,Yes,No,6,Social Anxiety
+41,Male,4,24,120,Yes,Yes,Yes,No,No,nan,No,3,3,6.5624396135265695,4,No,No,6,Stress
+41,Female,4,24,120,No,Yes,No,No,No,PTSD,No,3,3,6.5624396135265695,4,Yes,Yes,6,Caffeine
+41,Female,4,24,120,Yes,No,No,No,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,No,6,Stress
+41,Male,4,24,120,Yes,No,No,Yes,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Female,4,24,120,Yes,No,Yes,Yes,No,Anxiety,Yes,3,3,6.5624396135265695,4,Yes,Yes,6,PTSD
+41,Male,4,24,120,Yes,Yes,No,Yes,No,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Caffeine
+41,Female,4,24,120,Yes,No,Yes,Yes,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Caffeine
+41,Male,4,24,120,Yes,Yes,No,No,Yes,PTSD,No,3,3,6.5624396135265695,4,Yes,No,6,Caffeine
+41,Male,4,24,120,No,No,No,Yes,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Female,4,24,120,Yes,Yes,No,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,Yes,Yes,6,Caffeine
+41,Female,4,24,120,Yes,No,No,No,Yes,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,Yes,Yes,No,Yes,Yes,Depression,No,3,3,6.5624396135265695,4,Yes,No,6,Social Anxiety
+41,Male,4,24,120,No,No,No,No,No,Anxiety,No,3,3,6.5624396135265695,4,Yes,Yes,6,Stress
+41,Female,4,24,120,Yes,Yes,No,No,Yes,Depression,No,3,3,6.5624396135265695,4,Yes,No,6,Phobia
+41,Female,4,24,120,Yes,No,Yes,Yes,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,No,No,6,Stress
+41,Female,4,24,120,No,Yes,Yes,Yes,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,Yes,No,Yes,No,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,No,No,6,Social Anxiety
+41,Female,4,24,120,Yes,No,Yes,No,No,Anxiety,Yes,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Female,4,24,120,Yes,Yes,No,No,Yes,PTSD,No,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Male,4,24,120,Yes,Yes,Yes,Yes,No,Anxiety,No,3,3,6.5624396135265695,4,Yes,Yes,6,Stress
+41,Male,4,24,120,Yes,No,No,No,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,No,6,Stress
+41,Male,4,24,120,No,No,No,No,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Female,4,24,120,No,Yes,Yes,Yes,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Female,4,24,120,Yes,Yes,No,No,Yes,nan,No,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Female,4,24,120,No,Yes,No,No,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,No,No,6,Phobia
+41,Female,4,24,120,Yes,No,Yes,Yes,No,PTSD,No,3,3,6.5624396135265695,4,No,No,6,Stress
+41,Male,4,24,120,Yes,Yes,No,No,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,No,Yes,6,Caffeine
+41,Male,4,24,120,Yes,Yes,Yes,Yes,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,No,No,6,Stress
+41,Male,4,24,120,Yes,No,No,No,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,Yes,No,6,Caffeine
+41,Male,4,24,120,No,Yes,Yes,Yes,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Male,4,24,120,Yes,No,Yes,Yes,No,Anxiety,No,3,3,6.5624396135265695,4,No,No,6,Stress
+41,Male,4,24,120,Yes,Yes,No,No,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,No,Yes,Yes,No,No,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Female,4,24,120,No,No,No,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Non-binary,4,24,120,Yes,Yes,Yes,Yes,Yes,Depression,No,3,3,6.5624396135265695,4,Yes,No,6,PTSD
+41,Female,4,24,120,No,No,No,Yes,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,No,No,6,Social Anxiety
+41,Female,4,24,120,No,No,Yes,No,No,PTSD,Yes,3,3,6.5624396135265695,4,Yes,Yes,6,Caffeine
+41,Male,4,24,120,Yes,Yes,No,No,Yes,Depression,No,3,3,6.5624396135265695,4,No,No,6,Phobia
+41,Male,4,24,120,No,Yes,Yes,Yes,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,No,6,Stress
+41,Female,4,24,120,Yes,Yes,No,No,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,No,No,6,Social Anxiety
+41,Male,4,24,120,Yes,Yes,Yes,No,Yes,PTSD,Yes,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Male,4,24,120,Yes,No,Yes,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Male,4,24,120,Yes,Yes,Yes,No,No,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Male,4,24,120,Yes,Yes,Yes,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Male,4,24,120,No,Yes,No,No,No,Depression,Yes,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Female,4,24,120,No,No,Yes,No,Yes,PTSD,No,3,3,6.5624396135265695,4,Yes,No,6,Social Anxiety
+41,Male,4,24,120,No,No,Yes,No,Yes,Depression,No,3,3,6.5624396135265695,4,No,No,6,Phobia
+41,Female,4,24,120,Yes,No,No,No,No,Anxiety,Yes,3,3,6.5624396135265695,4,Yes,No,6,Phobia
+41,Male,4,24,120,Yes,Yes,Yes,No,No,Anxiety,No,3,3,6.5624396135265695,4,Yes,No,6,Phobia
+41,Non-binary,4,24,120,Yes,Yes,Yes,Yes,No,PTSD,No,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Male,4,24,120,Yes,Yes,Yes,Yes,No,Depression,No,3,3,6.5624396135265695,4,No,No,6,PTSD
+41,Male,4,24,120,No,Yes,No,Yes,Yes,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,Yes,Yes,Yes,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,Yes,Yes,6,Stress
+41,Female,4,24,120,Yes,No,Yes,No,No,Anxiety,No,3,3,6.5624396135265695,4,No,No,6,PTSD
+41,Male,4,24,120,No,Yes,No,No,No,nan,No,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Female,4,24,120,Yes,No,No,Yes,No,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Male,4,24,120,Yes,Yes,Yes,Yes,Yes,PTSD,No,3,3,6.5624396135265695,4,Yes,Yes,6,Social Anxiety
+41,Male,4,24,120,Yes,Yes,Yes,No,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,Yes,Yes,Yes,Yes,No,Anxiety,Yes,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Female,4,24,120,Yes,Yes,Yes,No,No,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Caffeine
+41,Male,4,24,120,No,Yes,Yes,No,Yes,Depression,Yes,3,3,6.5624396135265695,4,Yes,No,6,Social Anxiety
+41,Female,4,24,120,Yes,Yes,No,No,Yes,PTSD,Yes,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Male,4,24,120,Yes,No,No,No,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,Yes,Yes,6,Stress
+41,Female,4,24,120,Yes,No,Yes,Yes,No,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Caffeine
+41,Female,4,24,120,Yes,Yes,Yes,No,Yes,Depression,No,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Female,4,24,120,Yes,No,Yes,Yes,Yes,Depression,No,3,3,6.5624396135265695,4,No,No,6,Social Anxiety
+41,Non-binary,4,24,120,Yes,Yes,No,Yes,No,Depression,Yes,3,3,6.5624396135265695,4,Yes,No,6,Stress
+41,Male,4,24,120,No,Yes,Yes,No,No,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Male,4,24,120,No,Yes,Yes,Yes,Yes,PTSD,Yes,3,3,6.5624396135265695,4,No,No,6,Phobia
+41,Male,4,24,120,Yes,Yes,No,No,No,Depression,No,3,3,6.5624396135265695,4,Yes,Yes,6,Social Anxiety
+41,Non-binary,4,24,120,Yes,Yes,Yes,Yes,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Male,4,24,120,No,No,No,Yes,No,Anxiety,Yes,3,3,6.5624396135265695,4,No,No,6,Social Anxiety
+41,Male,4,24,120,No,No,No,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,Yes,Yes,6,PTSD
+41,Female,4,24,120,Yes,No,No,Yes,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Male,4,24,120,Yes,No,No,No,No,Anxiety,Yes,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Male,4,24,120,No,Yes,No,Yes,No,Depression,Yes,3,3,6.5624396135265695,4,No,No,6,Social Anxiety
+41,Male,4,24,120,No,Yes,No,Yes,No,Anxiety,No,3,3,6.5624396135265695,4,Yes,No,6,Stress
+41,Non-binary,4,24,120,Yes,No,No,Yes,No,nan,No,3,3,6.5624396135265695,4,No,No,6,PTSD
+41,Female,4,24,120,No,No,No,Yes,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Male,4,24,120,No,Yes,No,No,Yes,Depression,No,3,3,6.5624396135265695,4,Yes,Yes,6,PTSD
+41,Male,4,24,120,Yes,Yes,No,No,No,PTSD,No,3,3,6.5624396135265695,4,Yes,Yes,6,Social Anxiety
+41,Female,4,24,120,Yes,Yes,No,Yes,No,PTSD,No,3,3,6.5624396135265695,4,Yes,No,6,Phobia
+41,Male,4,24,120,Yes,Yes,Yes,Yes,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Caffeine
+41,Female,4,24,120,Yes,No,Yes,Yes,Yes,PTSD,No,3,3,6.5624396135265695,4,No,No,6,Caffeine
+41,Non-binary,4,24,120,Yes,No,Yes,Yes,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,No,6,Social Anxiety
+41,Non-binary,4,24,120,Yes,Yes,No,Yes,Yes,PTSD,Yes,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Male,4,24,120,Yes,No,No,No,Yes,PTSD,No,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Male,4,24,120,Yes,No,Yes,No,No,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,PTSD
+41,Male,4,24,120,Yes,Yes,Yes,No,No,Depression,No,3,3,6.5624396135265695,4,No,Yes,6,Social Anxiety
+41,Female,4,24,120,No,Yes,No,No,No,PTSD,Yes,3,3,6.5624396135265695,4,No,No,6,Phobia
+41,Non-binary,4,24,120,No,No,Yes,No,Yes,PTSD,No,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Female,4,24,120,Yes,Yes,Yes,Yes,No,Depression,No,3,3,6.5624396135265695,4,Yes,Yes,6,PTSD
+41,Male,4,24,120,No,Yes,Yes,No,Yes,nan,No,3,3,6.5624396135265695,4,No,No,6,Phobia
+41,Female,4,24,120,Yes,No,Yes,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,Yes,No,6,Stress
+41,Female,4,24,120,Yes,Yes,Yes,No,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Male,4,24,120,Yes,No,No,No,Yes,Anxiety,Yes,3,3,6.5624396135265695,4,No,Yes,6,Stress
+41,Male,4,24,120,No,Yes,Yes,No,No,Depression,Yes,3,3,6.5624396135265695,4,No,Yes,6,Phobia
+41,Male,4,24,120,Yes,Yes,No,No,Yes,Depression,Yes,3,3,6.5624396135265695,4,No,No,6,Stress
+24,Male,4,42,109,No,No,Yes,No,No,Anxiety,No,3,5,4.420121747839397,1,No,Yes,5,Caffeine
+56,Female,0,16,124,No,No,No,No,No,Depression,No,3,5,6.0728033992908,4,No,Yes,7,Caffeine
+41,Female,4,24,120,Yes,Yes,Yes,No,No,Depression,No,3,3,6.5624396135265695,4,No,No,6,Caffeine
+62,Male,6,34,112,No,Yes,No,Yes,No,Anxiety,No,0,6,8.945785737050908,2,No,No,1,Phobia
+37,Female,2,22,128,Yes,No,No,No,No,PTSD,Yes,2,2,7.339196365086843,2,No,No,4,Phobia
+55,Female,4,39,136,Yes,No,No,Yes,No,Anxiety,No,2,0,7.494351534849665,3,No,No,5,Social Anxiety
+31,Male,4,29,91,No,No,No,No,Yes,Anxiety,No,3,3,5.583583013042228,5,No,Yes,7,Social Anxiety
+41,Female,4,24,120,Yes,Yes,No,Yes,No,Depression,No,3,3,6.5624396135265695,4,Yes,No,6,Social Anxiety
+60,Female,3,10,89,Yes,No,No,No,No,Anxiety,Yes,2,0,6.214853948097701,9,No,No,2,Social Anxiety
+42,Male,6,18,134,Yes,No,No,No,No,Anxiety,No,2,3,5.161784018789134,4,No,No,5,Social Anxiety
+22,Male,7,36,143,Yes,Yes,Yes,No,No,PTSD,No,5,2,7.987578226661187,5,No,No,4,Social Anxiety
+49,Female,2,23,130,No,No,Yes,No,No,Depression,No,2,1,7.571181707985876,8,No,No,9,Social Anxiety
+49,Male,6,33,86,Yes,No,No,No,No,Depression,No,1,4,8.073621379080375,4,No,No,5,Social Anxiety
+62,Male,5,34,135,Yes,No,Yes,No,No,Anxiety,No,1,2,6.175782266611863,5,No,No,2,Stress
+20,Female,7,16,144,No,No,No,No,No,Anxiety,No,2,4,5.537052089732445,2,No,No,3,Stress
+41,Female,4,24,120,Yes,No,Yes,Yes,No,PTSD,No,3,3,6.5624396135265695,4,No,No,6,Stress
+20,Female,5,5,130,Yes,No,No,Yes,No,Anxiety,No,2,0,5.850267207759873,5,No,Yes,4,Stress
+53,Female,6,6,96,No,Yes,No,No,No,Anxiety,No,3,0,7.008894800389552,4,No,No,9,Stress
+61,Female,7,38,110,Yes,Yes,No,No,Yes,Anxiety,No,4,5,6.936342601657988,7,No,No,6,Stress
+30,Female,9,39,116,Yes,Yes,No,No,No,Depression,Yes,1,0,7.239743764527638,6,No,Yes,8,Stress
+39,Female,4,12,122,No,No,Yes,No,Yes,Depression,No,3,4,7.269818616897109,6,No,No,7,Stress
+21,Female,4,11,127,Yes,No,No,Yes,No,Anxiety,Yes,2,3,7.2693180085702656,2,No,No,5,Stress
+35,Female,3,5,144,Yes,No,No,Yes,No,Anxiety,No,1,3,6.34139107084004,4,No,No,4,Stress
+36,Male,1,27,118,Yes,No,No,No,No,Anxiety,Yes,3,5,8.077480126525948,4,No,No,5,Stress
+54,Female,4,11,150,Yes,Yes,No,No,No,Depression,No,2,2,6.647411578889518,7,No,No,3,Stress
+40,Female,7,25,137,Yes,No,No,No,No,Depression,No,2,2,6.762860436891529,0,Yes,Yes,4,Stress
+22,Female,0,22,121,Yes,Yes,No,No,No,Anxiety,Yes,2,0,6.719064800419693,8,No,No,8,Stress
+23,Female,4,14,124,Yes,No,No,No,No,Anxiety,Yes,3,3,7.867276313412616,1,No,No,6,Stress
+37,Male,7,21,140,Yes,No,No,Yes,No,Anxiety,No,2,4,6.401676982638739,0,No,No,5,Stress
+49,Female,2,23,97,Yes,Yes,No,No,Yes,Depression,No,1,4,7.721482403860699,8,No,No,6,Stress
+41,Male,4,24,120,Yes,No,No,No,Yes,Anxiety,No,3,3,6.5624396135265695,4,No,Yes,6,Stress

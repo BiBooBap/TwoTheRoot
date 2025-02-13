@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import RepeatedKFold
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, roc_curve, auc
-import joblib
+import pickle
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import label_binarize
 from itertools import cycle
@@ -273,4 +273,5 @@ for metric in metrics_list:
     plt.show()
 
 # Salva il modello
-joblib.dump(rf_model, "random_forest_model.pkl")
+with open("random_forest_model.pkl", "wb") as f:
+    pickle.dump(rf_model, f)

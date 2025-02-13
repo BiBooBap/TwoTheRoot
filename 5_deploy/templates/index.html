@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Predizione Trigger</title>
+</head>
+<body>
+    <h1>Inserisci i valori per la predizione</h1>
+    <form method="post">
+        <!-- Campi numerici -->
+        <fieldset>
+            <legend>Feature Numeriche</legend>
+            {% for col in ['Age', 'Panic_Attack_Frequency', 'Duration_Minutes', 'Heart_Rate', 'Caffeine_Intake', 'Exercise_Frequency', 'Sleep_Hours', 'Alcohol_Consumption', 'Panic_Score'] %}
+            <div>
+                <label for="{{ col }}">{{ col }}:</label>
+                <input type="text" name="{{ col }}" id="{{ col }}" value="{{ form_data[col] if form_data and form_data[col] }}">
+            </div>
+            {% endfor %}
+        </fieldset>
+        
+        <!-- Campi categorici -->
+        <fieldset>
+            <legend>Feature Categoriche</legend>
+            {% for col in dropdown_options.keys() %}
+            <div>
+                <label for="{{ col }}">{{ col }}:</label>
+                <select name="{{ col }}" id="{{ col }}">
+                    <option value="">Seleziona</option>
+                    {% for value in dropdown_options[col] %}
+                    <option value="{{ value }}" {% if form_data and form_data[col] == value %}selected{% endif %}>{{ value }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            {% endfor %}
+        </fieldset>
+        <button type="submit">Predici Trigger</button>
+    </form>
+    
+    {% if prediction %}
+    <h2>Predizione: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>

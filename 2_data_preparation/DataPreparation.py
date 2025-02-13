@@ -20,6 +20,7 @@ try:
     null_val.main(df)
     df = over.oversampling(df)
     df = cn.controllo_none(df)
+    df.to_csv("./0_data/dataset_pre.csv", index=False)
     df = enc_feat.main(df)
     df = norm.main(df)
     df.to_csv("./0_data/dataset_cleaned.csv", index=False)
