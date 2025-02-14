@@ -21,6 +21,11 @@ Dataset usato: [Panic Attack Dataset](https://www.kaggle.com/datasets/ashaychoud
 
 Questo repository è strutturato in diverse fasi, ciascuna rappresentata da un file principale, per riprodurre l'intero flusso che va dalla preparazione dei dati fino al deployment del modello.
 
+Prima di iniziare, installare le librerie di Python necessarie eseguendo:
+```bash
+pip install Flask numpy pandas scikit-learn imbalanced-learn matplotlib seaborn
+```
+
 <br>
 
 ## 1. DataPreparation
